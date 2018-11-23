@@ -11,7 +11,8 @@ services:
      - PUID='667388921'
      - GUID='71667744'
     volumes:
-     - /Users/xdxc077/DockerApps/radarr/config:/config
+    #- /Users/xdxc077/DockerApps/radarr/config:/config
+     - ${DOCKER_ROOT}/radarr/config:/config
      - downloads:/downloads
      - movies:/movies
     depends_on:
@@ -30,7 +31,8 @@ services:
      - PUID='667388921'
      - GUID='71667744'
     volumes:
-     - /Users/xdxc077/DockerApps/jackett/config:/config
+    #- /Users/xdxc077/DockerApps/jackett/config:/config
+     - ${DOCKER_ROOT}/jackett/config:/config
     depends_on:
      - transmission
     networks:
@@ -75,7 +77,8 @@ services:
         max-size: "10000k"
         max-file: "3"
     volumes:
-     - /Users/xdxc077/DockerApps/transmission/config:/config
+    #- /Users/xdxc077/DockerApps/transmission/config:/config
+     - ${DOCKER_ROOT}/transmission/config:/config
      - downloads:/downloads
     restart: unless-stopped
     networks:
@@ -97,7 +100,8 @@ services:
      - PUID='667388921'
      - GUID='71667744'
     volumes:
-     - /Users/xdxc077/DockerApps/plex/config:/config
+    #- /Users/xdxc077/DockerApps/plex/config:/config
+     - ${DOCKER_ROOT}/plex/config:/config
      - tvshows:/data/tvshows
      - movies:/data/movies
      - transcode:/transcode
@@ -117,7 +121,8 @@ services:
      - PUID='667388921'
      - GUID='71667744'
     volumes:
-     - /Users/xdxc077/DockerApps/muximux/config:/config
+    #- /Users/xdxc077/DockerApps/muximux/config:/config
+     - ${DOCKER_ROOT}/muximux/config:/config
     depends_on:
      - radarr
     restart: on-failure
@@ -133,52 +138,26 @@ volumes:
       driver_opts:
         type: none
         o: bind
-        device: "/Users/xdxc077/DockerApps/downloads"
+       #device: "/Users/xdxc077/DockerApps/downloads"
+        device: "${DOCKER_ROOT}/downloads"
     movies:
       driver: local
       driver_opts:
         type: none
         o: bind
-        device: "/Users/xdxc077/DockerApps/movies"
+       #device: "/Users/xdxc077/DockerApps/movies"
+        device: "${DOCKER_ROOT}/movies"
     tvshows:
       driver: local
       driver_opts:
         type: none
         o: bind
-        device: "/Users/xdxc077/DockerApps/tvshows"
+       #device: "/Users/xdxc077/DockerApps/tvshows"
+        device: "${DOCKER_ROOT}/tvshows"
     transcode:
       driver: local
       driver_opts:
         type: none
         o: bind
-        device: "/Users/xdxc077/DockerApps/transcode"
-
-        #o: bind,uid=667388921,gid=71667744
-    #- target: 51413 published: 51413 protocol: udp
-#    docker create  --name=radarr \
-#   -v <path to data>:/config \
-#   -v <path to data>:/downloads \
-#   -v <path to data>:/movies \
-#   -v /etc/localtime:/etc/localtime:ro \
-#   -e TZ=<timezone> \
-#   -e PGID=<gid> -e PUID=<uid>  \
-#   -p 7878:7878 \
-#
-#   docker create --name=jackett \
-# -v <path to data>:/config \
-# -v <path to blackhole>:/downloads \
-# -e PGID=<gid> -e PUID=<uid> \
-# -e TZ=<timezone> \
-# -v /etc/localtime:/etc/localtime:ro \
-# -p 9117:9117 \
-# linuxserver/jackett
-
-# docker create --name=transmission \
-# -v <path to data>:/config \
-# -v <path to downloads>:/downloads \
-# -v <path to watch folder>:/watch \
-# -e PGID=<gid> -e PUID=<uid> \
-# -e TZ=<timezone> \
-# -p 9091:9091 -p 51413:51413 \
-# -p 51413:51413/udp \
-# linuxserver/transmission
+       #device: "/Users/xdxc077/DockerApps/transcode"
+        device: "${DOCKER_ROOT}/transcode"
