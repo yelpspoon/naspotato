@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MediaContainer size="6">
+  <Video url="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(858451)?lang=en&amp;bitrates=80,212,450,750,1500,8000&amp;duration=143&amp;adaptive=1&amp;dts=0" key="/system/services/url/lookup?url=iva%3A%2F%2Fapi.internetvideoarchive.com%2F2.0%2FDataService%2FVideoAssets%28858451%29%3Flang%3Den%26bitrates%3D80%2C212%2C450%2C750%2C1500%2C8000%26duration%3D143%26adaptive%3D1%26dts%3D0" type="clip" relationType="trailer" year="2018" title="Peppermint (International Trailer 1)" originallyAvailableAt="2018-06-04" thumb="https://iva-images.plex.tv/content/hdphotos/11833/011833/011833_633x356_858451_171.jpg" ratingKey="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(858451)?lang=en&amp;bitrates=80,212,450,750,1500,8000&amp;duration=143&amp;adaptive=1&amp;dts=0">
+    <Media container="mp4" height="720" width="1280" audioCodec="aac" duration="143000" videoCodec="h264" bitrate="1500">
+      <Part duration="143000" key="/services/iva/assets/858451/video.mp4?bitrate=1500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="720" width="1280" codec="h264" bitrate="1500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="480" width="640" audioCodec="aac" duration="143000" videoCodec="h264" bitrate="750">
+      <Part duration="143000" key="/services/iva/assets/858451/video.mp4?bitrate=750" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="480" width="640" codec="h264" bitrate="750" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="480" width="640" audioCodec="aac" duration="143000" videoCodec="h264" bitrate="450">
+      <Part duration="143000" key="/services/iva/assets/858451/video.mp4?bitrate=450" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="480" width="640" codec="h264" bitrate="450" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+  </Video>
+  <Video url="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(697455)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=134&amp;adaptive=1&amp;dts=0" key="/system/services/url/lookup?url=iva%3A%2F%2Fapi.internetvideoarchive.com%2F2.0%2FDataService%2FVideoAssets%28697455%29%3Flang%3Den%26bitrates%3D80%2C212%2C450%2C750%2C1500%2C2500%2C5000%2C8000%26duration%3D134%26adaptive%3D1%26dts%3D0" type="clip" relationType="behindTheScenes" year="2018" title="Peppermint: Justice (Featurette)" originallyAvailableAt="2018-08-30" thumb="https://iva-images.plex.tv/content/hdphotos/11943/011943/011943_1280x720_697455_077.jpg" ratingKey="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(697455)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=134&amp;adaptive=1&amp;dts=0">
+    <Media container="mp4" height="1080" width="1920" audioCodec="aac" duration="134000" videoCodec="h264" bitrate="2500">
+      <Part duration="134000" key="/services/iva/assets/697455/video.mp4?bitrate=2500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="1080" width="1920" codec="h264" bitrate="2500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="720" width="1280" audioCodec="aac" duration="134000" videoCodec="h264" bitrate="1500">
+      <Part duration="134000" key="/services/iva/assets/697455/video.mp4?bitrate=1500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="720" width="1280" codec="h264" bitrate="1500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="480" width="640" audioCodec="aac" duration="134000" videoCodec="h264" bitrate="450">
+      <Part duration="134000" key="/services/iva/assets/697455/video.mp4?bitrate=450" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="480" width="640" codec="h264" bitrate="450" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+  </Video>
+  <Video url="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(752778)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=20&amp;adaptive=1&amp;dts=0" key="/system/services/url/lookup?url=iva%3A%2F%2Fapi.internetvideoarchive.com%2F2.0%2FDataService%2FVideoAssets%28752778%29%3Flang%3Den%26bitrates%3D80%2C212%2C450%2C750%2C1500%2C2500%2C5000%2C8000%26duration%3D20%26adaptive%3D1%26dts%3D0" type="clip" relationType="behindTheScenes" year="2018" title="Peppermint: Pierre Morel On The Script" originallyAvailableAt="2018-08-28" thumb="https://iva-images.plex.tv/content/hdphotos/11941/011941/011941_1220x686_752778_032.jpg" ratingKey="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(752778)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=20&amp;adaptive=1&amp;dts=0">
+    <Media container="mp4" height="1080" width="1920" audioCodec="aac" duration="20000" videoCodec="h264" bitrate="2500">
+      <Part duration="20000" key="/services/iva/assets/752778/video.mp4?bitrate=2500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="1080" width="1920" codec="h264" bitrate="2500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="720" width="1280" audioCodec="aac" duration="20000" videoCodec="h264" bitrate="1500">
+      <Part duration="20000" key="/services/iva/assets/752778/video.mp4?bitrate=1500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="720" width="1280" codec="h264" bitrate="1500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="480" width="640" audioCodec="aac" duration="20000" videoCodec="h264" bitrate="450">
+      <Part duration="20000" key="/services/iva/assets/752778/video.mp4?bitrate=450" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="480" width="640" codec="h264" bitrate="450" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+  </Video>
+  <Video url="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(250764)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=27&amp;adaptive=1&amp;dts=0" key="/system/services/url/lookup?url=iva%3A%2F%2Fapi.internetvideoarchive.com%2F2.0%2FDataService%2FVideoAssets%28250764%29%3Flang%3Den%26bitrates%3D80%2C212%2C450%2C750%2C1500%2C2500%2C5000%2C8000%26duration%3D27%26adaptive%3D1%26dts%3D0" type="clip" relationType="behindTheScenes" year="2018" title="Peppermint: John Ortiz On What Appealed To Him About The Project" originallyAvailableAt="2018-08-28" thumb="https://iva-images.plex.tv/content/hdphotos/11941/011941/011941_1163x654_250764_041.jpg" ratingKey="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(250764)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=27&amp;adaptive=1&amp;dts=0">
+    <Media container="mp4" height="1080" width="1920" audioCodec="aac" duration="27000" videoCodec="h264" bitrate="2500">
+      <Part duration="27000" key="/services/iva/assets/250764/video.mp4?bitrate=2500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="1080" width="1920" codec="h264" bitrate="2500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="720" width="1280" audioCodec="aac" duration="27000" videoCodec="h264" bitrate="1500">
+      <Part duration="27000" key="/services/iva/assets/250764/video.mp4?bitrate=1500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="720" width="1280" codec="h264" bitrate="1500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="480" width="640" audioCodec="aac" duration="27000" videoCodec="h264" bitrate="450">
+      <Part duration="27000" key="/services/iva/assets/250764/video.mp4?bitrate=450" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="480" width="640" codec="h264" bitrate="450" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+  </Video>
+  <Video url="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(205960)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=35&amp;adaptive=1&amp;dts=0" key="/system/services/url/lookup?url=iva%3A%2F%2Fapi.internetvideoarchive.com%2F2.0%2FDataService%2FVideoAssets%28205960%29%3Flang%3Den%26bitrates%3D80%2C212%2C450%2C750%2C1500%2C2500%2C5000%2C8000%26duration%3D35%26adaptive%3D1%26dts%3D0" type="clip" relationType="behindTheScenes" year="2018" title="Peppermint: John Gallagher Jr. On His Character" originallyAvailableAt="2018-08-28" thumb="https://iva-images.plex.tv/content/hdphotos/11941/011941/011941_1280x720_205960_054.jpg" ratingKey="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(205960)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=35&amp;adaptive=1&amp;dts=0">
+    <Media container="mp4" height="1080" width="1920" audioCodec="aac" duration="35000" videoCodec="h264" bitrate="2500">
+      <Part duration="35000" key="/services/iva/assets/205960/video.mp4?bitrate=2500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="1080" width="1920" codec="h264" bitrate="2500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="720" width="1280" audioCodec="aac" duration="35000" videoCodec="h264" bitrate="1500">
+      <Part duration="35000" key="/services/iva/assets/205960/video.mp4?bitrate=1500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="720" width="1280" codec="h264" bitrate="1500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="480" width="640" audioCodec="aac" duration="35000" videoCodec="h264" bitrate="450">
+      <Part duration="35000" key="/services/iva/assets/205960/video.mp4?bitrate=450" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="480" width="640" codec="h264" bitrate="450" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+  </Video>
+  <Video url="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(936453)?lang=en&amp;bitrates=80,212,450,750,1500,8000&amp;duration=38&amp;adaptive=1&amp;dts=0" key="/system/services/url/lookup?url=iva%3A%2F%2Fapi.internetvideoarchive.com%2F2.0%2FDataService%2FVideoAssets%28936453%29%3Flang%3Den%26bitrates%3D80%2C212%2C450%2C750%2C1500%2C8000%26duration%3D38%26adaptive%3D1%26dts%3D0" type="clip" relationType="behindTheScenes" year="2018" title="Peppermint: Jennifer Garner On What Appealed To Her About The Project" originallyAvailableAt="2018-08-28" thumb="https://iva-images.plex.tv/content/hdphotos/11940/011940/011940_940x529_936453_002.jpg" ratingKey="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(936453)?lang=en&amp;bitrates=80,212,450,750,1500,8000&amp;duration=38&amp;adaptive=1&amp;dts=0">
+    <Media container="mp4" height="720" width="1280" audioCodec="aac" duration="38000" videoCodec="h264" bitrate="1500">
+      <Part duration="38000" key="/services/iva/assets/936453/video.mp4?bitrate=1500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="720" width="1280" codec="h264" bitrate="1500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="480" width="640" audioCodec="aac" duration="38000" videoCodec="h264" bitrate="750">
+      <Part duration="38000" key="/services/iva/assets/936453/video.mp4?bitrate=750" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="480" width="640" codec="h264" bitrate="750" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="480" width="640" audioCodec="aac" duration="38000" videoCodec="h264" bitrate="450">
+      <Part duration="38000" key="/services/iva/assets/936453/video.mp4?bitrate=450" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="480" width="640" codec="h264" bitrate="450" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+  </Video>
+</MediaContainer>

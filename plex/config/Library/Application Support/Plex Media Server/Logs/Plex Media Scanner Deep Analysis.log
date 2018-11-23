@@ -1,0 +1,77 @@
+Nov 23, 2018 02:52:43.145 [0x7f25837ff700] INFO - Plex Media Scanner v1.13.9.5456-ecd600442 - ubuntu docker x86_64 - build: linux-ubuntu-x86_64 - GMT 00:00
+Nov 23, 2018 02:52:43.146 [0x7f25837ff700] INFO - Linux version: 4.9.125-linuxkit (#1 SMP Fri Sep 7 08:20:28 UTC 2018), language: en-US
+Nov 23, 2018 02:52:43.147 [0x7f25837ff700] INFO - Processor Intel(R) Core(TM) i7-4770HQ CPU @ 2.20GHz
+Nov 23, 2018 02:52:43.147 [0x7f25837ff700] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze-deeply --item 3 --log-file-suffix  Deep Analysis
+Nov 23, 2018 02:52:43.147 [0x7f258f0c1840] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.13.0, threadsafe=1
+Nov 23, 2018 02:52:43.415 [0x7f258f0c1840] DEBUG - [MI] Opening input file: "/data/movies/Mile 22 (2018)/Mile 22 (2018).mp4"
+Nov 23, 2018 02:52:43.416 [0x7f258f0c1840] DEBUG - [FFMPEG] - Opening '/data/movies/Mile 22 (2018)/Mile 22 (2018).mp4' for reading
+Nov 23, 2018 02:52:43.416 [0x7f258f0c1840] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto'
+Nov 23, 2018 02:52:43.418 [0x7f258f0c1840] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Nov 23, 2018 02:52:43.419 [0x7f258f0c1840] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Nov 23, 2018 02:52:43.420 [0x7f258f0c1840] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Nov 23, 2018 02:52:43.446 [0x7f258f0c1840] DEBUG - [FFMPEG] - Processing st: 0, edit list 0 - media time: 2002, duration: 136317192
+Nov 23, 2018 02:52:43.459 [0x7f258f0c1840] DEBUG - [FFMPEG] - Offset DTS by 2002 to make first pts zero.
+Nov 23, 2018 02:52:43.481 [0x7f258f0c1840] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Nov 23, 2018 02:52:43.482 [0x7f258f0c1840] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Nov 23, 2018 02:52:43.508 [0x7f258f0c1840] DEBUG - [FFMPEG] - Processing st: 1, edit list 0 - media time: 2048, duration: 272633856
+Nov 23, 2018 02:52:43.508 [0x7f258f0c1840] DEBUG - [FFMPEG] - drop a frame at curr_cts: 0 @ 0
+Nov 23, 2018 02:52:43.508 [0x7f258f0c1840] DEBUG - [FFMPEG] - drop a frame at curr_cts: 1024 @ 1
+Nov 23, 2018 02:52:43.524 [0x7f258f0c1840] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 3844765 bytes read:3856913 seeks:0 nb_streams:2
+Nov 23, 2018 02:52:43.524 [0x7f258f0c1840] DEBUG - [FFMPEG] - nal_unit_type: 7, nal_ref_idc: 3
+Nov 23, 2018 02:52:43.525 [0x7f258f0c1840] DEBUG - [FFMPEG] - nal_unit_type: 8, nal_ref_idc: 3
+Nov 23, 2018 02:52:43.526 [0x7f258f0c1840] DEBUG - [FFMPEG] - nal_unit_type: 6, nal_ref_idc: 0
+Nov 23, 2018 02:52:43.526 [0x7f258f0c1840] DEBUG - [FFMPEG] - nal_unit_type: 5, nal_ref_idc: 3
+Nov 23, 2018 02:52:43.526 [0x7f258f0c1840] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Nov 23, 2018 02:52:43.528 [0x7f258f0c1840] DEBUG - [FFMPEG] - no picture 
+Nov 23, 2018 02:52:43.531 [0x7f258f0c1840] DEBUG - [FFMPEG] - demuxer injecting skip 2048 / discard 0
+Nov 23, 2018 02:52:43.531 [0x7f258f0c1840] DEBUG - [FFMPEG] - All info found
+Nov 23, 2018 02:52:43.532 [0x7f258f0c1840] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 3845727 bytes read:3856913 seeks:0 frames:2
+Nov 23, 2018 02:52:43.664 [0x7f258f0c1840] DEBUG - Deep Analysis: Read 10000 packets at 141.057583
+Nov 23, 2018 02:52:43.791 [0x7f258f0c1840] DEBUG - Deep Analysis: Read 20000 packets at 282.198583
+Nov 23, 2018 02:52:43.892 [0x7f258f0c1840] DEBUG - Deep Analysis: Read 30000 packets at 423.339583
+Nov 23, 2018 02:52:44.009 [0x7f258f0c1840] DEBUG - Deep Analysis: Read 40000 packets at 564.480583
+Nov 23, 2018 02:52:44.309 [0x7f258f0c1840] DEBUG - Deep Analysis: Read 50000 packets at 705.621583
+Nov 23, 2018 02:52:44.453 [0x7f258f0c1840] DEBUG - Deep Analysis: Read 60000 packets at 846.762667
+Nov 23, 2018 02:52:44.588 [0x7f258f0c1840] DEBUG - Deep Analysis: Read 70000 packets at 987.904000
+Nov 23, 2018 02:52:44.693 [0x7f258f0c1840] DEBUG - Deep Analysis: Read 80000 packets at 1129.045333
+Nov 23, 2018 02:52:44.774 [0x7f258f0c1840] DEBUG - Deep Analysis: Read 90000 packets at 1270.186667
+Nov 23, 2018 02:52:44.852 [0x7f258f0c1840] DEBUG - Deep Analysis: Read 100000 packets at 1411.328000
+Nov 23, 2018 02:52:44.935 [0x7f258f0c1840] DEBUG - Deep Analysis: Read 110000 packets at 1552.469333
+Nov 23, 2018 02:52:45.018 [0x7f258f0c1840] DEBUG - Deep Analysis: Read 120000 packets at 1693.610667
+Nov 23, 2018 02:52:45.106 [0x7f258f0c1840] DEBUG - Deep Analysis: Read 130000 packets at 1834.752000
+Nov 23, 2018 02:52:45.166 [0x7f258f0c1840] DEBUG - Deep Analysis: Read 140000 packets at 1975.893333
+Nov 23, 2018 02:52:45.243 [0x7f258f0c1840] DEBUG - Deep Analysis: Read 150000 packets at 2117.034667
+Nov 23, 2018 02:52:45.327 [0x7f258f0c1840] DEBUG - Deep Analysis: Read 160000 packets at 2258.176000
+Nov 23, 2018 02:52:45.460 [0x7f258f0c1840] DEBUG - Deep Analysis: Read 170000 packets at 2399.317333
+Nov 23, 2018 02:52:45.597 [0x7f258f0c1840] DEBUG - Deep Analysis: Read 180000 packets at 2540.458667
+Nov 23, 2018 02:52:45.777 [0x7f258f0c1840] DEBUG - Deep Analysis: Read 190000 packets at 2681.600000
+Nov 23, 2018 02:52:45.887 [0x7f258f0c1840] DEBUG - Deep Analysis: Read 200000 packets at 2822.741333
+Nov 23, 2018 02:52:46.031 [0x7f258f0c1840] DEBUG - Deep Analysis: Read 210000 packets at 2963.882667
+Nov 23, 2018 02:52:46.301 [0x7f258f0c1840] DEBUG - Deep Analysis: Read 220000 packets at 3105.024000
+Nov 23, 2018 02:52:46.510 [0x7f258f0c1840] DEBUG - Deep Analysis: Read 230000 packets at 3246.165333
+Nov 23, 2018 02:52:46.657 [0x7f258f0c1840] DEBUG - Deep Analysis: Read 240000 packets at 3387.306667
+Nov 23, 2018 02:52:46.797 [0x7f258f0c1840] DEBUG - Deep Analysis: Read 250000 packets at 3528.448000
+Nov 23, 2018 02:52:47.014 [0x7f258f0c1840] DEBUG - Deep Analysis: Read 260000 packets at 3669.589333
+Nov 23, 2018 02:52:47.152 [0x7f258f0c1840] DEBUG - Deep Analysis: Read 270000 packets at 3810.730667
+Nov 23, 2018 02:52:47.282 [0x7f258f0c1840] DEBUG - Deep Analysis: Read 280000 packets at 3951.872000
+Nov 23, 2018 02:52:47.416 [0x7f258f0c1840] DEBUG - Deep Analysis: Read 290000 packets at 4093.013333
+Nov 23, 2018 02:52:47.504 [0x7f258f0c1840] DEBUG - Deep Analysis: Read 300000 packets at 4234.154667
+Nov 23, 2018 02:52:47.583 [0x7f258f0c1840] DEBUG - Deep Analysis: Read 310000 packets at 4375.296000
+Nov 23, 2018 02:52:47.675 [0x7f258f0c1840] DEBUG - Deep Analysis: Read 320000 packets at 4516.437333
+Nov 23, 2018 02:52:47.781 [0x7f258f0c1840] DEBUG - Deep Analysis: Read 330000 packets at 4657.578667
+Nov 23, 2018 02:52:47.895 [0x7f258f0c1840] DEBUG - Deep Analysis: Read 340000 packets at 4798.720000
+Nov 23, 2018 02:52:48.000 [0x7f258f0c1840] DEBUG - Deep Analysis: Read 350000 packets at 4939.861333
+Nov 23, 2018 02:52:48.083 [0x7f258f0c1840] DEBUG - Deep Analysis: Read 360000 packets at 5081.002667
+Nov 23, 2018 02:52:48.174 [0x7f258f0c1840] DEBUG - Deep Analysis: Read 370000 packets at 5222.144000
+Nov 23, 2018 02:52:48.216 [0x7f258f0c1840] DEBUG - Deep Analysis: Read 380000 packets at 5363.285333
+Nov 23, 2018 02:52:48.275 [0x7f258f0c1840] DEBUG - Deep Analysis: Read 390000 packets at 5504.426667
+Nov 23, 2018 02:52:48.336 [0x7f258f0c1840] DEBUG - Deep Analysis: Read 400000 packets at 5645.568000
+Nov 23, 2018 02:52:48.346 [0x7f258f0c1840] DEBUG - Deep Analysis: Sorting packets
+Nov 23, 2018 02:52:48.360 [0x7f258f0c1840] DEBUG - Deep Analysis: Performing file bitrate analysis
+Nov 23, 2018 02:52:48.404 [0x7f258f0c1840] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 0
+Nov 23, 2018 02:52:48.418 [0x7f258f0c1840] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 1
+Nov 23, 2018 02:52:48.458 [0x7f258f0c1840] DEBUG - Deep Analysis: Saving GoP analysis for stream 0
+Nov 23, 2018 02:52:48.471 [0x7f258f0c1840] DEBUG - Deep Analysis: Saving bitrate analysis
+Nov 23, 2018 02:52:48.478 [0x7f258f0c1840] DEBUG - Updating part with ID=5 [/data/movies/Mile 22 (2018)/Mile 22 (2018).mp4]
+Nov 23, 2018 02:52:48.487 [0x7f258f0c1840] DEBUG - [MI] Closing input file: "/data/movies/Mile 22 (2018)/Mile 22 (2018).mp4"
+Nov 23, 2018 02:52:48.489 [0x7f258f0c1840] DEBUG - [FFMPEG] - Statistics: 850450700 bytes read, 0 seeks

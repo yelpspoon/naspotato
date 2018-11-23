@@ -1,0 +1,184 @@
+version: '3'
+services:
+  radarr:
+    image: "linuxserver/radarr"
+    container_name: radarr
+    hostname: radarr
+    ports:
+     - "7878:7878"
+    environment:
+     - TZ='America/Chicago'
+     - PUID='667388921'
+     - GUID='71667744'
+    volumes:
+     - /Users/xdxc077/DockerApps/radarr/config:/config
+     - downloads:/downloads
+     - movies:/movies
+    depends_on:
+     - jackett
+    networks:
+      - front-end
+
+  jackett:
+    image: "linuxserver/jackett"
+    container_name: jackett
+    hostname: jackett
+    ports:
+     - "9117:9117"
+    environment:
+     - TZ='America/Chicago'
+     - PUID='667388921'
+     - GUID='71667744'
+    volumes:
+     - /Users/xdxc077/DockerApps/jackett/config:/config
+    depends_on:
+     - transmission
+    networks:
+      - front-end
+
+  transmission:
+    image: "haugene/transmission-openvpn"
+    container_name: transmission
+    hostname: transmission
+    privileged: true
+    dns: 8.8.8.8
+    ports:
+     - "9091:9091"
+     - "51413:51413"
+     - "51413:51413/udp"
+    environment:
+     - TZ='America/Chicago'
+     - PUID='667388921'
+     - GUID='71667744'
+     - OPENVPN_PROVIDER=NORDVPN 
+     - OPENVPN_USERNAME=${NORDUSER}
+     - OPENVPN_PASSWORD=${NORDPASS}
+     - WEBPROXY_ENABLED=false 
+     - TRANSMISSION_HOME=/data/transmission-home 
+     - TRANSMISSION_DOWNLOAD_DIR=/downloads/completed
+     - TRANSMISSION_IDLE_SEEDING_LIMIT=30 
+     - TRANSMISSION_IDLE_SEEDING_LIMIT_ENABLED=true 
+     - TRANSMISSION_INCOMPLETE_DIR=/downloads/incomplete
+     - TRANSMISSION_INCOMPLETE_DIR_ENABLED=true 
+     - TRANSMISSION_QUEUE_STALLED_ENABLED=true 
+     - TRANSMISSION_QUEUE_STALLED_MINUTES=30 
+     - TRANSMISSION_RATIO_LIMIT=2 
+     - TRANSMISSION_RATIO_LIMIT_ENABLED=true 
+     - TRANSMISSION_SPEED_LIMIT_UP=150 
+     - TRANSMISSION_SPEED_LIMIT_UP_ENABLED=true 
+     - TRANSMISSION_TRASH_ORIGINAL_TORRENT_FILES=true 
+     - TRANSMISSION_WATCH_DIR=/downloads/watch 
+     - TRANSMISSION_WATCH_DIR_ENABLED=true 
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10000k"
+        max-file: "3"
+    volumes:
+     - /Users/xdxc077/DockerApps/transmission/config:/config
+     - downloads:/downloads
+    restart: unless-stopped
+    networks:
+      - front-end
+
+  plex:
+    image: "linuxserver/plex"
+    container_name: plex
+    hostname: plex
+    ports:
+     - "32400:32400"
+     - "32400:32400/udp"
+     - "32469:32469"
+     - "32469:32469/udp"
+     - "5353:5353/udp"
+     - "1900:1900/udp"
+    environment:
+     - TZ='America/Chicago'
+     - PUID='667388921'
+     - GUID='71667744'
+    volumes:
+     - /Users/xdxc077/DockerApps/plex/config:/config
+     - tvshows:/data/tvshows
+     - movies:/data/movies
+     - transcode:/transcode
+    depends_on:
+     - radarr
+    networks:
+      - front-end
+
+  muximux:
+    image: "linuxserver/muximux"
+    container_name: muximux
+    hostname: muximux
+    ports:
+     - "8080:80"
+    environment:
+     - TZ='America/Chicago'
+     - PUID='667388921'
+     - GUID='71667744'
+    volumes:
+     - /Users/xdxc077/DockerApps/muximux/config:/config
+    depends_on:
+     - radarr
+    restart: on-failure
+    networks:
+      - front-end
+
+networks:
+    front-end:
+
+volumes:
+    downloads:
+      driver: local
+      driver_opts:
+        type: none
+        o: bind
+        device: "/Users/xdxc077/DockerApps/downloads"
+    movies:
+      driver: local
+      driver_opts:
+        type: none
+        o: bind
+        device: "/Users/xdxc077/DockerApps/movies"
+    tvshows:
+      driver: local
+      driver_opts:
+        type: none
+        o: bind
+        device: "/Users/xdxc077/DockerApps/tvshows"
+    transcode:
+      driver: local
+      driver_opts:
+        type: none
+        o: bind
+        device: "/Users/xdxc077/DockerApps/transcode"
+
+        #o: bind,uid=667388921,gid=71667744
+    #- target: 51413 published: 51413 protocol: udp
+#    docker create  --name=radarr \
+#   -v <path to data>:/config \
+#   -v <path to data>:/downloads \
+#   -v <path to data>:/movies \
+#   -v /etc/localtime:/etc/localtime:ro \
+#   -e TZ=<timezone> \
+#   -e PGID=<gid> -e PUID=<uid>  \
+#   -p 7878:7878 \
+#
+#   docker create --name=jackett \
+# -v <path to data>:/config \
+# -v <path to blackhole>:/downloads \
+# -e PGID=<gid> -e PUID=<uid> \
+# -e TZ=<timezone> \
+# -v /etc/localtime:/etc/localtime:ro \
+# -p 9117:9117 \
+# linuxserver/jackett
+
+# docker create --name=transmission \
+# -v <path to data>:/config \
+# -v <path to downloads>:/downloads \
+# -v <path to watch folder>:/watch \
+# -e PGID=<gid> -e PUID=<uid> \
+# -e TZ=<timezone> \
+# -p 9091:9091 -p 51413:51413 \
+# -p 51413:51413/udp \
+# linuxserver/transmission

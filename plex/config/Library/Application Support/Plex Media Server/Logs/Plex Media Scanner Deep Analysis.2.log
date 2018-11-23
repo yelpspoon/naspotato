@@ -1,0 +1,83 @@
+Nov 23, 2018 02:52:27.831 [0x7fe2b4264700] INFO - Plex Media Scanner v1.13.9.5456-ecd600442 - ubuntu docker x86_64 - build: linux-ubuntu-x86_64 - GMT 00:00
+Nov 23, 2018 02:52:27.832 [0x7fe2b4264700] INFO - Linux version: 4.9.125-linuxkit (#1 SMP Fri Sep 7 08:20:28 UTC 2018), language: en-US
+Nov 23, 2018 02:52:27.833 [0x7fe2b4264700] INFO - Processor Intel(R) Core(TM) i7-4770HQ CPU @ 2.20GHz
+Nov 23, 2018 02:52:27.833 [0x7fe2b4264700] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze-deeply --item 4 --log-file-suffix  Deep Analysis
+Nov 23, 2018 02:52:27.829 [0x7fe2bfb2d840] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.13.0, threadsafe=1
+Nov 23, 2018 02:52:28.131 [0x7fe2bfb2d840] DEBUG - [MI] Opening input file: "/data/movies/A Star Is Born (2018)/A Star Is Born (2018).mkv"
+Nov 23, 2018 02:52:28.132 [0x7fe2bfb2d840] DEBUG - [FFMPEG] - Opening '/data/movies/A Star Is Born (2018)/A Star Is Born (2018).mkv' for reading
+Nov 23, 2018 02:52:28.132 [0x7fe2bfb2d840] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto'
+Nov 23, 2018 02:52:28.136 [0x7fe2bfb2d840] DEBUG - [FFMPEG] - Format matroska,webm probed with size=2048 and score=100
+Nov 23, 2018 02:52:28.138 [0x7fe2bfb2d840] DEBUG - [FFMPEG] - st:0 removing common factor 1000000 from timebase
+Nov 23, 2018 02:52:28.138 [0x7fe2bfb2d840] DEBUG - [FFMPEG] - st:1 removing common factor 1000000 from timebase
+Nov 23, 2018 02:52:28.141 [0x7fe2bfb2d840] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 5636 bytes read:33543 seeks:2 nb_streams:2
+Nov 23, 2018 02:52:28.142 [0x7fe2bfb2d840] DEBUG - [FFMPEG] - nal_unit_type: 7, nal_ref_idc: 3
+Nov 23, 2018 02:52:28.142 [0x7fe2bfb2d840] DEBUG - [FFMPEG] - nal_unit_type: 8, nal_ref_idc: 3
+Nov 23, 2018 02:52:28.144 [0x7fe2bfb2d840] DEBUG - [FFMPEG] - nal_unit_type: 7, nal_ref_idc: 3
+Nov 23, 2018 02:52:28.145 [0x7fe2bfb2d840] DEBUG - [FFMPEG] - nal_unit_type: 8, nal_ref_idc: 3
+Nov 23, 2018 02:52:28.145 [0x7fe2bfb2d840] DEBUG - [FFMPEG] - nal_unit_type: 6, nal_ref_idc: 0
+Nov 23, 2018 02:52:28.145 [0x7fe2bfb2d840] DEBUG - [FFMPEG] - nal_unit_type: 5, nal_ref_idc: 3
+Nov 23, 2018 02:52:28.145 [0x7fe2bfb2d840] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Nov 23, 2018 02:52:28.146 [0x7fe2bfb2d840] DEBUG - [FFMPEG] - no picture 
+Nov 23, 2018 02:52:28.157 [0x7fe2bfb2d840] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 2
+Nov 23, 2018 02:52:28.158 [0x7fe2bfb2d840] DEBUG - [FFMPEG] - no picture 
+Nov 23, 2018 02:52:28.161 [0x7fe2bfb2d840] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 2
+Nov 23, 2018 02:52:28.163 [0x7fe2bfb2d840] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 0
+Nov 23, 2018 02:52:28.166 [0x7fe2bfb2d840] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 0
+Nov 23, 2018 02:52:28.168 [0x7fe2bfb2d840] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 2
+Nov 23, 2018 02:52:28.169 [0x7fe2bfb2d840] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 2
+Nov 23, 2018 02:52:28.170 [0x7fe2bfb2d840] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 0
+Nov 23, 2018 02:52:28.172 [0x7fe2bfb2d840] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 0
+Nov 23, 2018 02:52:28.174 [0x7fe2bfb2d840] DEBUG - [FFMPEG] - All info found
+Nov 23, 2018 02:52:28.176 [0x7fe2bfb2d840] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 75295 bytes read:131847 seeks:2 frames:26
+Nov 23, 2018 02:52:28.363 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 10000 packets at 187.000000
+Nov 23, 2018 02:52:28.482 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 20000 packets at 374.302000
+Nov 23, 2018 02:52:28.657 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 30000 packets at 561.523000
+Nov 23, 2018 02:52:28.817 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 40000 packets at 748.616000
+Nov 23, 2018 02:52:28.940 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 50000 packets at 935.796000
+Nov 23, 2018 02:52:29.055 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 60000 packets at 1122.931000
+Nov 23, 2018 02:52:29.221 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 70000 packets at 1310.067000
+Nov 23, 2018 02:52:29.358 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 80000 packets at 1496.933000
+Nov 23, 2018 02:52:29.484 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 90000 packets at 1684.067000
+Nov 23, 2018 02:52:29.645 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 100000 packets at 1871.518000
+Nov 23, 2018 02:52:29.792 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 110000 packets at 2058.300000
+Nov 23, 2018 02:52:30.088 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 120000 packets at 2245.662000
+Nov 23, 2018 02:52:30.322 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 130000 packets at 2432.533000
+Nov 23, 2018 02:52:30.498 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 140000 packets at 2619.934000
+Nov 23, 2018 02:52:30.614 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 150000 packets at 2806.800000
+Nov 23, 2018 02:52:30.749 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 160000 packets at 2994.249000
+Nov 23, 2018 02:52:30.872 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 170000 packets at 3181.384000
+Nov 23, 2018 02:52:31.062 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 180000 packets at 3368.563000
+Nov 23, 2018 02:52:31.202 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 190000 packets at 3555.571000
+Nov 23, 2018 02:52:31.329 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 200000 packets at 3742.467000
+Nov 23, 2018 02:52:31.424 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 210000 packets at 3929.971000
+Nov 23, 2018 02:52:31.563 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 220000 packets at 4116.800000
+Nov 23, 2018 02:52:31.711 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 230000 packets at 4303.933000
+Nov 23, 2018 02:52:31.848 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 240000 packets at 4491.337000
+Nov 23, 2018 02:52:32.291 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 250000 packets at 4678.200000
+Nov 23, 2018 02:52:32.756 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 260000 packets at 4865.481000
+Nov 23, 2018 02:52:33.104 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 270000 packets at 5052.500000
+Nov 23, 2018 02:52:33.273 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 280000 packets at 5239.796000
+Nov 23, 2018 02:52:33.524 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 290000 packets at 5426.733000
+Nov 23, 2018 02:52:34.103 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 300000 packets at 5613.833000
+Nov 23, 2018 02:52:34.416 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 310000 packets at 5801.067000
+Nov 23, 2018 02:52:34.761 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 320000 packets at 5988.425000
+Nov 23, 2018 02:52:34.955 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 330000 packets at 6175.333000
+Nov 23, 2018 02:52:35.123 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 340000 packets at 6362.612000
+Nov 23, 2018 02:52:35.276 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 350000 packets at 6549.600000
+Nov 23, 2018 02:52:35.562 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 360000 packets at 6736.733000
+Nov 23, 2018 02:52:35.727 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 370000 packets at 6923.900000
+Nov 23, 2018 02:52:35.906 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 380000 packets at 7111.156000
+Nov 23, 2018 02:52:36.037 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 390000 packets at 7298.000000
+Nov 23, 2018 02:52:36.153 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 400000 packets at 7485.300000
+Nov 23, 2018 02:52:36.305 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 410000 packets at 7672.400000
+Nov 23, 2018 02:52:36.413 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 420000 packets at 7859.827000
+Nov 23, 2018 02:52:36.517 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Read 430000 packets at 8046.667000
+Nov 23, 2018 02:52:36.587 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Sorting packets
+Nov 23, 2018 02:52:36.612 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Performing file bitrate analysis
+Nov 23, 2018 02:52:36.687 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 0
+Nov 23, 2018 02:52:36.734 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 1
+Nov 23, 2018 02:52:36.786 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Saving GoP analysis for stream 1
+Nov 23, 2018 02:52:36.797 [0x7fe2bfb2d840] DEBUG - Deep Analysis: Saving bitrate analysis
+Nov 23, 2018 02:52:36.812 [0x7fe2bfb2d840] DEBUG - Updating part with ID=6 [/data/movies/A Star Is Born (2018)/A Star Is Born (2018).mkv]
+Nov 23, 2018 02:52:36.824 [0x7fe2bfb2d840] DEBUG - [MI] Closing input file: "/data/movies/A Star Is Born (2018)/A Star Is Born (2018).mkv"
+Nov 23, 2018 02:52:36.829 [0x7fe2bfb2d840] DEBUG - [FFMPEG] - Statistics: 1131854880 bytes read, 3 seeks

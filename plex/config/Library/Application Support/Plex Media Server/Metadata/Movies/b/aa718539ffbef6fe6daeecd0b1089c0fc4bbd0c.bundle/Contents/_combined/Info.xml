@@ -1,0 +1,402 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Movie>
+  <art>
+    <item external="True" url="http://image.tmdb.org/t/p/original/kqoBtMmiycbbhGLXGkKhL8SdaWB.jpg" sort_order="1" provider="com.plexapp.agents.imdb" media="com.plexapp.agents.imdb_6d431a8ea857bc678c29be11966568dd0567b4bf"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/t2ro9DhNN83dH4y3cKpmpPFybqF.jpg" preview="com.plexapp.agents.imdb_140a365f61e0c5110a199bcdd4d5d142a364aada" sort_order="2" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/c0ssdwfLfXHF9kUXI15DiTQltNg.jpg" preview="com.plexapp.agents.imdb_9af5715b0335051752ef57f12d880d7b35a0f6a4" sort_order="3" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/mabuNsGJgRuCTuGqjFkWe1xdu19.jpg" preview="com.plexapp.agents.imdb_8d87484231e13b9c67b2f6d1f20957887820105b" sort_order="4" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/g1RA3pSKwjb3ZAvm3a3H7LxAwat.jpg" preview="com.plexapp.agents.imdb_49053f431e4b2809007165ed4f60a389796c5b68" sort_order="5" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/icJMUsqMD2MPnePHinWdqYgkywt.jpg" preview="com.plexapp.agents.imdb_47a6a5d7f38bdeba77233ba868142f6c20e18369" sort_order="6" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/fWTZdK1hJnNklNWT0kzbYLiJgWv.jpg" preview="com.plexapp.agents.imdb_c7069ff3db5c80952c73fc89e54e540b6e843b30" sort_order="7" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/yrALKf6ntKJPofImuIHFehGfwdJ.jpg" preview="com.plexapp.agents.imdb_e11830f0e196b237d576327c061831fec40caf11" sort_order="8" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/3cUJovesqhfXEU2EU1InEQYX8WY.jpg" preview="com.plexapp.agents.imdb_eb80fe8f00bf764c0e831b74fd3c29f0772ba15b" sort_order="9" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/rOi9B6dsQOhXVvzolL2UVRhTFu3.jpg" preview="com.plexapp.agents.imdb_95bcfed68970a792e019709a79379eb153eab9b5" sort_order="10" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/coYYp9v52nWxohWCP8IGxerDm65.jpg" preview="com.plexapp.agents.imdb_480fe6c9674e57d89b146fe941f7fc71ada82426" sort_order="11" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/cYA94llTdnBG5LazDf3Ez4zU87H.jpg" preview="com.plexapp.agents.imdb_843ba7d9b6b8a8a4f28f4794bfc8d6724a58e7f9" sort_order="12" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/vwBPz3XXJRj9iPVxWINibgg9S4F.jpg" preview="com.plexapp.agents.imdb_b6dbe67cb109eb41478d993b8cb9a7db4864836f" sort_order="13" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/o1gwq7JKSspIMRDA0Bt9czI7GXN.jpg" preview="com.plexapp.agents.imdb_bbef7029e6096ae61c805c411f0499a4e42abb8b" sort_order="14" provider="com.plexapp.agents.imdb"/>
+  </art>
+  <banners/>
+  <chapters/>
+  <collections/>
+  <content_rating>PG</content_rating>
+  <countries>
+    <item index="0">USA</item>
+  </countries>
+  <directors>
+    <item index="0">
+      <photo>http://image.tmdb.org/t/p/original/2XwJyYs6XNLaQuC1O2gbEHT3jxx.jpg</photo>
+      <role/>
+      <name>Brad Bird</name>
+    </item>
+  </directors>
+  <duration>7080000</duration>
+  <genres>
+    <item index="0">Animation</item>
+    <item index="1">Action</item>
+    <item index="2">Adventure</item>
+    <item index="3">Comedy</item>
+    <item index="4">Family</item>
+    <item index="5">Sci-Fi</item>
+  </genres>
+  <originally_available_at>2018-06-14</originally_available_at>
+  <posters>
+    <item external="True" url="http://image.tmdb.org/t/p/original/hL9Uz2vq93vi20oxZEBBaSs4w8U.jpg" sort_order="1" provider="com.plexapp.agents.imdb" media="com.plexapp.agents.imdb_d9bfb638fa76b66ed75ac60926118047e37d6ff6"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/x1txcDXkcM65gl7w20PwYSxAYah.jpg" preview="com.plexapp.agents.imdb_45ff725667a845a28abd6a88a833016588899a50" sort_order="2" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/9lFKBtaVIhP7E2Pk0IY1CwTKTMZ.jpg" preview="com.plexapp.agents.imdb_a05f744524f068ef64cd1ad617ef52d02445e568" sort_order="3" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/aTbRJHCrQwceSS5b8LYj7hC654I.jpg" preview="com.plexapp.agents.imdb_07f1c2238d621177244c411ee8ece5cedcbeca87" sort_order="4" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/axzXWcIHY2kZxApjFWBpRinDDqZ.jpg" preview="com.plexapp.agents.imdb_2fe43eadc5a26afb9b721e9245ebb4deb79945ca" sort_order="5" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/mFsDSGN3URmJNX0KqDGLi7F5OQW.jpg" preview="com.plexapp.agents.imdb_96ff3ab957b27798c132221140fbb15584cd9f06" sort_order="6" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/bdkGjZszKWYFr78Ld2haNHmOT4W.jpg" preview="com.plexapp.agents.imdb_26219ea60b6f13685260c9547d877d5e2f108661" sort_order="7" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/oayfQOCKTDzEH9Ja6y34oogvaUI.jpg" preview="com.plexapp.agents.imdb_0580b615905976c934b33fa243711e6eefc8b970" sort_order="8" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/bcPvCjSVCOd3IJ7nxQEuNrzVPHc.jpg" preview="com.plexapp.agents.imdb_8a832ecbba5a3f4757822a15a91a59d0e75df83b" sort_order="9" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/7noHQ2Q3T64V6SxaDZPPK600sws.jpg" preview="com.plexapp.agents.imdb_2f87a5e5afbeadc4b0445e30c8acb2d04ea229e5" sort_order="10" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/lbDu68nHKTEDA7YuovPAvjIgN3l.jpg" preview="com.plexapp.agents.imdb_85791ce235da86677666b424a417e7d7b6360376" sort_order="11" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/8e18gDEbQYhNyWni6ulSOcPLLSr.jpg" preview="com.plexapp.agents.imdb_b3cd969a05550644adaa1ab29328c6ad425e538b" sort_order="12" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/oaNNIp5t58qR1BrPaScl6ExH1ad.jpg" preview="com.plexapp.agents.imdb_be2874feaf17101cf4f14682f201c8590d3fea97" sort_order="13" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/2LSfuy4VUDE5SEDHZbU6mVoPyuR.jpg" preview="com.plexapp.agents.imdb_15a125360c50069c2e51c5d70176c67ddd73d686" sort_order="14" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/lSswQk0Y2NuN0LHWoQHYaywIHFY.jpg" preview="com.plexapp.agents.imdb_36c97a5a6ebac1cf8de3f1b840c172878c231d99" sort_order="15" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/gVKgqi5KBFgOF4kREyDfpDkOfmI.jpg" preview="com.plexapp.agents.imdb_ed154d8658140154f4ceaa7adfed1ffb449065a7" sort_order="16" provider="com.plexapp.agents.imdb"/>
+  </posters>
+  <producers>
+    <item index="0">
+      <photo/>
+      <role/>
+      <name>Nicole Paradis Grindle</name>
+    </item>
+    <item index="1">
+      <photo/>
+      <role/>
+      <name>John Walker</name>
+    </item>
+  </producers>
+  <rating>9.4</rating>
+  <rating_image>rottentomatoes://image.rating.ripe</rating_image>
+  <audience_rating>8.7</audience_rating>
+  <audience_rating_image>rottentomatoes://image.rating.upright</audience_rating_image>
+  <reviews>
+    <item index="0">
+      <text>Incredibles 2 regresses to a time when any power women managed to acquire was carefully controlled so as not constitute a threat to the male order. Such nostalgia is self-defeating.</text>
+      <source>Chicago Reader</source>
+      <image>rottentomatoes://image.review.rotten</image>
+      <link>https://www.chicagoreader.com/chicago/the-incredibles-2-brad-bird-elastigirl-gender-roles/Content?oid=51594871</link>
+      <author>Andrea Thompson</author>
+    </item>
+    <item index="1">
+      <text>I exaggerate not a bit when I say that parents will feel just as empowered while watching "Incredibles 2" as any child.</text>
+      <source>NPR's All Things Considered</source>
+      <image>rottentomatoes://image.review.fresh</image>
+      <link>https://www.npr.org/2018/06/15/620471061/incredibles-2-will-empower-children-and-their-parents</link>
+      <author>Bob Mondello</author>
+    </item>
+    <item index="2">
+      <text>It's a nostalgic vision of total power of a local minimum that echoes sickeningly with the nostalgic pathologies of the current day, nowhere more than in Win's enthusiastic declaration of his plan to "make superheroes legal again."</text>
+      <source>New Yorker</source>
+      <image>rottentomatoes://image.review.rotten</image>
+      <link>https://www.newyorker.com/culture/richard-brody/review-the-authoritarian-populism-of-incredibles-2</link>
+      <author>Richard Brody</author>
+    </item>
+    <item index="3">
+      <text>The Incredibles 2 is an undeniable triumph, but it is also so keenly aware that it becomes exhausting.</text>
+      <source>The New Republic</source>
+      <image>rottentomatoes://image.review.fresh</image>
+      <link>https://newrepublic.com/article/149173/incredibles-2-addresses-state-union</link>
+      <author>Josephine Livingstone</author>
+    </item>
+    <item index="4">
+      <text>Once Michael Giacchino's score -- his best and most excitable -- was up and running, I was happy and hooked.</text>
+      <source>New Yorker</source>
+      <image>rottentomatoes://image.review.fresh</image>
+      <link>https://www.newyorker.com/culture/culture-desk/incredibles-2-reviewed-a-sequel-in-the-shadow-of-a-masterwork</link>
+      <author>Anthony Lane</author>
+    </item>
+    <item index="5">
+      <text>It's really fun, and it moves really well. It was paced beautifully and is gorgeously detailed...Get there early and see everything.</text>
+      <source>What the Flick?!</source>
+      <image>rottentomatoes://image.review.fresh</image>
+      <link>https://www.youtube.com/watch?v=V4GtObs2JvQ</link>
+      <author>Christy Lemire</author>
+    </item>
+    <item index="6">
+      <text>Do you remember when superhero movies were light-hearted popcorn fare instead of overwrought epics? "The Incredibles 2," which is absolutely delightful, recalls that time.</text>
+      <source>Salon.com</source>
+      <image>rottentomatoes://image.review.fresh</image>
+      <link>https://www.salon.com/2018/06/15/the-incredibles-2-is-the-rare-contemporary-superhero-movie-that-dares-to-be-fun/</link>
+      <author>Matthew Rozsa</author>
+    </item>
+    <item index="7">
+      <text>Big, annoying and mostly, pointless.</text>
+      <source>Globe and Mail</source>
+      <image>rottentomatoes://image.review.rotten</image>
+      <link>https://www.theglobeandmail.com/arts/film/reviews/article-review-incredibles-2-falls-incredibly-short-of-expectations/</link>
+      <author>Barry Hertz</author>
+    </item>
+    <item index="8">
+      <text>At a time when movie screens are clogged with indistinguishable superheroes, Incredibles 2 rises above the noise with its defiantly humane soul.</text>
+      <source>Time Out</source>
+      <image>rottentomatoes://image.review.fresh</image>
+      <link>https://www.timeout.com/us/film/incredibles-2</link>
+      <author>Tomris Laffly</author>
+    </item>
+    <item index="9">
+      <text>As in the original hit, this is a story of remarkable character design and visually elegant 1960s-chic world-building.</text>
+      <source>Minneapolis Star Tribune</source>
+      <image>rottentomatoes://image.review.fresh</image>
+      <link>http://www.startribune.com/overflowing-with-heart-and-visual-wizardry-incredibles-2-is-pixar-at-its-best/485579861/</link>
+      <author>Colin Covert</author>
+    </item>
+    <item index="10">
+      <text>Incredibles 2 feels like a rebuke of the audience that came to gawk at a superhero movie - and worse, that had the nerve to identify with its superior protagonists.</text>
+      <source>San Diego Reader</source>
+      <image>rottentomatoes://image.review.rotten</image>
+      <link>https://www.sandiegoreader.com/news/2018/jun/14/movie-review-we-have-met-underminer-and-he-us/</link>
+      <author>Matthew Lickona</author>
+    </item>
+    <item index="11">
+      <text>Once again, the action is fittingly spectacular, the music is great, and the whole thing looks fantastic.</text>
+      <source>NPR</source>
+      <image>rottentomatoes://image.review.fresh</image>
+      <link>https://www.npr.org/sections/monkeysee/2018/06/13/618908317/retrofuturistic-the-incredibles-2-is-more-retro-than-futuristic</link>
+      <author>Glen Weldon</author>
+    </item>
+    <item index="12">
+      <text>Disney/Pixar's "Incredibles 2" is a great-looking sequel about the importance of family, and the potential for revenue.</text>
+      <source>Wall Street Journal</source>
+      <image>rottentomatoes://image.review.fresh</image>
+      <link>https://www.wsj.com/articles/incredibles-2-review-settling-for-less-1528994599</link>
+      <author>Joe Morgenstern</author>
+    </item>
+    <item index="13">
+      <text>No longer so incredible - and in truth, they never really were - Brad Bird and the Parrs are now happy just to be thought of as reliably entertaining.</text>
+      <source>Toronto Star</source>
+      <image>rottentomatoes://image.review.fresh</image>
+      <link>https://www.thestar.com/entertainment/movies/review/2018/06/14/incredibles-2-is-reliably-fun-if-not-quite-incredible.html</link>
+      <author>Peter Howell</author>
+    </item>
+    <item index="14">
+      <text>Bursting with style and imagination, "The Incredibles 2" sets a standard that few superhero flicks - animated or live-action - can match.</text>
+      <source>St. Louis Post-Dispatch</source>
+      <image>rottentomatoes://image.review.fresh</image>
+      <link>https://www.stltoday.com/entertainment/movies/reviews/the-incredibles-is-one-of-the-year-s-smartest-and/article_a7025a4e-e0c4-5738-9cad-063ab8c54adc.html</link>
+      <author>Calvin Wilson</author>
+    </item>
+    <item index="15">
+      <text>Even in the midst of its many boundless pleasures, Incredibles 2 charges us with a mission that's not for the faint of heart: to choose to look at one another instead of being fixated on the screens all around us.</text>
+      <source>TIME Magazine</source>
+      <image>rottentomatoes://image.review.fresh</image>
+      <link>http://time.com/5311956/incredibles-2-review/</link>
+      <author>Stephanie Zacharek</author>
+    </item>
+    <item index="16">
+      <text>It cleverly inverts some of the original's storylines, builds on the central themes and provides an all-you-can-eat buffet of eye candy.</text>
+      <source>Dallas Morning News</source>
+      <image>rottentomatoes://image.review.fresh</image>
+      <link>https://www.guidelive.com/movies/2018/06/13/fighting-world-reputation-incredibles-return-worthy-sequel-b</link>
+      <author>Chris Vognar</author>
+    </item>
+    <item index="17">
+      <text>In the end, the feeling you may take with you as you leave the theater, despite the forced good cheer of the finale and Michael Giacchino's airily mellifluous score, is one of disenchantment.</text>
+      <source>Boston Globe</source>
+      <image>rottentomatoes://image.review.rotten</image>
+      <link>https://www.bostonglobe.com/arts/movies/2018/06/13/everyone-favorite-superhero-family-returns-incredibles/EvrWrggmfayamTpcoJOu1M/story.html</link>
+      <author>Ty Burr</author>
+    </item>
+    <item index="18">
+      <text>Like his superheroes, Mr. Bird is extraordinarily good at destruction, which is very much in evidence in the virtuosic, often delightful "Incredibles 2," which picks up narratively where the last movie left off.</text>
+      <source>New York Times</source>
+      <image>rottentomatoes://image.review.fresh</image>
+      <link>https://www.nytimes.com/2018/06/13/movies/incredibles-2-review-disney-pixar.html</link>
+      <author>Manohla Dargis</author>
+    </item>
+    <item index="19">
+      <text>Whatever the intention, "Incredibles 2" plays out as the worst of both worlds, a combination of the typical weaknesses of both animated and live-action superhero films, with few of the strengths.</text>
+      <source>San Francisco Chronicle</source>
+      <image>rottentomatoes://image.review.rotten</image>
+      <link>https://www.sfchronicle.com/movies/article/Incredibles-2-despite-Hunter-Nelson-12991332.php</link>
+      <author>Mick LaSalle</author>
+    </item>
+  </reviews>
+  <roles>
+    <item index="0">
+      <photo>http://image.tmdb.org/t/p/original/gQOdZNaAqvYTY48iXwkKm1zbHyS.jpg</photo>
+      <role>Bob Parr / Mr. Incredible (voice)</role>
+      <name>Craig T. Nelson</name>
+    </item>
+    <item index="1">
+      <photo>http://image.tmdb.org/t/p/original/2l33LH3IrDsz1p8FMp1tVYw4gUN.jpg</photo>
+      <role>Helen Parr / Elastigirl (voice)</role>
+      <name>Holly Hunter</name>
+    </item>
+    <item index="2">
+      <photo>http://image.tmdb.org/t/p/original/k9zkjShni0FFCPGxWzV959bFUVq.jpg</photo>
+      <role>Violet Parr (voice)</role>
+      <name>Sarah Vowell</name>
+    </item>
+    <item index="3">
+      <photo>http://image.tmdb.org/t/p/original/aUAx2GS4Qy5qZwegQMsv3dkeUAs.jpg</photo>
+      <role>Dashiell "Dash" Parr (voice)</role>
+      <name>Huck Milner</name>
+    </item>
+    <item index="4">
+      <photo>http://image.tmdb.org/t/p/original/AvCReLikjzYEf9XjTQxbv3JWgKT.jpg</photo>
+      <role>Lucius Best / Frozone (voice)</role>
+      <name>Samuel L. Jackson</name>
+    </item>
+    <item index="5">
+      <photo>http://image.tmdb.org/t/p/original/pcNfD0mIB9KrQMaXP0rN82VbiHY.jpg</photo>
+      <role>Jack-Jack Parr (voice)</role>
+      <name>Eli Fucile</name>
+    </item>
+    <item index="6">
+      <photo>http://image.tmdb.org/t/p/original/1LW8FJgEqfa9EoFroYofTquZDx0.jpg</photo>
+      <role>Monster Jack-Jack (voice)</role>
+      <name>Nicholas Bird</name>
+    </item>
+    <item index="7">
+      <photo>http://image.tmdb.org/t/p/original/nJLcRRqq9JTQTgVYrFn7vPDgAsK.jpg</photo>
+      <role>Winston Deavor (voice)</role>
+      <name>Bob Odenkirk</name>
+    </item>
+    <item index="8">
+      <photo>http://image.tmdb.org/t/p/original/tEBdqBUduF3dBcJcBeY5ffZ9MMu.jpg</photo>
+      <role>Evelyn Deavor (voice)</role>
+      <name>Catherine Keener</name>
+    </item>
+    <item index="9">
+      <photo/>
+      <role>Pizza Delivery Man (voice)</role>
+      <name>Bill Wise</name>
+    </item>
+    <item index="10">
+      <photo>http://image.tmdb.org/t/p/original/2XwJyYs6XNLaQuC1O2gbEHT3jxx.jpg</photo>
+      <role>Edna Mode (voice)</role>
+      <name>Brad Bird</name>
+    </item>
+    <item index="11">
+      <photo>http://image.tmdb.org/t/p/original/s6K0lromCtmSTzuX9hig8OPiRsC.jpg</photo>
+      <role>Rick Dicker (voice)</role>
+      <name>Jonathan Banks</name>
+    </item>
+    <item index="12">
+      <photo>http://image.tmdb.org/t/p/original/7vE1uNNUi76GwwVlcnvJ6gAKIh0.jpg</photo>
+      <role>Tony Rydinger (voice)</role>
+      <name>Michael Bird</name>
+    </item>
+    <item index="13">
+      <photo>http://image.tmdb.org/t/p/original/zsUSks5AY67WtFVjrkcahWasN72.jpg</photo>
+      <role>Karen / Voyd (voice)</role>
+      <name>Sophia Bush</name>
+    </item>
+    <item index="14">
+      <photo>http://image.tmdb.org/t/p/original/2rYa0M1bOSAATGbF5oe5pmoNeDn.jpg</photo>
+      <role>Krushauer / Helectrix (voice)</role>
+      <name>Phil LaMarr</name>
+    </item>
+    <item index="15">
+      <photo>http://image.tmdb.org/t/p/original/73yCY9QBAKqFilmVLXATsrIzL2Q.jpg</photo>
+      <role>Gus Burns / Reflux (voice)</role>
+      <name>Paul Eiding</name>
+    </item>
+    <item index="16">
+      <photo>http://image.tmdb.org/t/p/original/yKnom6aUaP17Z49mypVZmq1jdjH.jpg</photo>
+      <role>Ambassador (voice)</role>
+      <name>Isabella Rossellini</name>
+    </item>
+    <item index="17">
+      <photo>http://image.tmdb.org/t/p/original/yGechiKWL6TJDfVE2KPSJYqdMsY.jpg</photo>
+      <role>Underminer (voice)</role>
+      <name>John Ratzenberger</name>
+    </item>
+    <item index="18">
+      <photo>http://image.tmdb.org/t/p/original/z2jlL5g5PMxelSHMXFF03fTSsLl.jpg</photo>
+      <role>Mayor (voice)</role>
+      <name>Barry Bostwick</name>
+    </item>
+    <item index="19">
+      <photo>http://image.tmdb.org/t/p/original/r8pOXOvBRWVGW18Ltwv0RyqdWhE.jpg</photo>
+      <role>Detective (voice)</role>
+      <name>Jere Burns</name>
+    </item>
+    <item index="20">
+      <photo>http://image.tmdb.org/t/p/original/458EVfq4QXUelxClAWrBhx6OqwL.jpg</photo>
+      <role>Detective (voice)</role>
+      <name>Adam Rodríguez</name>
+    </item>
+    <item index="21">
+      <photo>http://image.tmdb.org/t/p/original/aUpioS1Z0ZnATrkSRsNcfXzZnhP.jpg</photo>
+      <role>Honey Best (voice)</role>
+      <name>Kimberly Adair Clark</name>
+    </item>
+    <item index="22">
+      <photo>http://image.tmdb.org/t/p/original/s0frjwIXTy0AkgqhZEEPzW599TG.jpg</photo>
+      <role>Lucis Best's valet (voice)</role>
+      <name>Usher</name>
+    </item>
+    <item index="23">
+      <photo/>
+      <role>Chad Brentley (voice)</role>
+      <name>Adam Gates</name>
+    </item>
+    <item index="24">
+      <photo>http://image.tmdb.org/t/p/original/obb4rUjV9hBMi075Cr9iOSCbDSu.jpg</photo>
+      <role>Honey Best (voice)</role>
+      <name>LaTanya Richardson Jackson</name>
+    </item>
+    <item index="25">
+      <photo>http://image.tmdb.org/t/p/original/mfmF3MjoL7sV76BSElFkVgDgA30.jpg</photo>
+      <role>Additional Voices (voice)</role>
+      <name>Debi Derryberry</name>
+    </item>
+    <item index="26">
+      <photo>http://image.tmdb.org/t/p/original/lNe4zn9fJ302GehQVaFk5BNcGGM.jpg</photo>
+      <role>Additional Voices (voice)</role>
+      <name>Fred Tatasciore</name>
+    </item>
+    <item index="27">
+      <photo>http://image.tmdb.org/t/p/original/e0FlgiVOR1F7zIVfj5layyZNkmo.jpg</photo>
+      <role>Additional Voices (voice)</role>
+      <name>Alyson Stoner</name>
+    </item>
+    <item index="28">
+      <photo/>
+      <role>Victor Cachet (voice)</role>
+      <name>Michael B. Johnson</name>
+    </item>
+  </roles>
+  <similar>
+    <item index="0">Ant-Man and the Wasp</item>
+    <item index="1">Deadpool 2</item>
+    <item index="2">Jurassic World: Fallen Kingdom</item>
+    <item index="3">Ready Player One</item>
+    <item index="4">Avengers: Infinity War</item>
+    <item index="5">Mission: Impossible - Fallout</item>
+    <item index="6">Ocean's Eight</item>
+    <item index="7">Solo: A Star Wars Story</item>
+    <item index="8">Black Panther</item>
+    <item index="9">Venom</item>
+    <item index="10">Fantastic Beasts: The Crimes of Grindelwald</item>
+    <item index="11">Hotel Transylvania 3: Summer Vacation</item>
+    <item index="12">Coco</item>
+    <item index="13">A Quiet Place</item>
+    <item index="14">Bao</item>
+    <item index="15">The Incredibles</item>
+    <item index="16">Mamma Mia! Here We Go Again</item>
+    <item index="17">Bohemian Rhapsody</item>
+    <item index="18">Tomb Raider</item>
+    <item index="19">Thor: Ragnarok</item>
+  </similar>
+  <studio>Walt Disney Pictures</studio>
+  <summary>Elastigirl springs into action to save the day, while Mr. Incredible faces his greatest challenge yet – taking care of the problems of his three children.</summary>
+  <tagline>Back to work.</tagline>
+  <tags/>
+  <themes/>
+  <title>Incredibles 2</title>
+  <writers>
+    <item index="0">
+      <photo>http://image.tmdb.org/t/p/original/2XwJyYs6XNLaQuC1O2gbEHT3jxx.jpg</photo>
+      <role/>
+      <name>Brad Bird</name>
+    </item>
+  </writers>
+  <year>2018</year>
+</Movie>

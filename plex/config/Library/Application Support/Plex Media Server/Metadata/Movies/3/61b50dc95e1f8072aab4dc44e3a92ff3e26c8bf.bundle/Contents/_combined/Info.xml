@@ -1,0 +1,295 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Movie>
+  <art>
+    <item external="True" url="http://image.tmdb.org/t/p/original/14Jb0vOZKxbkyx5h0cQ8uj0sD3V.jpg" sort_order="1" provider="com.plexapp.agents.imdb" media="com.plexapp.agents.imdb_cbfa6873b9797880f0ed54d60ad6c9bfcad742b8"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/gxKLyQBNUn1hUr07bQoJvPiwawT.jpg" preview="com.plexapp.agents.imdb_92cc8a96721c4cfdddfa165f7d1748a3c414b907" sort_order="2" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/39qFDO2UOLQ3Z69E5EGisCTQAAx.jpg" preview="com.plexapp.agents.imdb_f73aabe3734874a16001f47fb678afe139720ab2" sort_order="3" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/3mBJlp8rv9SM4usIauC5rnA4i7R.jpg" preview="com.plexapp.agents.imdb_41ed698c6af5b27a785b1d2b01d2e90a43c05028" sort_order="4" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/5TTplMphJAOOvOnkx3dJM8NJ3lu.jpg" preview="com.plexapp.agents.imdb_2cd5dd026a37f55ca50d700e1691a69146064ee6" sort_order="5" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/l6672oTXGSnZg1rZFgjFZYf5hze.jpg" preview="com.plexapp.agents.imdb_230e501b16da821fad73fd32223309a5457b0ffe" sort_order="6" provider="com.plexapp.agents.imdb"/>
+  </art>
+  <banners/>
+  <chapters/>
+  <collections/>
+  <content_rating>R</content_rating>
+  <countries>
+    <item index="0">USA</item>
+  </countries>
+  <directors>
+    <item index="0">
+      <photo>http://image.tmdb.org/t/p/original/ijI5sCPqDvT18NRWCeBqw8BJIZx.jpg</photo>
+      <role/>
+      <name>Joel Schumacher</name>
+    </item>
+  </directors>
+  <duration>4860000</duration>
+  <genres>
+    <item index="0">Crime</item>
+    <item index="1">Thriller</item>
+  </genres>
+  <originally_available_at>2002-09-09</originally_available_at>
+  <posters>
+    <item external="True" url="http://image.tmdb.org/t/p/original/xIaUpPok8WFnr79EAvgtGsIaJzV.jpg" sort_order="1" provider="com.plexapp.agents.imdb" media="com.plexapp.agents.imdb_96d1e620062a62a3dd6117de58cb04e1343e011a"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/z8wLwkuFrM5JIRwjbLwaee3N2jY.jpg" preview="com.plexapp.agents.imdb_069fc79ed0d9e2e9f2f95decac02180b055ebd4d" sort_order="2" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/tjrX2oWRCM3Tvarz38zlZM7Uc10.jpg" preview="com.plexapp.agents.imdb_a182e90a2fe3bc81be399b30471eec031cd1a5e1" sort_order="3" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/rDfR221bsTUSxNXJgJTqjrDapr2.jpg" preview="com.plexapp.agents.imdb_f5269f6f509cec1ccd6365901eff5754a0dd0a1b" sort_order="4" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/seXznbW5irNwunhHPPPQ1Le0X9E.jpg" preview="com.plexapp.agents.imdb_90d0d5d82d1c6543bec722f11a56237c104fe246" sort_order="5" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/lhuTkGmzAj1KqsgDumUbrxXZd0K.jpg" preview="com.plexapp.agents.imdb_42b0fe2b852a10c17849ef704932b722c505f42b" sort_order="6" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/8wDwPFxyUnF17ZSrXolCklMjaRp.jpg" preview="com.plexapp.agents.imdb_ce40cdcc09e9274390bdec557acb5e9c99ba43de" sort_order="7" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/jEUOgMRgXbPyAFo7EfLl1DnOuw0.jpg" preview="com.plexapp.agents.imdb_843395077a61fd8c59211187dad4820a85995d0a" sort_order="8" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/zGDrqCSNMS43Wxy4q0TKdHl0XXE.jpg" preview="com.plexapp.agents.imdb_68480bac40732f7b574a05255082c35528da3560" sort_order="9" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/kwmbI7aLzZx0UcCgQ1Ach9sRYpO.jpg" preview="com.plexapp.agents.imdb_4d95f3474aa1fecc10cb838089dc3459a5a2d0a3" sort_order="10" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/dHfS6bnkdYdfw5xpg7nYe6z9ORt.jpg" preview="com.plexapp.agents.imdb_ab65845e7c4011f08a81c3e9df255b68de6dd672" sort_order="11" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/aLG9SR8hyPEYIMBNXKTxiH2bOxY.jpg" preview="com.plexapp.agents.imdb_94acf415ae763ee1baa2e885a81f0c7378491edf" sort_order="12" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/ixzmob1NXVZmbKShwR1LkTbfkx0.jpg" preview="com.plexapp.agents.imdb_3189fcb8a6e20aa6e476c1678e4fcece17d987c5" sort_order="13" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/5vU0I8HLAPNWy9ckurokylZxaDg.jpg" preview="com.plexapp.agents.imdb_70c875652218dbcac22017126577fa6113cb57f5" sort_order="14" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/hy83tE9GtwvAIdnZj5FeaDg26pt.jpg" preview="com.plexapp.agents.imdb_05550ce5e72c41d2316a1c6c8277d26c50be72ca" sort_order="15" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/mbRW3gUNIB7BxuapXCMVsa8cBLt.jpg" preview="com.plexapp.agents.imdb_a4a219ca338eb25ca03d221e991457552c01b071" sort_order="16" provider="com.plexapp.agents.imdb"/>
+  </posters>
+  <producers>
+    <item index="0">
+      <photo>http://image.tmdb.org/t/p/original/rJzWA35n0dsn4xecDGW8x7EkmKB.jpg</photo>
+      <role/>
+      <name>David Zucker</name>
+    </item>
+  </producers>
+  <rating>7.1</rating>
+  <rating_image>rottentomatoes://image.rating.ripe</rating_image>
+  <audience_rating>6.4</audience_rating>
+  <audience_rating_image>rottentomatoes://image.rating.spilled</audience_rating_image>
+  <reviews>
+    <item index="0">
+      <text>Phone Booth is thrilling on many counts...</text>
+      <source>Wall Street Journal</source>
+      <image>rottentomatoes://image.review.fresh</image>
+      <link>https://www.wsj.com/articles/SB104941318676413800</link>
+      <author>Joe Morgenstern</author>
+    </item>
+    <item index="1">
+      <text>Raises more questions than it answers as it attempts to convince us that a moralistic sniper would torture a sleazy publicist into tears of guilt and remorse over what amounts to a few paltry, venial sins.</text>
+      <source>Observer</source>
+      <image>rottentomatoes://image.review.rotten</image>
+      <link>http://www.nyobserver.com/pages/story.asp?ID=7315</link>
+      <author>Andrew Sarris</author>
+    </item>
+    <item index="2">
+      <text>The premise is admittedly a killer -- fun to think about, fun to see realized, not so fun to see screwed up in the last half-hour.</text>
+      <source>Slate</source>
+      <image>rottentomatoes://image.review.rotten</image>
+      <link>http://www.slate.com/id/2081166/</link>
+      <author>David Edelstein</author>
+    </item>
+    <item index="3">
+      <text>A first-tier thriller, Phone Booth will make you think twice before you ever enter a public phone facility again, but while it curls your hair, it makes you think.</text>
+      <source>Observer</source>
+      <image>rottentomatoes://image.review.fresh</image>
+      <link>http://www.nyobserver.com/pages/story.asp?ID=7231</link>
+      <author>Rex Reed</author>
+    </item>
+    <item index="4">
+      <text>Anyone inclined to argue with the logic of the story -- and there's certainly much to argue about -- is advised to just sit back and watch how Farrell's Stu unravels before our eyes.</text>
+      <source>Toronto Star</source>
+      <image>rottentomatoes://image.review.fresh</image>
+      <link>http://www.thestar.ca/NASApp/cs/ContentServer?pagename=thestar/Layout/Article_Type1&amp;c=Article&amp;cid=1045094373843&amp;call_page=TS_Movie_Reviews&amp;call_pageid=1013689625070&amp;call_pagepath=Entertainment/Movies</link>
+      <author>Peter Howell</author>
+    </item>
+    <item index="5">
+      <text>It's cinematic flash, tarted up with gritty gray-blue lighting and gimmicky photography.</text>
+      <source>Seattle Times</source>
+      <image>rottentomatoes://image.review.rotten</image>
+      <link>http://community.seattletimes.nwsource.com/archive/?slug=phone04&amp;date=20030404</link>
+      <author>Moira MacDonald</author>
+    </item>
+    <item index="6">
+      <text>A movie that combines a seriousness of purpose with an impish delight in craft, in a way Hitchcock would have appreciated.</text>
+      <source>San Francisco Chronicle</source>
+      <image>rottentomatoes://image.review.fresh</image>
+      <link>http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2003/07/11/DD115999.DTL</link>
+      <author>Mick LaSalle</author>
+    </item>
+    <item index="7">
+      <text>Short, suspenseful, funny, and profane.</text>
+      <source>Boston Globe</source>
+      <image>rottentomatoes://image.review.fresh</image>
+      <link>http://ae.boston.com/movies/display?display=movie&amp;id=1863</link>
+      <author>Ty Burr</author>
+    </item>
+    <item index="8">
+      <text>This whole flick gives off a certain musty odour -- it's meant to be now but it sure doesn't smell that way.</text>
+      <source>Globe and Mail</source>
+      <image>rottentomatoes://image.review.rotten</image>
+      <link>http://www.globeandmail.com/servlet/ArticleNews/movie/TVCONNECT/00010101/101868</link>
+      <author>Rick Groen</author>
+    </item>
+    <item index="9">
+      <text>The movie is Farrell's to win or lose, since he's onscreen most of the time, and he shows energy and intensity.</text>
+      <source>Chicago Sun-Times</source>
+      <image>rottentomatoes://image.review.fresh</image>
+      <link>http://www.rogerebert.com/reviews/phone-booth-2003</link>
+      <author>Roger Ebert</author>
+    </item>
+  </reviews>
+  <roles>
+    <item index="0">
+      <photo>http://image.tmdb.org/t/p/original/pgMM9r5ll99RXSmz1J4sj8zaddW.jpg</photo>
+      <role>Stu Shepard</role>
+      <name>Colin Farrell</name>
+    </item>
+    <item index="1">
+      <photo>http://image.tmdb.org/t/p/original/4YvDfOfD4TgyzDkLGoq76g5BZNe.jpg</photo>
+      <role>The Caller</role>
+      <name>Kiefer Sutherland</name>
+    </item>
+    <item index="2">
+      <photo>http://image.tmdb.org/t/p/original/4pMQkelS5lK661m9Kz3oIxLYiyS.jpg</photo>
+      <role>Captain Ramey</role>
+      <name>Forest Whitaker</name>
+    </item>
+    <item index="3">
+      <photo>http://image.tmdb.org/t/p/original/2jqKD6On7hh2XnrKM0xyS5Hh5Hq.jpg</photo>
+      <role>Kelly Shepard</role>
+      <name>Radha Mitchell</name>
+    </item>
+    <item index="4">
+      <photo>http://image.tmdb.org/t/p/original/eYeE0Z1sOvqxt7LsQHK30vUfWaM.jpg</photo>
+      <role>Pamela McFadden</role>
+      <name>Katie Holmes</name>
+    </item>
+    <item index="5">
+      <photo>http://image.tmdb.org/t/p/original/hCFVh90DDs7bhv6qEhepXeJvFtY.jpg</photo>
+      <role>Felicia</role>
+      <name>Paula Jai Parker</name>
+    </item>
+    <item index="6">
+      <photo>http://image.tmdb.org/t/p/original/azoTTplaZjaj2uIfBNKmCI6YmGe.jpg</photo>
+      <role>Corky</role>
+      <name>Arian Waring Ash</name>
+    </item>
+    <item index="7">
+      <photo>http://image.tmdb.org/t/p/original/2V1VybaTz8VxJoKBkXSlPL7zzZi.jpg</photo>
+      <role>Asia</role>
+      <name>Tia Texada</name>
+    </item>
+    <item index="8">
+      <photo>http://image.tmdb.org/t/p/original/qNM9WY42aEtttsnzLvYPEw6Q6xa.jpg</photo>
+      <role>Leon</role>
+      <name>John Enos III</name>
+    </item>
+    <item index="9">
+      <photo>http://image.tmdb.org/t/p/original/ccELAB9yHvG4OxG8dURdUXznwJ8.jpg</photo>
+      <role>Sergeant Cole</role>
+      <name>Richard T. Jones</name>
+    </item>
+    <item index="10">
+      <photo>http://image.tmdb.org/t/p/original/mQUWUk9ruwUJvfbMpKvnXDOzE7Q.jpg</photo>
+      <role>Adam</role>
+      <name>Keith Nobbs</name>
+    </item>
+    <item index="11">
+      <photo>http://image.tmdb.org/t/p/original/b8IYFkj3dTA8md9WfcEpOYhJcgK.jpg</photo>
+      <role>Pizza Guy</role>
+      <name>Dell Yount</name>
+    </item>
+    <item index="12">
+      <photo>http://image.tmdb.org/t/p/original/1Ktzfgvq7wdTbavMC594rKYvx7R.jpg</photo>
+      <role>Negotiator</role>
+      <name>James MacDonald</name>
+    </item>
+    <item index="13">
+      <photo>http://image.tmdb.org/t/p/original/ogv2OWxCz4gB1h9GOJA8h8qzooO.jpg</photo>
+      <role>Mario</role>
+      <name>Josh Pais</name>
+    </item>
+    <item index="14">
+      <photo>http://image.tmdb.org/t/p/original/5ZVK1VUnbijgZPAO14yIpiihtpX.jpg</photo>
+      <role>ESU Commander</role>
+      <name>Yorgo Constantine</name>
+    </item>
+    <item index="15">
+      <photo>http://image.tmdb.org/t/p/original/77ZFsyIdXT7qJ5KTxIuf44EGLPT.jpg</photo>
+      <role>ESU Technician</role>
+      <name>Colin Patrick Lynch</name>
+    </item>
+    <item index="16">
+      <photo>http://image.tmdb.org/t/p/original/nlov1g2o5f9kEAYP9xDGtqQiyGS.jpg</photo>
+      <role>ESU Sniper</role>
+      <name>Troy Gilbert</name>
+    </item>
+    <item index="17">
+      <photo>http://image.tmdb.org/t/p/original/69SeG5lKHnYVGCukkg3f1jBhhOa.jpg</photo>
+      <role>Officer McDuff</role>
+      <name>Seth William Meier</name>
+    </item>
+    <item index="18">
+      <photo>http://image.tmdb.org/t/p/original/8cRfJkhqm8SdInx1Aa9DZKN0sn7.jpg</photo>
+      <role>Erica</role>
+      <name>Svetlana Efremova</name>
+    </item>
+    <item index="19">
+      <photo>http://image.tmdb.org/t/p/original/eq9jSbWLplLpkfndkBhToSpwaUP.jpg</photo>
+      <role>Lars</role>
+      <name>Billy Erb</name>
+    </item>
+    <item index="20">
+      <photo>http://image.tmdb.org/t/p/original/wDRD21PpTrP8MDAskbQ0NsftM57.jpg</photo>
+      <role>Wyatt</role>
+      <name>Domenick Lombardozzi</name>
+    </item>
+    <item index="21">
+      <photo>http://image.tmdb.org/t/p/original/5VtiVA24pfoDnTnzJLmt25orwb3.jpg</photo>
+      <role>Lana</role>
+      <name>Maile Flanagan</name>
+    </item>
+    <item index="22">
+      <photo>http://image.tmdb.org/t/p/original/qfGITpoQIwNB3dYHSxZFK7rucE0.jpg</photo>
+      <role>Richard</role>
+      <name>Tom Reynolds</name>
+    </item>
+    <item index="23">
+      <photo>http://image.tmdb.org/t/p/original/kETVqU8PMDM44wM5mxPeegdGt2F.jpg</photo>
+      <role>Big Q (uncredited)</role>
+      <name>Ben Foster</name>
+    </item>
+    <item index="24">
+      <photo>http://image.tmdb.org/t/p/original/i6zIpHiKBnaHtacJU6qgeoDjiw1.jpg</photo>
+      <role>Bobby (uncredited)</role>
+      <name>Jared Leto</name>
+    </item>
+  </roles>
+  <similar>
+    <item index="0">The Recruit</item>
+    <item index="1">S.W.A.T.</item>
+    <item index="2">Swordfish</item>
+    <item index="3">Panic Room</item>
+    <item index="4">Payback</item>
+    <item index="5">Hollow Man</item>
+    <item index="6">Collateral</item>
+    <item index="7">Con Air</item>
+    <item index="8">Face/Off</item>
+    <item index="9">Ransom</item>
+    <item index="10">The Taking of Pelham 1 2 3</item>
+    <item index="11">Flightplan</item>
+    <item index="12">16 Blocks</item>
+    <item index="13">Shoot 'Em Up</item>
+    <item index="14">Air Force One</item>
+    <item index="15">Hostage</item>
+    <item index="16">Crash</item>
+    <item index="17">Lord of War</item>
+    <item index="18">Identity</item>
+    <item index="19">Gone in Sixty Seconds</item>
+  </similar>
+  <studio>Fox 2000 Pictures</studio>
+  <summary>A slick New York publicist who picks up a ringing receiver in a phone booth is told that if he hangs up, he'll be killed... and the little red light from a laser rifle sight is proof that the caller isn't kidding.</summary>
+  <tagline>No options. No lies. No fear. No deals. Just keep talking.</tagline>
+  <tags/>
+  <themes/>
+  <title>Phone Booth</title>
+  <writers>
+    <item index="0">
+      <photo>http://image.tmdb.org/t/p/original/5p1y0KKAVv5EK2XAfs9hsIMDiBq.jpg</photo>
+      <role/>
+      <name>Larry Cohen</name>
+    </item>
+  </writers>
+  <year>2002</year>
+</Movie>

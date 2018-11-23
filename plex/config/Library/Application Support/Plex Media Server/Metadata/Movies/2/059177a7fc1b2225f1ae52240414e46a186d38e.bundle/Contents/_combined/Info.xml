@@ -1,0 +1,379 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Movie>
+  <art>
+    <item external="True" url="http://image.tmdb.org/t/p/original/840rbblaLc4SVxm8gF3DNdJ0YAE.jpg" sort_order="1" provider="com.plexapp.agents.imdb" media="com.plexapp.agents.imdb_e97313a24c464fcb1230496a4efe55a649015485"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/AqUgApLbE0WVnEyC0ECocMXo4x6.jpg" preview="com.plexapp.agents.imdb_d546786a92f50461a31ec2386ae99d5a9bc6a982" sort_order="2" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/mnDvPokXpvsdPcWSjNRPhiiLOKu.jpg" preview="com.plexapp.agents.imdb_6aa15af3deb67f520cf72b50e8e1a00c9b911f7c" sort_order="3" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/38IKiVWoqxRLpZawb6QWn1vIdLo.jpg" preview="com.plexapp.agents.imdb_56c4ea3551a7f66613fe3b8d17d52cb8b1dbd8a1" sort_order="4" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/wqtaHWOEZ3rXDJ8c6ZZShulbo18.jpg" preview="com.plexapp.agents.imdb_9c34fcd5c18c39cc9c5c0b1e388b55894a14009e" sort_order="5" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/19XM1EQ5HAwH7aeLuVNRKbYBBae.jpg" preview="com.plexapp.agents.imdb_073a794794f916a204cf2f4a6de28e85b94a2ac6" sort_order="6" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/eb0CDneQPZiAVFdujnIhc6tjmSe.jpg" preview="com.plexapp.agents.imdb_7adf430875718a5d8d709d10a3f4a27f1c1f3622" sort_order="7" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/jiegCknD99KbzQujazRN0muSipM.jpg" preview="com.plexapp.agents.imdb_a1bc072b6a7b6c21f0b9dd7980ae0517488d62e8" sort_order="8" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/y4JWm2AoMw1DJmgXlCFeQT9tnQO.jpg" preview="com.plexapp.agents.imdb_18593ade31c42314417fd1fc17af6fd3f6496ba8" sort_order="9" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/oGUdhZXxATuZOIKksIp6LN3pCYv.jpg" preview="com.plexapp.agents.imdb_cb84b23b5106632471da141e9fbfa6b232eb5c91" sort_order="10" provider="com.plexapp.agents.imdb"/>
+  </art>
+  <banners/>
+  <chapters/>
+  <collections/>
+  <content_rating>R</content_rating>
+  <countries>
+    <item index="0">USA</item>
+  </countries>
+  <directors>
+    <item index="0">
+      <photo>http://image.tmdb.org/t/p/original/z5LUl9bljJnah3S5rtN7rScrmI8.jpg</photo>
+      <role/>
+      <name>Bradley Cooper</name>
+    </item>
+  </directors>
+  <duration>8160000</duration>
+  <genres>
+    <item index="0">Drama</item>
+    <item index="1">Music</item>
+    <item index="2">Romance</item>
+  </genres>
+  <originally_available_at>2018-10-03</originally_available_at>
+  <posters>
+    <item external="True" url="http://image.tmdb.org/t/p/original/afYn8yJngkM7fS7zEtURWbgvccD.jpg" sort_order="1" provider="com.plexapp.agents.imdb" media="com.plexapp.agents.imdb_f1f723449a4c842eba8c0655317e660aee4d27dc"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg" preview="com.plexapp.agents.imdb_b70ce74801eaa332ca4ca376d6d10f6a46cb0d1b" sort_order="2" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/vYTuvRnR7IJeeSgGlwCrhby7rEG.jpg" preview="com.plexapp.agents.imdb_75d8de541477af1d1c56d85e09bd9fa9d0d3d1e6" sort_order="3" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/3VGovIXwUeGt7Ti1j7OaOwdBaWG.jpg" preview="com.plexapp.agents.imdb_107c6b8d09959d5edde3ab3a17dad5cce0a3a6b3" sort_order="4" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/onGnp25I5bfQnY1XNM9P79M1gNU.jpg" preview="com.plexapp.agents.imdb_aed31166ecf17062301edbaceb93d2153483113e" sort_order="5" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/buz506hPSQVR26ZpcHjuA830iAS.jpg" preview="com.plexapp.agents.imdb_2fb82e6c5aaa9c4a412cb5df6d011e2532eb6fa2" sort_order="6" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/z90yO5iSkOkigBjN2ATF1x3oW3m.jpg" preview="com.plexapp.agents.imdb_55f4abff77d5764c82e0b3270ce86c78a2460e99" sort_order="7" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/zpPe0lI6uo2619FSxwVs9zWLzZc.jpg" preview="com.plexapp.agents.imdb_33f72b4249b8e72087eea6b473020da1bdc74d41" sort_order="8" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/yyXNZH59NPMNvEkCd2nIFY5VKwB.jpg" preview="com.plexapp.agents.imdb_cc68aeaaa71e62342031a3d4a4d48bf348a985c4" sort_order="9" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/ckMAVkd3gOMMQUeN74FhZyn6Ayu.jpg" preview="com.plexapp.agents.imdb_8737bd7fa5a0a1087d0fade42a1807475885eb70" sort_order="10" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/b7gUUu02ZMwGYPxyzSCmPOHL1FX.jpg" preview="com.plexapp.agents.imdb_21460abb601113a264a1a0f86c47aaabb2a6c736" sort_order="11" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/2yqvSbptIx24oVqsJrWhOXDL0cK.jpg" preview="com.plexapp.agents.imdb_fafa32213f2107530fa8927b1ffb03de517ae290" sort_order="12" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/x3X0ljTiVpVFZjXCKxEJuuKx21T.jpg" preview="com.plexapp.agents.imdb_963c5d754bc0b6253a5e3b5e0fc4885eede73f0d" sort_order="13" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/uoq8DobPxciPEJ5EuBeqDt8av76.jpg" preview="com.plexapp.agents.imdb_40005b876f49d7d916a6a6fa71e8fe33b9fb6281" sort_order="14" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/oIbkNcxSBZp2z3tIOLTDpsGaK7U.jpg" preview="com.plexapp.agents.imdb_0bc5bfc8629c97af659a646a855c953cc7391440" sort_order="15" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/wUsTszepVxoDOBbRK7o7CY5yTlF.jpg" preview="com.plexapp.agents.imdb_d82bae1989b59a8a35f9b62b3a5b1f24f7c3adc0" sort_order="16" provider="com.plexapp.agents.imdb"/>
+  </posters>
+  <producers>
+    <item index="0">
+      <photo>http://image.tmdb.org/t/p/original/z5LUl9bljJnah3S5rtN7rScrmI8.jpg</photo>
+      <role/>
+      <name>Bradley Cooper</name>
+    </item>
+    <item index="1">
+      <photo/>
+      <role/>
+      <name>Bill Gerber</name>
+    </item>
+  </producers>
+  <rating>9.0</rating>
+  <rating_image>rottentomatoes://image.rating.ripe</rating_image>
+  <audience_rating>8.3</audience_rating>
+  <audience_rating_image>rottentomatoes://image.rating.upright</audience_rating_image>
+  <reviews>
+    <item index="0">
+      <text>Somehow, though, the bloat is almost appropriate in a story about excesses, and the devastating pitfalls of fame. "A Star is Born" portrays both poignantly, movingly, well.</text>
+      <source>San Jose Mercury News</source>
+      <image>rottentomatoes://image.review.fresh</image>
+      <link>https://www.mercurynews.com/2018/10/02/this-star-is-born-is-one-remake-thats-well-worth-your-time/</link>
+      <author>Randy Myers</author>
+    </item>
+    <item index="1">
+      <text>It's heartfelt, well-paced, and gut-wrenchingly tragic, with the gorgeous music and two main characters taking centre stage by grabbing hold of the audience's emotion until the very last second.</text>
+      <source>Vue Weekly (Edmonton, Alberta)</source>
+      <image>rottentomatoes://image.review.fresh</image>
+      <link>http://www.vueweekly.com/a-star-is-born-is-a-must-see-musical-triumph/</link>
+      <author>Heather Gunn</author>
+    </item>
+    <item index="2">
+      <text>The chemistry between them is palpable and impressive, especially considering this is Gaga's first major acting gig-a fact I kept forgetting, remembering, and being amazed by throughout the film.</text>
+      <source>Vice</source>
+      <image>rottentomatoes://image.review.fresh</image>
+      <link>https://www.yahoo.com/entertainment/norm-macdonald-show-will-survive-self-inflicted-controversies-134500454.html</link>
+      <author>Kara Weisenstein</author>
+    </item>
+    <item index="3">
+      <text>The problem is whenever Cooper turns the film away from his best asset (Gaga) and into a vanity production.</text>
+      <source>Salon.com</source>
+      <image>rottentomatoes://image.review.rotten</image>
+      <link>https://www.salon.com/2018/10/08/a-star-is-born-fails-to-thrive-bradley-coopers-vanity-project-is-more-corny-than-compelling/</link>
+      <author>Gary M. Kramer</author>
+    </item>
+    <item index="4">
+      <text>What Cooper persuasively depicts is the fear factor of stardom-the sense of vulnerability, of a position that's both powerful and fragile.</text>
+      <source>New Yorker</source>
+      <image>rottentomatoes://image.review.fresh</image>
+      <link>https://www.newyorker.com/culture/the-front-row/the-real-subject-of-bradley-coopers-a-star-is-born-is-the-star-power-of-bradley-cooper</link>
+      <author>Richard Brody</author>
+    </item>
+    <item index="5">
+      <text>This movie has everything: a swept-off-your-feet romantic fantasy, an underdog-makes-good journey, a wrenching substance abuse drama, and an industry cautionary tale combined.</text>
+      <source>BuzzFeed News</source>
+      <image>rottentomatoes://image.review.fresh</image>
+      <link>https://www.buzzfeednews.com/article/alisonwillmore/star-is-born-lady-gaga-bradley-cooper-rock-pop-music</link>
+      <author>Alison Willmore</author>
+    </item>
+    <item index="6">
+      <text>Melodrama gets a bad rap sometimes.</text>
+      <source>NPR</source>
+      <image>rottentomatoes://image.review.fresh</image>
+      <link>https://www.npr.org/2018/10/02/653369459/fame-still-comes-at-a-cost-for-lady-gaga-and-bradley-cooper-in-the-new-a-star-is</link>
+      <author>Linda Holmes</author>
+    </item>
+    <item index="7">
+      <text>There's real vitality in Cooper's direction in the early passages, and, in the performances of the costars, an understanding of the ravages of romance that justifies putting ourselves through the paces of this sad story yet again.</text>
+      <source>Christian Science Monitor</source>
+      <image>rottentomatoes://image.review.fresh</image>
+      <link>https://www.csmonitor.com/The-Culture/Movies/2018/1005/A-Star-Is-Born-returns-to-the-big-screen</link>
+      <author>Peter Rainer</author>
+    </item>
+    <item index="8">
+      <text>I believed Bradley Cooper was a man who writes Soundgarden songs but dresses like Sturgill Simpson. I believed Lady Gaga was Joe Biden's daughter. I never wanted it to end.</text>
+      <source>The Muse/Jezebel</source>
+      <image>rottentomatoes://image.review.fresh</image>
+      <link>https://themuse.jezebel.com/we-saw-a-star-is-born-on-opening-night-and-it-was-music-1829540723</link>
+      <author>Katie McDonough</author>
+    </item>
+    <item index="9">
+      <text>It's the love story for our time. It's an instant cult classic. It's everything a tasteful move should not be, and yet it's an undeniable success.</text>
+      <source>The New Republic</source>
+      <image>rottentomatoes://image.review.fresh</image>
+      <link>https://newrepublic.com/article/151571/star-born-november-rain-big-screen</link>
+      <author>Josephine Livingstone</author>
+    </item>
+    <item index="10">
+      <text>The high-voltage ghost of Judy Garland haunts every frame and illuminates every shadow in the film, and Lady Gaga seems to know it.</text>
+      <source>Observer</source>
+      <image>rottentomatoes://image.review.fresh</image>
+      <link>https://observer.com/2018/10/a-star-is-born-review-critics-slobber-over-gaga-and-cooper-but-why/</link>
+      <author>Rex Reed</author>
+    </item>
+    <item index="11">
+      <text>If 2011's The Artist was an homage, this is more of a burlesque, a hot mess of a movie that takes its dramatic cues from the camp excesses of the drag queens among whom our hammered hero finds the lucky Lady.</text>
+      <source>San Diego Reader</source>
+      <image>rottentomatoes://image.review.rotten</image>
+      <link>https://www.sandiegoreader.com/movies/a-star-is-born-2018/</link>
+      <author>Matthew Lickona</author>
+    </item>
+    <item index="12">
+      <text>"A Star is Born" isn't perfect, but what Cooper and Gaga are able to do with the tale make it a delicate love story and triumphant tribute to the artistic spirit.</text>
+      <source>Detroit News</source>
+      <image>rottentomatoes://image.review.fresh</image>
+      <link>https://www.detroitnews.com/story/entertainment/movies/2018/10/04/movie-review-gaga-cooper-shine-bright-star-born/1498464002/</link>
+      <author>Adam Graham</author>
+    </item>
+    <item index="13">
+      <text>Cooper has managed to do the impossible. He's put together an instant movie classic that will have audiences falling in love with his brand new creation.</text>
+      <source>Toronto Sun</source>
+      <image>rottentomatoes://image.review.fresh</image>
+      <link>https://torontosun.com/entertainment/movies/a-star-is-born-review-bradley-cooper-and-lady-gaga-hit-all-the-right-notes</link>
+      <author>Mark Daniell</author>
+    </item>
+    <item index="14">
+      <text>It's Cooper's first time as director and Gaga's first major movie role, but you'd never guess it from the skill and passion they bring to the project.</text>
+      <source>Toronto Star</source>
+      <image>rottentomatoes://image.review.fresh</image>
+      <link>https://www.thestar.com/entertainment/movies/review/2018/10/04/a-movie-star-is-indeed-born-and-also-a-director-in-a-star-is-born.html</link>
+      <author>Peter Howell</author>
+    </item>
+    <item index="15">
+      <text>In A Star Is Born, love hurts. But it's labor that breaks your heart.</text>
+      <source>Chicago Reader</source>
+      <image>rottentomatoes://image.review.fresh</image>
+      <link>https://www.chicagoreader.com/chicago/a-star-is-born-lady-gaga-bradley-cooper-matt-stahl-unfree-masters/Content?oid=59096834</link>
+      <author>Noah Berlatsky</author>
+    </item>
+    <item index="16">
+      <text>When you go into seeing A Star Is Born, one thing is always clear: You're in for great music and a broken heart.</text>
+      <source>The Mary Sue</source>
+      <image>rottentomatoes://image.review.fresh</image>
+      <link>https://www.themarysue.com/lady-gaga-bradley-cooper-star-is-born-review/</link>
+      <author>Rachel Leishman</author>
+    </item>
+    <item index="17">
+      <text>For Cooper, it's a polished directorial debut. For Gaga, it's as comfortable a bridge from pop stardom into the movie world as one could imagine. As duets go, that's the sort of combined star power that's difficult to beat.</text>
+      <source>CNN.com</source>
+      <image>rottentomatoes://image.review.fresh</image>
+      <link>https://www.cnn.com/2018/10/04/entertainment/a-star-is-born-review/index.html</link>
+      <author>Brian Lowry</author>
+    </item>
+    <item index="18">
+      <text>The duo share an excellent, realistic dynamic. Neither delivers actorish moments angling for awards and prestige.</text>
+      <source>Minneapolis Star Tribune</source>
+      <image>rottentomatoes://image.review.fresh</image>
+      <link>http://www.startribune.com/bradley-cooper-lady-gaga-s-a-star-is-born-remake-shines-bright/495033571/</link>
+      <author>Colin Covert</author>
+    </item>
+    <item index="19">
+      <text>The role of Ally is so meta as to cast doubt on whether Lady Gaga can play other kinds of parts; the performance is so galvanizing that you don't remotely care.</text>
+      <source>Boston Globe</source>
+      <image>rottentomatoes://image.review.fresh</image>
+      <link>https://www.bostonglobe.com/arts/movies/2018/10/03/lady-gaga-glitters-star-born/19ZNzA62uDwjBteLsq4FFI/story.html</link>
+      <author>Ty Burr</author>
+    </item>
+  </reviews>
+  <roles>
+    <item index="0">
+      <photo>http://image.tmdb.org/t/p/original/z5LUl9bljJnah3S5rtN7rScrmI8.jpg</photo>
+      <role>Jackson "Jack" Maine</role>
+      <name>Bradley Cooper</name>
+    </item>
+    <item index="1">
+      <photo>http://image.tmdb.org/t/p/original/4VogV8IgKrFYoVyjNuu5la1oMNp.jpg</photo>
+      <role>Ally Campana</role>
+      <name>Lady Gaga</name>
+    </item>
+    <item index="2">
+      <photo>http://image.tmdb.org/t/p/original/f2AxZZ6d0Cit0tmf6wYTHcGfwT9.jpg</photo>
+      <role>Bobby Maine</role>
+      <name>Sam Elliott</name>
+    </item>
+    <item index="3">
+      <photo>http://image.tmdb.org/t/p/original/1KzjDfy2r0Q8HUiEYfLvrOqVWH0.jpg</photo>
+      <role>Lorenzo Campana</role>
+      <name>Andrew Dice Clay</name>
+    </item>
+    <item index="4">
+      <photo>http://image.tmdb.org/t/p/original/qrJzigQLQ7FwrzYBLeDwvuPN63t.jpg</photo>
+      <role>George "Noodles" Stone</role>
+      <name>Dave Chappelle</name>
+    </item>
+    <item index="5">
+      <photo>http://image.tmdb.org/t/p/original/zFtp13AZyPbqbj6yHujPWHO5ioh.jpg</photo>
+      <role>Himself</role>
+      <name>Alec Baldwin</name>
+    </item>
+    <item index="6">
+      <photo>http://image.tmdb.org/t/p/original/jgz5HDtC3aXYXBSULqay1PKWQOL.jpg</photo>
+      <role>Pastor</role>
+      <name>Eddie Griffin</name>
+    </item>
+    <item index="7">
+      <photo>http://image.tmdb.org/t/p/original/fnrL2B5pC5zLXnTcSGUypCYqWNI.jpg</photo>
+      <role>Ramon</role>
+      <name>Anthony Ramos</name>
+    </item>
+    <item index="8">
+      <photo>http://image.tmdb.org/t/p/original/zaeeerhEbOmiAzXhA3dmWPOVyXh.jpg</photo>
+      <role>Rez Gavron</role>
+      <name>Rafi Gavron</name>
+    </item>
+    <item index="9">
+      <photo>http://image.tmdb.org/t/p/original/AerrVYou9nPB8MVluXjVJn8O0mA.jpg</photo>
+      <role>Wolfie</role>
+      <name>Michael Harney</name>
+    </item>
+    <item index="10">
+      <photo>http://image.tmdb.org/t/p/original/hukx9wydqjFEu3xXToQWln1PMxN.jpg</photo>
+      <role>Carl</role>
+      <name>Ron Rifkin</name>
+    </item>
+    <item index="11">
+      <photo>http://image.tmdb.org/t/p/original/29JdJxKxHEMvbBS9DWeRMU9dwjj.jpg</photo>
+      <role>Little Feet</role>
+      <name>Barry Shabaka Henley</name>
+    </item>
+    <item index="12">
+      <photo>http://image.tmdb.org/t/p/original/mTyuRjWGKUt1ZfONDYEjyg2LWYp.jpg</photo>
+      <role>Matty</role>
+      <name>Michael D. Roberts</name>
+    </item>
+    <item index="13">
+      <photo>http://image.tmdb.org/t/p/original/uTE0QMgQhuNe3jejMCSrMsBoIm0.jpg</photo>
+      <role>Gail</role>
+      <name>Rebecca Field</name>
+    </item>
+    <item index="14">
+      <photo>http://image.tmdb.org/t/p/original/Ac5Lr6f4ZkZWEr4wHq2B8bCid5w.jpg</photo>
+      <role>Emerald</role>
+      <name>Willam Belli</name>
+    </item>
+    <item index="15">
+      <photo>http://image.tmdb.org/t/p/original/kFK6AaPoUlLJArwLuHetUav8q19.jpg</photo>
+      <role>Phil</role>
+      <name>Greg Grunberg</name>
+    </item>
+    <item index="16">
+      <photo>http://image.tmdb.org/t/p/original/r6O1k44ENnoWNqE7z4NgBkr6kgX.jpg</photo>
+      <role>Drag Bar Emcee</role>
+      <name>D.J. "Shangela" Pierce</name>
+    </item>
+    <item index="17">
+      <photo>http://image.tmdb.org/t/p/original/lTIcKFCZ7T1RllUKe2CwkqS1qzb.jpg</photo>
+      <role>Paulette Stone</role>
+      <name>Drena De Niro</name>
+    </item>
+    <item index="18">
+      <photo>http://image.tmdb.org/t/p/original/1ruWGcoMmyxarZOyMLk5qlSwNJE.jpg</photo>
+      <role>Tommy</role>
+      <name>Gabe Fazio</name>
+    </item>
+    <item index="19">
+      <photo>http://image.tmdb.org/t/p/original/uWDsJQVztqeFGtZ2P1OtouU9tS1.jpg</photo>
+      <role>Cashier</role>
+      <name>Luenell</name>
+    </item>
+    <item index="20">
+      <photo>http://image.tmdb.org/t/p/original/5Lm7fkjJBhl8Szqw4bDy5rb7dYH.jpg</photo>
+      <role>Herself (uncredited)</role>
+      <name>Halsey</name>
+    </item>
+    <item index="21">
+      <photo/>
+      <role>Himself</role>
+      <name>Marlon Williams</name>
+    </item>
+    <item index="22">
+      <photo/>
+      <role>Herself</role>
+      <name>Brandi Carlile</name>
+    </item>
+    <item index="23">
+      <photo/>
+      <role>Bryan (Catering Manager)</role>
+      <name>Jacob Schick</name>
+    </item>
+  </roles>
+  <similar>
+    <item index="0">Bohemian Rhapsody</item>
+    <item index="1">First Man</item>
+    <item index="2">Fantastic Beasts: The Crimes of Grindelwald</item>
+    <item index="3">Mamma Mia! Here We Go Again</item>
+    <item index="4">Incredibles 2</item>
+    <item index="5">BlacKkKlansman</item>
+    <item index="6">A Simple Favor</item>
+    <item index="7">Venom</item>
+    <item index="8">Ocean's Eight</item>
+    <item index="9">The Greatest Showman</item>
+    <item index="10">To All the Boys I've Loved Before</item>
+    <item index="11">Mission: Impossible - Fallout</item>
+    <item index="12">Bad Times at the El Royale</item>
+    <item index="13">Halloween</item>
+    <item index="14">Ant-Man and the Wasp</item>
+    <item index="15">I, Tonya</item>
+    <item index="16">Love, Simon</item>
+    <item index="17">Call Me by Your Name</item>
+    <item index="18">Crazy Rich Asians</item>
+    <item index="19">Lady Bird</item>
+  </similar>
+  <studio>Malpaso Productions</studio>
+  <summary>Seasoned musician Jackson Maine discovers—and falls in love with—struggling artist Ally. She has just about given up on her dream to make it big as a singer—until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.</summary>
+  <tags/>
+  <themes/>
+  <title>A Star Is Born</title>
+  <writers>
+    <item index="0">
+      <photo>http://image.tmdb.org/t/p/original/z5LUl9bljJnah3S5rtN7rScrmI8.jpg</photo>
+      <role/>
+      <name>Bradley Cooper</name>
+    </item>
+    <item index="1">
+      <photo/>
+      <role/>
+      <name>Will Fetters</name>
+    </item>
+    <item index="2">
+      <photo>http://image.tmdb.org/t/p/original/e73ADDpR3vT1Bwa0Q0oRp5RQWTb.jpg</photo>
+      <role/>
+      <name>Eric Roth</name>
+    </item>
+  </writers>
+  <year>2018</year>
+</Movie>

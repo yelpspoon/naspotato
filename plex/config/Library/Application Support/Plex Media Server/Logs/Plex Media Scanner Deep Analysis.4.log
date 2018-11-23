@@ -1,0 +1,74 @@
+Nov 22, 2018 02:20:46.285 [0x7f0c3e7ff700] INFO - Plex Media Scanner v1.13.9.5456-ecd600442 - ubuntu docker x86_64 - build: linux-ubuntu-x86_64 - GMT 00:00
+Nov 22, 2018 02:20:46.286 [0x7f0c3e7ff700] INFO - Linux version: 4.9.125-linuxkit (#1 SMP Fri Sep 7 08:20:28 UTC 2018), language: en-US
+Nov 22, 2018 02:20:46.286 [0x7f0c3e7ff700] INFO - Processor Intel(R) Core(TM) i7-4770HQ CPU @ 2.20GHz
+Nov 22, 2018 02:20:46.287 [0x7f0c3e7ff700] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --analyze-deeply --item 1 --log-file-suffix  Deep Analysis
+Nov 22, 2018 02:20:46.291 [0x7f0c4a14c840] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.13.0, threadsafe=1
+Nov 22, 2018 02:20:46.667 [0x7f0c4a14c840] DEBUG - [MI] Opening input file: "/data/movies/Phone Booth (2002)/Phone Booth (2002).mp4"
+Nov 22, 2018 02:20:46.672 [0x7f0c4a14c840] DEBUG - [FFMPEG] - Opening '/data/movies/Phone Booth (2002)/Phone Booth (2002).mp4' for reading
+Nov 22, 2018 02:20:46.672 [0x7f0c4a14c840] DEBUG - [FFMPEG] - Setting default whitelist 'file,crypto'
+Nov 22, 2018 02:20:46.679 [0x7f0c4a14c840] DEBUG - [FFMPEG] - Format mov,mp4,m4a,3gp,3g2,mj2 probed with size=2048 and score=100
+Nov 22, 2018 02:20:46.680 [0x7f0c4a14c840] DEBUG - [FFMPEG] - ISO: File Type Major Brand: isom
+Nov 22, 2018 02:20:46.681 [0x7f0c4a14c840] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Nov 22, 2018 02:20:46.723 [0x7f0c4a14c840] DEBUG - [FFMPEG] - Setting codecpar->delay to 2 for stream st: 0
+Nov 22, 2018 02:20:46.724 [0x7f0c4a14c840] DEBUG - [FFMPEG] - Unknown dref type 0x206c7275 size 12
+Nov 22, 2018 02:20:46.753 [0x7f0c4a14c840] DEBUG - [FFMPEG] - Before avformat_find_stream_info() pos: 734908151 bytes read:2461630 seeks:1 nb_streams:2
+Nov 22, 2018 02:20:46.755 [0x7f0c4a14c840] DEBUG - [FFMPEG] - nal_unit_type: 7, nal_ref_idc: 3
+Nov 22, 2018 02:20:46.755 [0x7f0c4a14c840] DEBUG - [FFMPEG] - nal_unit_type: 8, nal_ref_idc: 3
+Nov 22, 2018 02:20:46.756 [0x7f0c4a14c840] DEBUG - [FFMPEG] - nal_unit_type: 6, nal_ref_idc: 0
+Nov 22, 2018 02:20:46.757 [0x7f0c4a14c840] DEBUG - [FFMPEG] - nal_unit_type: 5, nal_ref_idc: 3
+Nov 22, 2018 02:20:46.757 [0x7f0c4a14c840] DEBUG - [FFMPEG] - Format yuv420p chosen by get_format().
+Nov 22, 2018 02:20:46.759 [0x7f0c4a14c840] DEBUG - [FFMPEG] - no picture 
+Nov 22, 2018 02:20:46.764 [0x7f0c4a14c840] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 2
+Nov 22, 2018 02:20:46.765 [0x7f0c4a14c840] DEBUG - [FFMPEG] - no picture 
+Nov 22, 2018 02:20:46.767 [0x7f0c4a14c840] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 2
+Nov 22, 2018 02:20:46.769 [0x7f0c4a14c840] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 0
+Nov 22, 2018 02:20:46.771 [0x7f0c4a14c840] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 0
+Nov 22, 2018 02:20:46.774 [0x7f0c4a14c840] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 0
+Nov 22, 2018 02:20:46.776 [0x7f0c4a14c840] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 0
+Nov 22, 2018 02:20:46.778 [0x7f0c4a14c840] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 2
+Nov 22, 2018 02:20:46.779 [0x7f0c4a14c840] DEBUG - [FFMPEG] - nal_unit_type: 1, nal_ref_idc: 2
+Nov 22, 2018 02:20:46.781 [0x7f0c4a14c840] DEBUG - [FFMPEG] - All info found
+Nov 22, 2018 02:20:46.783 [0x7f0c4a14c840] DEBUG - [FFMPEG] - After avformat_find_stream_info() pos: 2439968 bytes read:2494398 seeks:2 frames:13
+Nov 22, 2018 02:20:46.894 [0x7f0c4a14c840] DEBUG - Deep Analysis: Read 10000 packets at 141.248000
+Nov 22, 2018 02:20:47.070 [0x7f0c4a14c840] DEBUG - Deep Analysis: Read 20000 packets at 282.304000
+Nov 22, 2018 02:20:47.189 [0x7f0c4a14c840] DEBUG - Deep Analysis: Read 30000 packets at 423.172750
+Nov 22, 2018 02:20:47.288 [0x7f0c4a14c840] DEBUG - Deep Analysis: Read 40000 packets at 564.650667
+Nov 22, 2018 02:20:47.386 [0x7f0c4a14c840] DEBUG - Deep Analysis: Read 50000 packets at 705.706667
+Nov 22, 2018 02:20:47.477 [0x7f0c4a14c840] DEBUG - Deep Analysis: Read 60000 packets at 846.512333
+Nov 22, 2018 02:20:47.578 [0x7f0c4a14c840] DEBUG - Deep Analysis: Read 70000 packets at 988.053333
+Nov 22, 2018 02:20:47.685 [0x7f0c4a14c840] DEBUG - Deep Analysis: Read 80000 packets at 1129.044583
+Nov 22, 2018 02:20:47.865 [0x7f0c4a14c840] DEBUG - Deep Analysis: Read 90000 packets at 1270.400000
+Nov 22, 2018 02:20:48.001 [0x7f0c4a14c840] DEBUG - Deep Analysis: Read 100000 packets at 1411.456000
+Nov 22, 2018 02:20:48.186 [0x7f0c4a14c840] DEBUG - Deep Analysis: Read 110000 packets at 1552.384167
+Nov 22, 2018 02:20:48.445 [0x7f0c4a14c840] DEBUG - Deep Analysis: Read 120000 packets at 1693.802667
+Nov 22, 2018 02:20:48.596 [0x7f0c4a14c840] DEBUG - Deep Analysis: Read 130000 packets at 1834.858667
+Nov 22, 2018 02:20:48.759 [0x7f0c4a14c840] DEBUG - Deep Analysis: Read 140000 packets at 1975.723750
+Nov 22, 2018 02:20:48.937 [0x7f0c4a14c840] DEBUG - Deep Analysis: Read 150000 packets at 2117.205333
+Nov 22, 2018 02:20:49.158 [0x7f0c4a14c840] DEBUG - Deep Analysis: Read 160000 packets at 2258.261333
+Nov 22, 2018 02:20:49.298 [0x7f0c4a14c840] DEBUG - Deep Analysis: Read 170000 packets at 2399.063333
+Nov 22, 2018 02:20:49.488 [0x7f0c4a14c840] DEBUG - Deep Analysis: Read 180000 packets at 2540.608000
+Nov 22, 2018 02:20:49.731 [0x7f0c4a14c840] DEBUG - Deep Analysis: Read 190000 packets at 2681.595583
+Nov 22, 2018 02:20:49.951 [0x7f0c4a14c840] DEBUG - Deep Analysis: Read 200000 packets at 2822.954667
+Nov 22, 2018 02:20:50.181 [0x7f0c4a14c840] DEBUG - Deep Analysis: Read 210000 packets at 2964.010667
+Nov 22, 2018 02:20:50.413 [0x7f0c4a14c840] DEBUG - Deep Analysis: Read 220000 packets at 3104.935167
+Nov 22, 2018 02:20:50.643 [0x7f0c4a14c840] DEBUG - Deep Analysis: Read 230000 packets at 3246.357333
+Nov 22, 2018 02:20:50.833 [0x7f0c4a14c840] DEBUG - Deep Analysis: Read 240000 packets at 3387.413333
+Nov 22, 2018 02:20:51.052 [0x7f0c4a14c840] DEBUG - Deep Analysis: Read 250000 packets at 3528.274750
+Nov 22, 2018 02:20:51.281 [0x7f0c4a14c840] DEBUG - Deep Analysis: Read 260000 packets at 3669.760000
+Nov 22, 2018 02:20:51.460 [0x7f0c4a14c840] DEBUG - Deep Analysis: Read 270000 packets at 3810.816000
+Nov 22, 2018 02:20:51.695 [0x7f0c4a14c840] DEBUG - Deep Analysis: Read 280000 packets at 3951.614333
+Nov 22, 2018 02:20:51.915 [0x7f0c4a14c840] DEBUG - Deep Analysis: Read 290000 packets at 4093.162667
+Nov 22, 2018 02:20:52.212 [0x7f0c4a14c840] DEBUG - Deep Analysis: Read 300000 packets at 4234.146583
+Nov 22, 2018 02:20:52.471 [0x7f0c4a14c840] DEBUG - Deep Analysis: Read 310000 packets at 4375.509333
+Nov 22, 2018 02:20:52.733 [0x7f0c4a14c840] DEBUG - Deep Analysis: Read 320000 packets at 4516.565333
+Nov 22, 2018 02:20:52.924 [0x7f0c4a14c840] DEBUG - Deep Analysis: Read 330000 packets at 4657.486167
+Nov 22, 2018 02:20:53.106 [0x7f0c4a14c840] DEBUG - Deep Analysis: Read 340000 packets at 4798.912000
+Nov 22, 2018 02:20:53.201 [0x7f0c4a14c840] DEBUG - Deep Analysis: Sorting packets
+Nov 22, 2018 02:20:53.251 [0x7f0c4a14c840] DEBUG - Deep Analysis: Performing file bitrate analysis
+Nov 22, 2018 02:20:53.347 [0x7f0c4a14c840] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 0
+Nov 22, 2018 02:20:53.386 [0x7f0c4a14c840] DEBUG - Deep Analysis: Performing stream bitrate analysis on stream 1
+Nov 22, 2018 02:20:53.470 [0x7f0c4a14c840] DEBUG - Deep Analysis: Saving GoP analysis for stream 0
+Nov 22, 2018 02:20:53.507 [0x7f0c4a14c840] DEBUG - Deep Analysis: Saving bitrate analysis
+Nov 22, 2018 02:20:53.535 [0x7f0c4a14c840] DEBUG - Updating part with ID=1 [/data/movies/Phone Booth (2002)/Phone Booth (2002).mp4]
+Nov 22, 2018 02:20:53.553 [0x7f0c4a14c840] DEBUG - [MI] Closing input file: "/data/movies/Phone Booth (2002)/Phone Booth (2002).mp4"
+Nov 22, 2018 02:20:53.562 [0x7f0c4a14c840] DEBUG - [FFMPEG] - Statistics: 734931377 bytes read, 2 seeks

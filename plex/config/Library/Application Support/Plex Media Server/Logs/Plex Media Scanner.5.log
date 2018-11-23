@@ -1,0 +1,17 @@
+Nov 21, 2018 03:57:19.626 [0x7fe436bff700] INFO - Plex Media Scanner v1.13.9.5456-ecd600442 - ubuntu docker x86_64 - build: linux-ubuntu-x86_64 - GMT 00:00
+Nov 21, 2018 03:57:19.632 [0x7fe436bff700] INFO - Linux version: 4.9.125-linuxkit (#1 SMP Fri Sep 7 08:20:28 UTC 2018), language: en-US
+Nov 21, 2018 03:57:19.633 [0x7fe436bff700] INFO - Processor Intel(R) Core(TM) i7-4770HQ CPU @ 2.20GHz
+Nov 21, 2018 03:57:19.633 [0x7fe436bff700] INFO - /usr/lib/plexmediaserver/Plex Media Scanner --scan --refresh --section 1
+Nov 21, 2018 03:57:19.610 [0x7fe442517840] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.13.0, threadsafe=1
+Nov 21, 2018 03:57:19.973 [0x7fe442517840] DEBUG - Scanning Movies using en(Plex Movie Scanner) with 0 current media items and 1 section locations in the database...
+Nov 21, 2018 03:57:19.974 [0x7fe4353ff700] DEBUG - HTTP requesting GET http://127.0.0.1:32400/:/metadata/notify/cullTimeline?librarySectionID=1&sinceTime=1542771439
+Nov 21, 2018 03:57:19.977 [0x7fe4353ff700] DEBUG - HTTP 200 response from GET http://127.0.0.1:32400/:/metadata/notify/cullTimeline?librarySectionID=1&sinceTime=1542771439
+Nov 21, 2018 03:57:20.068 [0x7fe442517840] DEBUG - Performing a scan with 'Plex Movie Scanner' (language: en virtual: 0).
+Nov 21, 2018 03:57:20.068 [0x7fe442517840] DEBUG -   * Scanning /data/movies
+Nov 21, 2018 03:57:20.069 [0x7fe442517840] DEBUG -   * Marking media not available in /data/movies
+Nov 21, 2018 03:57:20.069 [0x7fe442517840] DEBUG -   * Taking 0 items out of the map (which has 0 items) for being unavailable.
+Nov 21, 2018 03:57:20.070 [0x7fe442517840] DEBUG -   * Taking 0 directories out of the map (which has 0 dirs) for being unavailable.
+Nov 21, 2018 03:57:20.075 [0x7fe442517840] DEBUG - Removing 0 media items that were left.
+Nov 21, 2018 03:57:20.075 [0x7fe442517840] DEBUG - Removing 0 directories that were left.
+Nov 21, 2018 03:57:20.076 [0x7fe442517840] DEBUG - Refreshing section 1 of type: 1
+Nov 21, 2018 03:57:20.077 [0x7fe432d8c700] DEBUG - Refreshing 0 IDs.

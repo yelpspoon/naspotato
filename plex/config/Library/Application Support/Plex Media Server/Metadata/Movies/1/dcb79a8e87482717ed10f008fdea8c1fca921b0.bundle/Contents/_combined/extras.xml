@@ -1,0 +1,363 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MediaContainer size="18">
+  <Video url="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(805766)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=72&amp;adaptive=1&amp;dts=0" key="/system/services/url/lookup?url=iva%3A%2F%2Fapi.internetvideoarchive.com%2F2.0%2FDataService%2FVideoAssets%28805766%29%3Flang%3Den%26bitrates%3D80%2C212%2C450%2C750%2C1500%2C2500%2C5000%2C8000%26duration%3D72%26adaptive%3D1%26dts%3D0" type="clip" relationType="trailer" year="2018" title="Mile 22 (Trailer 3)" originallyAvailableAt="2018-07-26" thumb="https://iva-images.plex.tv/content/hdphotos/11903/011903/011903_1280x720_805766_105.jpg" ratingKey="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(805766)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=72&amp;adaptive=1&amp;dts=0">
+    <Media container="mp4" height="1080" width="1920" audioCodec="aac" duration="72000" videoCodec="h264" bitrate="2500">
+      <Part duration="72000" key="/services/iva/assets/805766/video.mp4?bitrate=2500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="1080" width="1920" codec="h264" bitrate="2500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="720" width="1280" audioCodec="aac" duration="72000" videoCodec="h264" bitrate="1500">
+      <Part duration="72000" key="/services/iva/assets/805766/video.mp4?bitrate=1500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="720" width="1280" codec="h264" bitrate="1500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="480" width="640" audioCodec="aac" duration="72000" videoCodec="h264" bitrate="450">
+      <Part duration="72000" key="/services/iva/assets/805766/video.mp4?bitrate=450" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="480" width="640" codec="h264" bitrate="450" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+  </Video>
+  <Video url="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(798991)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=102&amp;adaptive=1&amp;dts=0" key="/system/services/url/lookup?url=iva%3A%2F%2Fapi.internetvideoarchive.com%2F2.0%2FDataService%2FVideoAssets%28798991%29%3Flang%3Den%26bitrates%3D80%2C212%2C450%2C750%2C1500%2C2500%2C5000%2C8000%26duration%3D102%26adaptive%3D1%26dts%3D0" type="clip" relationType="behindTheScenes" year="2018" title="Mile 22: Iko Fight (Featurette)" originallyAvailableAt="2018-08-14" thumb="https://iva-images.plex.tv/content/hdphotos/11922/011922/011922_1280x720_798991_002.jpg" ratingKey="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(798991)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=102&amp;adaptive=1&amp;dts=0">
+    <Media container="mp4" height="1080" width="1920" audioCodec="aac" duration="102000" videoCodec="h264" bitrate="2500">
+      <Part duration="102000" key="/services/iva/assets/798991/video.mp4?bitrate=2500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="1080" width="1920" codec="h264" bitrate="2500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="720" width="1280" audioCodec="aac" duration="102000" videoCodec="h264" bitrate="1500">
+      <Part duration="102000" key="/services/iva/assets/798991/video.mp4?bitrate=1500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="720" width="1280" codec="h264" bitrate="1500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="480" width="640" audioCodec="aac" duration="102000" videoCodec="h264" bitrate="450">
+      <Part duration="102000" key="/services/iva/assets/798991/video.mp4?bitrate=450" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="480" width="640" codec="h264" bitrate="450" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+  </Video>
+  <Video url="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(970113)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=113&amp;adaptive=1&amp;dts=0" key="/system/services/url/lookup?url=iva%3A%2F%2Fapi.internetvideoarchive.com%2F2.0%2FDataService%2FVideoAssets%28970113%29%3Flang%3Den%26bitrates%3D80%2C212%2C450%2C750%2C1500%2C2500%2C5000%2C8000%26duration%3D113%26adaptive%3D1%26dts%3D0" type="clip" relationType="behindTheScenes" year="2018" title="Mile 22: Behind The Scenes Stunts (Featurette)" originallyAvailableAt="2018-08-13" thumb="https://iva-images.plex.tv/content/hdphotos/11922/011922/011922_1280x720_970113_104.jpg" ratingKey="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(970113)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=113&amp;adaptive=1&amp;dts=0">
+    <Media container="mp4" height="1080" width="1920" audioCodec="aac" duration="113000" videoCodec="h264" bitrate="2500">
+      <Part duration="113000" key="/services/iva/assets/970113/video.mp4?bitrate=2500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="1080" width="1920" codec="h264" bitrate="2500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="720" width="1280" audioCodec="aac" duration="113000" videoCodec="h264" bitrate="1500">
+      <Part duration="113000" key="/services/iva/assets/970113/video.mp4?bitrate=1500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="720" width="1280" codec="h264" bitrate="1500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="480" width="640" audioCodec="aac" duration="113000" videoCodec="h264" bitrate="450">
+      <Part duration="113000" key="/services/iva/assets/970113/video.mp4?bitrate=450" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="480" width="640" codec="h264" bitrate="450" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+  </Video>
+  <Video url="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(495018)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=112&amp;adaptive=1&amp;dts=0" key="/system/services/url/lookup?url=iva%3A%2F%2Fapi.internetvideoarchive.com%2F2.0%2FDataService%2FVideoAssets%28495018%29%3Flang%3Den%26bitrates%3D80%2C212%2C450%2C750%2C1500%2C2500%2C5000%2C8000%26duration%3D112%26adaptive%3D1%26dts%3D0" type="clip" relationType="behindTheScenes" year="2018" title="Mile 22: Modern Combat (Featurette)" originallyAvailableAt="2018-08-10" thumb="https://iva-images.plex.tv/content/hdphotos/11920/011920/011920_1280x720_495018_171.jpg" ratingKey="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(495018)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=112&amp;adaptive=1&amp;dts=0">
+    <Media container="mp4" height="1080" width="1920" audioCodec="aac" duration="112000" videoCodec="h264" bitrate="2500">
+      <Part duration="112000" key="/services/iva/assets/495018/video.mp4?bitrate=2500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="1080" width="1920" codec="h264" bitrate="2500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="720" width="1280" audioCodec="aac" duration="112000" videoCodec="h264" bitrate="1500">
+      <Part duration="112000" key="/services/iva/assets/495018/video.mp4?bitrate=1500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="720" width="1280" codec="h264" bitrate="1500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="480" width="640" audioCodec="aac" duration="112000" videoCodec="h264" bitrate="450">
+      <Part duration="112000" key="/services/iva/assets/495018/video.mp4?bitrate=450" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="480" width="640" codec="h264" bitrate="450" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+  </Video>
+  <Video url="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(275215)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=102&amp;adaptive=1&amp;dts=0" key="/system/services/url/lookup?url=iva%3A%2F%2Fapi.internetvideoarchive.com%2F2.0%2FDataService%2FVideoAssets%28275215%29%3Flang%3Den%26bitrates%3D80%2C212%2C450%2C750%2C1500%2C2500%2C5000%2C8000%26duration%3D102%26adaptive%3D1%26dts%3D0" type="clip" relationType="behindTheScenes" year="2018" title="Mile 22: Ground Branch (Featurette)" originallyAvailableAt="2018-08-10" thumb="https://iva-images.plex.tv/content/hdphotos/11919/011919/011919_1280x720_275215_008.jpg" ratingKey="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(275215)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=102&amp;adaptive=1&amp;dts=0">
+    <Media container="mp4" height="1080" width="1920" audioCodec="aac" duration="102000" videoCodec="h264" bitrate="2500">
+      <Part duration="102000" key="/services/iva/assets/275215/video.mp4?bitrate=2500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="1080" width="1920" codec="h264" bitrate="2500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="720" width="1280" audioCodec="aac" duration="102000" videoCodec="h264" bitrate="1500">
+      <Part duration="102000" key="/services/iva/assets/275215/video.mp4?bitrate=1500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="720" width="1280" codec="h264" bitrate="1500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="480" width="640" audioCodec="aac" duration="102000" videoCodec="h264" bitrate="450">
+      <Part duration="102000" key="/services/iva/assets/275215/video.mp4?bitrate=450" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="480" width="640" codec="h264" bitrate="450" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+  </Video>
+  <Video url="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(153556)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=105&amp;adaptive=1&amp;dts=0" key="/system/services/url/lookup?url=iva%3A%2F%2Fapi.internetvideoarchive.com%2F2.0%2FDataService%2FVideoAssets%28153556%29%3Flang%3Den%26bitrates%3D80%2C212%2C450%2C750%2C1500%2C2500%2C5000%2C8000%26duration%3D105%26adaptive%3D1%26dts%3D0" type="clip" relationType="behindTheScenes" year="2018" title="Mile 22: Badass Women (Featurette)" originallyAvailableAt="2018-08-03" thumb="https://iva-images.plex.tv/content/hdphotos/11911/011911/011911_1280x720_153556_007.jpg" ratingKey="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(153556)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=105&amp;adaptive=1&amp;dts=0">
+    <Media container="mp4" height="1080" width="1920" audioCodec="aac" duration="105000" videoCodec="h264" bitrate="2500">
+      <Part duration="105000" key="/services/iva/assets/153556/video.mp4?bitrate=2500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="1080" width="1920" codec="h264" bitrate="2500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="720" width="1280" audioCodec="aac" duration="105000" videoCodec="h264" bitrate="1500">
+      <Part duration="105000" key="/services/iva/assets/153556/video.mp4?bitrate=1500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="720" width="1280" codec="h264" bitrate="1500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="480" width="640" audioCodec="aac" duration="105000" videoCodec="h264" bitrate="450">
+      <Part duration="105000" key="/services/iva/assets/153556/video.mp4?bitrate=450" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="480" width="640" codec="h264" bitrate="450" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+  </Video>
+  <Video url="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(85119)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=16&amp;adaptive=1&amp;dts=0" key="/system/services/url/lookup?url=iva%3A%2F%2Fapi.internetvideoarchive.com%2F2.0%2FDataService%2FVideoAssets%2885119%29%3Flang%3Den%26bitrates%3D80%2C212%2C450%2C750%2C1500%2C2500%2C5000%2C8000%26duration%3D16%26adaptive%3D1%26dts%3D0" type="clip" relationType="behindTheScenes" year="2018" title="Mile 22: Sam Medina On His Character" originallyAvailableAt="2018-08-02" thumb="https://iva-images.plex.tv/content/hdphotos/11909/011909/011909_1280x720_85119_005.jpg" ratingKey="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(85119)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=16&amp;adaptive=1&amp;dts=0">
+    <Media container="mp4" height="1080" width="1920" audioCodec="aac" duration="16000" videoCodec="h264" bitrate="2500">
+      <Part duration="16000" key="/services/iva/assets/85119/video.mp4?bitrate=2500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="1080" width="1920" codec="h264" bitrate="2500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="720" width="1280" audioCodec="aac" duration="16000" videoCodec="h264" bitrate="1500">
+      <Part duration="16000" key="/services/iva/assets/85119/video.mp4?bitrate=1500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="720" width="1280" codec="h264" bitrate="1500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="480" width="640" audioCodec="aac" duration="16000" videoCodec="h264" bitrate="450">
+      <Part duration="16000" key="/services/iva/assets/85119/video.mp4?bitrate=450" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="480" width="640" codec="h264" bitrate="450" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+  </Video>
+  <Video url="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(82196)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=28&amp;adaptive=1&amp;dts=0" key="/system/services/url/lookup?url=iva%3A%2F%2Fapi.internetvideoarchive.com%2F2.0%2FDataService%2FVideoAssets%2882196%29%3Flang%3Den%26bitrates%3D80%2C212%2C450%2C750%2C1500%2C2500%2C5000%2C8000%26duration%3D28%26adaptive%3D1%26dts%3D0" type="clip" relationType="behindTheScenes" year="2018" title="Mile 22: Ronda Rousey On Her Character" originallyAvailableAt="2018-08-02" thumb="https://iva-images.plex.tv/content/hdphotos/11909/011909/011909_1280x720_82196_003.jpg" ratingKey="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(82196)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=28&amp;adaptive=1&amp;dts=0">
+    <Media container="mp4" height="1080" width="1920" audioCodec="aac" duration="28000" videoCodec="h264" bitrate="2500">
+      <Part duration="28000" key="/services/iva/assets/82196/video.mp4?bitrate=2500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="1080" width="1920" codec="h264" bitrate="2500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="720" width="1280" audioCodec="aac" duration="28000" videoCodec="h264" bitrate="1500">
+      <Part duration="28000" key="/services/iva/assets/82196/video.mp4?bitrate=1500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="720" width="1280" codec="h264" bitrate="1500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="480" width="640" audioCodec="aac" duration="28000" videoCodec="h264" bitrate="450">
+      <Part duration="28000" key="/services/iva/assets/82196/video.mp4?bitrate=450" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="480" width="640" codec="h264" bitrate="450" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+  </Video>
+  <Video url="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(442624)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=23&amp;adaptive=1&amp;dts=0" key="/system/services/url/lookup?url=iva%3A%2F%2Fapi.internetvideoarchive.com%2F2.0%2FDataService%2FVideoAssets%28442624%29%3Flang%3Den%26bitrates%3D80%2C212%2C450%2C750%2C1500%2C2500%2C5000%2C8000%26duration%3D23%26adaptive%3D1%26dts%3D0" type="clip" relationType="behindTheScenes" year="2018" title="Mile 22: Peter Berg" originallyAvailableAt="2018-08-02" thumb="https://iva-images.plex.tv/content/hdphotos/11909/011909/011909_1280x720_442624_035.jpg" ratingKey="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(442624)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=23&amp;adaptive=1&amp;dts=0">
+    <Media container="mp4" height="1080" width="1920" audioCodec="aac" duration="23000" videoCodec="h264" bitrate="2500">
+      <Part duration="23000" key="/services/iva/assets/442624/video.mp4?bitrate=2500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="1080" width="1920" codec="h264" bitrate="2500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="720" width="1280" audioCodec="aac" duration="23000" videoCodec="h264" bitrate="1500">
+      <Part duration="23000" key="/services/iva/assets/442624/video.mp4?bitrate=1500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="720" width="1280" codec="h264" bitrate="1500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="480" width="640" audioCodec="aac" duration="23000" videoCodec="h264" bitrate="450">
+      <Part duration="23000" key="/services/iva/assets/442624/video.mp4?bitrate=450" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="480" width="640" codec="h264" bitrate="450" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+  </Video>
+  <Video url="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(817253)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=18&amp;adaptive=1&amp;dts=0" key="/system/services/url/lookup?url=iva%3A%2F%2Fapi.internetvideoarchive.com%2F2.0%2FDataService%2FVideoAssets%28817253%29%3Flang%3Den%26bitrates%3D80%2C212%2C450%2C750%2C1500%2C2500%2C5000%2C8000%26duration%3D18%26adaptive%3D1%26dts%3D0" type="clip" relationType="behindTheScenes" year="2018" title="Mile 22: Mark Wahlberg On The Story" originallyAvailableAt="2018-08-02" thumb="https://iva-images.plex.tv/content/hdphotos/11909/011909/011909_1280x720_817253_013.jpg" ratingKey="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(817253)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=18&amp;adaptive=1&amp;dts=0">
+    <Media container="mp4" height="1080" width="1920" audioCodec="aac" duration="18000" videoCodec="h264" bitrate="2500">
+      <Part duration="18000" key="/services/iva/assets/817253/video.mp4?bitrate=2500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="1080" width="1920" codec="h264" bitrate="2500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="720" width="1280" audioCodec="aac" duration="18000" videoCodec="h264" bitrate="1500">
+      <Part duration="18000" key="/services/iva/assets/817253/video.mp4?bitrate=1500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="720" width="1280" codec="h264" bitrate="1500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="480" width="640" audioCodec="aac" duration="18000" videoCodec="h264" bitrate="450">
+      <Part duration="18000" key="/services/iva/assets/817253/video.mp4?bitrate=450" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="480" width="640" codec="h264" bitrate="450" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+  </Video>
+  <Video url="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(220710)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=29&amp;adaptive=1&amp;dts=0" key="/system/services/url/lookup?url=iva%3A%2F%2Fapi.internetvideoarchive.com%2F2.0%2FDataService%2FVideoAssets%28220710%29%3Flang%3Den%26bitrates%3D80%2C212%2C450%2C750%2C1500%2C2500%2C5000%2C8000%26duration%3D29%26adaptive%3D1%26dts%3D0" type="clip" relationType="behindTheScenes" year="2018" title="Mile 22: Lee Carpenter On The Premise Of The Film" originallyAvailableAt="2018-08-02" thumb="https://iva-images.plex.tv/content/hdphotos/11909/011909/011909_1280x720_220710_017.jpg" ratingKey="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(220710)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=29&amp;adaptive=1&amp;dts=0">
+    <Media container="mp4" height="1080" width="1920" audioCodec="aac" duration="29000" videoCodec="h264" bitrate="2500">
+      <Part duration="29000" key="/services/iva/assets/220710/video.mp4?bitrate=2500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="1080" width="1920" codec="h264" bitrate="2500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="720" width="1280" audioCodec="aac" duration="29000" videoCodec="h264" bitrate="1500">
+      <Part duration="29000" key="/services/iva/assets/220710/video.mp4?bitrate=1500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="720" width="1280" codec="h264" bitrate="1500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="480" width="640" audioCodec="aac" duration="29000" videoCodec="h264" bitrate="450">
+      <Part duration="29000" key="/services/iva/assets/220710/video.mp4?bitrate=450" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="480" width="640" codec="h264" bitrate="450" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+  </Video>
+  <Video url="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(315516)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=36&amp;adaptive=1&amp;dts=0" key="/system/services/url/lookup?url=iva%3A%2F%2Fapi.internetvideoarchive.com%2F2.0%2FDataService%2FVideoAssets%28315516%29%3Flang%3Den%26bitrates%3D80%2C212%2C450%2C750%2C1500%2C2500%2C5000%2C8000%26duration%3D36%26adaptive%3D1%26dts%3D0" type="clip" relationType="behindTheScenes" year="2018" title="Mile 22: Lauren Cohan On The Story" originallyAvailableAt="2018-08-02" thumb="https://iva-images.plex.tv/content/hdphotos/11909/011909/011909_1280x720_315516_033.jpg" ratingKey="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(315516)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=36&amp;adaptive=1&amp;dts=0">
+    <Media container="mp4" height="1080" width="1920" audioCodec="aac" duration="36000" videoCodec="h264" bitrate="2500">
+      <Part duration="36000" key="/services/iva/assets/315516/video.mp4?bitrate=2500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="1080" width="1920" codec="h264" bitrate="2500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="720" width="1280" audioCodec="aac" duration="36000" videoCodec="h264" bitrate="1500">
+      <Part duration="36000" key="/services/iva/assets/315516/video.mp4?bitrate=1500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="720" width="1280" codec="h264" bitrate="1500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="480" width="640" audioCodec="aac" duration="36000" videoCodec="h264" bitrate="450">
+      <Part duration="36000" key="/services/iva/assets/315516/video.mp4?bitrate=450" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="480" width="640" codec="h264" bitrate="450" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+  </Video>
+  <Video url="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(392462)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=23&amp;adaptive=1&amp;dts=0" key="/system/services/url/lookup?url=iva%3A%2F%2Fapi.internetvideoarchive.com%2F2.0%2FDataService%2FVideoAssets%28392462%29%3Flang%3Den%26bitrates%3D80%2C212%2C450%2C750%2C1500%2C2500%2C5000%2C8000%26duration%3D23%26adaptive%3D1%26dts%3D0" type="clip" relationType="behindTheScenes" year="2018" title="Mile 22: John Malkovich On The Story" originallyAvailableAt="2018-08-02" thumb="https://iva-images.plex.tv/content/hdphotos/11909/011909/011909_1280x720_392462_003.jpg" ratingKey="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(392462)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=23&amp;adaptive=1&amp;dts=0">
+    <Media container="mp4" height="1080" width="1920" audioCodec="aac" duration="23000" videoCodec="h264" bitrate="2500">
+      <Part duration="23000" key="/services/iva/assets/392462/video.mp4?bitrate=2500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="1080" width="1920" codec="h264" bitrate="2500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="720" width="1280" audioCodec="aac" duration="23000" videoCodec="h264" bitrate="1500">
+      <Part duration="23000" key="/services/iva/assets/392462/video.mp4?bitrate=1500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="720" width="1280" codec="h264" bitrate="1500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="480" width="640" audioCodec="aac" duration="23000" videoCodec="h264" bitrate="450">
+      <Part duration="23000" key="/services/iva/assets/392462/video.mp4?bitrate=450" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="480" width="640" codec="h264" bitrate="450" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+  </Video>
+  <Video url="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(442898)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=22&amp;adaptive=1&amp;dts=0" key="/system/services/url/lookup?url=iva%3A%2F%2Fapi.internetvideoarchive.com%2F2.0%2FDataService%2FVideoAssets%28442898%29%3Flang%3Den%26bitrates%3D80%2C212%2C450%2C750%2C1500%2C2500%2C5000%2C8000%26duration%3D22%26adaptive%3D1%26dts%3D0" type="clip" relationType="behindTheScenes" year="2018" title="Mile 22: Iko Uwais On His Fighting" originallyAvailableAt="2018-08-02" thumb="https://iva-images.plex.tv/content/hdphotos/11909/011909/011909_1280x720_442898_033.jpg" ratingKey="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(442898)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=22&amp;adaptive=1&amp;dts=0">
+    <Media container="mp4" height="1080" width="1920" audioCodec="aac" duration="22000" videoCodec="h264" bitrate="2500">
+      <Part duration="22000" key="/services/iva/assets/442898/video.mp4?bitrate=2500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="1080" width="1920" codec="h264" bitrate="2500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="720" width="1280" audioCodec="aac" duration="22000" videoCodec="h264" bitrate="1500">
+      <Part duration="22000" key="/services/iva/assets/442898/video.mp4?bitrate=1500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="720" width="1280" codec="h264" bitrate="1500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="480" width="640" audioCodec="aac" duration="22000" videoCodec="h264" bitrate="450">
+      <Part duration="22000" key="/services/iva/assets/442898/video.mp4?bitrate=450" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="480" width="640" codec="h264" bitrate="450" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+  </Video>
+  <Video url="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(468040)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=32&amp;adaptive=1&amp;dts=0" key="/system/services/url/lookup?url=iva%3A%2F%2Fapi.internetvideoarchive.com%2F2.0%2FDataService%2FVideoAssets%28468040%29%3Flang%3Den%26bitrates%3D80%2C212%2C450%2C750%2C1500%2C2500%2C5000%2C8000%26duration%3D32%26adaptive%3D1%26dts%3D0" type="clip" relationType="behindTheScenes" year="2018" title="Mile 22: Emily Skeggs On Peter Berg" originallyAvailableAt="2018-08-02" thumb="https://iva-images.plex.tv/content/hdphotos/11909/011909/011909_1280x720_468040_048.jpg" ratingKey="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(468040)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=32&amp;adaptive=1&amp;dts=0">
+    <Media container="mp4" height="1080" width="1920" audioCodec="aac" duration="32000" videoCodec="h264" bitrate="2500">
+      <Part duration="32000" key="/services/iva/assets/468040/video.mp4?bitrate=2500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="1080" width="1920" codec="h264" bitrate="2500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="720" width="1280" audioCodec="aac" duration="32000" videoCodec="h264" bitrate="1500">
+      <Part duration="32000" key="/services/iva/assets/468040/video.mp4?bitrate=1500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="720" width="1280" codec="h264" bitrate="1500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="480" width="640" audioCodec="aac" duration="32000" videoCodec="h264" bitrate="450">
+      <Part duration="32000" key="/services/iva/assets/468040/video.mp4?bitrate=450" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="480" width="640" codec="h264" bitrate="450" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+  </Video>
+  <Video url="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(63514)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=31&amp;adaptive=1&amp;dts=0" key="/system/services/url/lookup?url=iva%3A%2F%2Fapi.internetvideoarchive.com%2F2.0%2FDataService%2FVideoAssets%2863514%29%3Flang%3Den%26bitrates%3D80%2C212%2C450%2C750%2C1500%2C2500%2C5000%2C8000%26duration%3D31%26adaptive%3D1%26dts%3D0" type="clip" relationType="behindTheScenes" year="2018" title="Mile 22: Carlo Alban On The Story" originallyAvailableAt="2018-08-02" thumb="https://iva-images.plex.tv/content/hdphotos/11909/011909/011909_1280x720_63514_009.jpg" ratingKey="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(63514)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=31&amp;adaptive=1&amp;dts=0">
+    <Media container="mp4" height="1080" width="1920" audioCodec="aac" duration="31000" videoCodec="h264" bitrate="2500">
+      <Part duration="31000" key="/services/iva/assets/63514/video.mp4?bitrate=2500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="1080" width="1920" codec="h264" bitrate="2500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="720" width="1280" audioCodec="aac" duration="31000" videoCodec="h264" bitrate="1500">
+      <Part duration="31000" key="/services/iva/assets/63514/video.mp4?bitrate=1500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="720" width="1280" codec="h264" bitrate="1500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="480" width="640" audioCodec="aac" duration="31000" videoCodec="h264" bitrate="450">
+      <Part duration="31000" key="/services/iva/assets/63514/video.mp4?bitrate=450" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="480" width="640" codec="h264" bitrate="450" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+  </Video>
+  <Video url="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(126278)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=107&amp;adaptive=1&amp;dts=0" key="/system/services/url/lookup?url=iva%3A%2F%2Fapi.internetvideoarchive.com%2F2.0%2FDataService%2FVideoAssets%28126278%29%3Flang%3Den%26bitrates%3D80%2C212%2C450%2C750%2C1500%2C2500%2C5000%2C8000%26duration%3D107%26adaptive%3D1%26dts%3D0" type="clip" relationType="behindTheScenes" year="2018" title="Mile 22: Introducing Iko Uwais (Featurette)" originallyAvailableAt="2018-08-01" thumb="https://iva-images.plex.tv/content/hdphotos/11908/011908/011908_1280x720_126278_136.jpg" ratingKey="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(126278)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=107&amp;adaptive=1&amp;dts=0">
+    <Media container="mp4" height="1080" width="1920" audioCodec="aac" duration="107000" videoCodec="h264" bitrate="2500">
+      <Part duration="107000" key="/services/iva/assets/126278/video.mp4?bitrate=2500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="1080" width="1920" codec="h264" bitrate="2500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="720" width="1280" audioCodec="aac" duration="107000" videoCodec="h264" bitrate="1500">
+      <Part duration="107000" key="/services/iva/assets/126278/video.mp4?bitrate=1500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="720" width="1280" codec="h264" bitrate="1500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="480" width="640" audioCodec="aac" duration="107000" videoCodec="h264" bitrate="450">
+      <Part duration="107000" key="/services/iva/assets/126278/video.mp4?bitrate=450" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="480" width="640" codec="h264" bitrate="450" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+  </Video>
+  <Video url="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(256538)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=95&amp;adaptive=1&amp;dts=0" key="/system/services/url/lookup?url=iva%3A%2F%2Fapi.internetvideoarchive.com%2F2.0%2FDataService%2FVideoAssets%28256538%29%3Flang%3Den%26bitrates%3D80%2C212%2C450%2C750%2C1500%2C2500%2C5000%2C8000%26duration%3D95%26adaptive%3D1%26dts%3D0" type="clip" relationType="behindTheScenes" year="2018" title="Mile 22: Overwatch (Featurette)" originallyAvailableAt="2018-07-26" thumb="https://iva-images.plex.tv/content/hdphotos/11902/011902/011902_1280x720_256538_103.jpg" ratingKey="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(256538)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=95&amp;adaptive=1&amp;dts=0">
+    <Media container="mp4" height="1080" width="1920" audioCodec="aac" duration="95000" videoCodec="h264" bitrate="2500">
+      <Part duration="95000" key="/services/iva/assets/256538/video.mp4?bitrate=2500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="1080" width="1920" codec="h264" bitrate="2500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="720" width="1280" audioCodec="aac" duration="95000" videoCodec="h264" bitrate="1500">
+      <Part duration="95000" key="/services/iva/assets/256538/video.mp4?bitrate=1500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="720" width="1280" codec="h264" bitrate="1500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="480" width="640" audioCodec="aac" duration="95000" videoCodec="h264" bitrate="450">
+      <Part duration="95000" key="/services/iva/assets/256538/video.mp4?bitrate=450" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="480" width="640" codec="h264" bitrate="450" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+  </Video>
+</MediaContainer>

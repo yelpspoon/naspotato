@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MediaContainer size="10" identifier="com.plexapp.agents.imdb" mediaTagPrefix="/system/bundle/media/flags/" prefsKey="/:/plugins/com.plexapp.agents.imdb/prefs">
+  <Video url="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(285321)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=139&amp;adaptive=1&amp;dts=0" key="/system/services/url/lookup?url=iva%3A%2F%2Fapi.internetvideoarchive.com%2F2.0%2FDataService%2FVideoAssets%28285321%29%3Flang%3Den%26bitrates%3D80%2C212%2C450%2C750%2C1500%2C2500%2C5000%2C8000%26duration%3D139%26adaptive%3D1%26dts%3D0" type="clip" relationType="trailer" year="2018" title="Incredibles 2 (Trailer 3)" originallyAvailableAt="2018-04-13" thumb="https://iva-images.plex.tv/content/hdphotos/11770/011770/011770_1280x720_285321_136.jpg" ratingKey="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(285321)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=139&amp;adaptive=1&amp;dts=0">
+    <Media container="mp4" height="1080" width="1920" audioCodec="aac" duration="139000" videoCodec="h264" bitrate="2500">
+      <Part duration="139000" key="/services/iva/assets/285321/video.mp4?bitrate=2500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="1080" width="1920" codec="h264" bitrate="2500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="720" width="1280" audioCodec="aac" duration="139000" videoCodec="h264" bitrate="1500">
+      <Part duration="139000" key="/services/iva/assets/285321/video.mp4?bitrate=1500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="720" width="1280" codec="h264" bitrate="1500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="480" width="640" audioCodec="aac" duration="139000" videoCodec="h264" bitrate="450">
+      <Part duration="139000" key="/services/iva/assets/285321/video.mp4?bitrate=450" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="480" width="640" codec="h264" bitrate="450" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+  </Video>
+  <Video url="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(283278)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=56&amp;adaptive=1&amp;dts=0" key="/system/services/url/lookup?url=iva%3A%2F%2Fapi.internetvideoarchive.com%2F2.0%2FDataService%2FVideoAssets%28283278%29%3Flang%3Den%26bitrates%3D80%2C212%2C450%2C750%2C1500%2C2500%2C5000%2C8000%26duration%3D56%26adaptive%3D1%26dts%3D0" type="clip" relationType="behindTheScenes" year="2018" title="Incredibles 2: Brad Bird On The Incredibles" originallyAvailableAt="2018-06-06" thumb="https://iva-images.plex.tv/content/hdphotos/11837/011837/011837_1280x720_283278_089.jpg" ratingKey="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(283278)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=56&amp;adaptive=1&amp;dts=0">
+    <Media container="mp4" height="1080" width="1920" audioCodec="aac" duration="56000" videoCodec="h264" bitrate="2500">
+      <Part duration="56000" key="/services/iva/assets/283278/video.mp4?bitrate=2500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="1080" width="1920" codec="h264" bitrate="2500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="720" width="1280" audioCodec="aac" duration="56000" videoCodec="h264" bitrate="1500">
+      <Part duration="56000" key="/services/iva/assets/283278/video.mp4?bitrate=1500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="720" width="1280" codec="h264" bitrate="1500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="480" width="640" audioCodec="aac" duration="56000" videoCodec="h264" bitrate="450">
+      <Part duration="56000" key="/services/iva/assets/283278/video.mp4?bitrate=450" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="480" width="640" codec="h264" bitrate="450" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+  </Video>
+  <Video url="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(35433)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=36&amp;adaptive=1&amp;dts=0" key="/system/services/url/lookup?url=iva%3A%2F%2Fapi.internetvideoarchive.com%2F2.0%2FDataService%2FVideoAssets%2835433%29%3Flang%3Den%26bitrates%3D80%2C212%2C450%2C750%2C1500%2C2500%2C5000%2C8000%26duration%3D36%26adaptive%3D1%26dts%3D0" type="clip" relationType="behindTheScenes" year="2018" title="Incredibles 2: Sophia Bush On Her Character" originallyAvailableAt="2018-06-06" thumb="https://iva-images.plex.tv/content/hdphotos/11837/011837/011837_1280x720_35433_056.jpg" ratingKey="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(35433)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=36&amp;adaptive=1&amp;dts=0">
+    <Media container="mp4" height="1080" width="1920" audioCodec="aac" duration="36000" videoCodec="h264" bitrate="2500">
+      <Part duration="36000" key="/services/iva/assets/35433/video.mp4?bitrate=2500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="1080" width="1920" codec="h264" bitrate="2500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="720" width="1280" audioCodec="aac" duration="36000" videoCodec="h264" bitrate="1500">
+      <Part duration="36000" key="/services/iva/assets/35433/video.mp4?bitrate=1500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="720" width="1280" codec="h264" bitrate="1500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="480" width="640" audioCodec="aac" duration="36000" videoCodec="h264" bitrate="450">
+      <Part duration="36000" key="/services/iva/assets/35433/video.mp4?bitrate=450" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="480" width="640" codec="h264" bitrate="450" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+  </Video>
+  <Video url="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(230067)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=71&amp;adaptive=1&amp;dts=0" key="/system/services/url/lookup?url=iva%3A%2F%2Fapi.internetvideoarchive.com%2F2.0%2FDataService%2FVideoAssets%28230067%29%3Flang%3Den%26bitrates%3D80%2C212%2C450%2C750%2C1500%2C2500%2C5000%2C8000%26duration%3D71%26adaptive%3D1%26dts%3D0" type="clip" relationType="behindTheScenes" year="2018" title="Incredibles 2: Nicole Paradis Grindle On The Parr Family" originallyAvailableAt="2018-06-06" thumb="https://iva-images.plex.tv/content/hdphotos/11837/011837/011837_1280x720_230067_008.jpg" ratingKey="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(230067)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=71&amp;adaptive=1&amp;dts=0">
+    <Media container="mp4" height="1080" width="1920" audioCodec="aac" duration="71000" videoCodec="h264" bitrate="2500">
+      <Part duration="71000" key="/services/iva/assets/230067/video.mp4?bitrate=2500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="1080" width="1920" codec="h264" bitrate="2500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="720" width="1280" audioCodec="aac" duration="71000" videoCodec="h264" bitrate="1500">
+      <Part duration="71000" key="/services/iva/assets/230067/video.mp4?bitrate=1500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="720" width="1280" codec="h264" bitrate="1500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="480" width="640" audioCodec="aac" duration="71000" videoCodec="h264" bitrate="450">
+      <Part duration="71000" key="/services/iva/assets/230067/video.mp4?bitrate=450" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="480" width="640" codec="h264" bitrate="450" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+  </Video>
+  <Video url="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(809724)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=47&amp;adaptive=1&amp;dts=0" key="/system/services/url/lookup?url=iva%3A%2F%2Fapi.internetvideoarchive.com%2F2.0%2FDataService%2FVideoAssets%28809724%29%3Flang%3Den%26bitrates%3D80%2C212%2C450%2C750%2C1500%2C2500%2C5000%2C8000%26duration%3D47%26adaptive%3D1%26dts%3D0" type="clip" relationType="behindTheScenes" year="2018" title="Incredibles 2: Samuel L. Jackson On The Incredibles" originallyAvailableAt="2018-06-06" thumb="https://iva-images.plex.tv/content/hdphotos/11837/011837/011837_1280x720_809724_009.jpg" ratingKey="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(809724)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=47&amp;adaptive=1&amp;dts=0">
+    <Media container="mp4" height="1080" width="1920" audioCodec="aac" duration="47000" videoCodec="h264" bitrate="2500">
+      <Part duration="47000" key="/services/iva/assets/809724/video.mp4?bitrate=2500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="1080" width="1920" codec="h264" bitrate="2500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="720" width="1280" audioCodec="aac" duration="47000" videoCodec="h264" bitrate="1500">
+      <Part duration="47000" key="/services/iva/assets/809724/video.mp4?bitrate=1500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="720" width="1280" codec="h264" bitrate="1500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="480" width="640" audioCodec="aac" duration="47000" videoCodec="h264" bitrate="450">
+      <Part duration="47000" key="/services/iva/assets/809724/video.mp4?bitrate=450" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="480" width="640" codec="h264" bitrate="450" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+  </Video>
+  <Video url="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(31350)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=48&amp;adaptive=1&amp;dts=0" key="/system/services/url/lookup?url=iva%3A%2F%2Fapi.internetvideoarchive.com%2F2.0%2FDataService%2FVideoAssets%2831350%29%3Flang%3Den%26bitrates%3D80%2C212%2C450%2C750%2C1500%2C2500%2C5000%2C8000%26duration%3D48%26adaptive%3D1%26dts%3D0" type="clip" relationType="behindTheScenes" year="2018" title="Incredibles 2: Holly Hunter On The Parr Family" originallyAvailableAt="2018-06-06" thumb="https://iva-images.plex.tv/content/hdphotos/11837/011837/011837_1280x720_31350_011.jpg" ratingKey="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(31350)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=48&amp;adaptive=1&amp;dts=0">
+    <Media container="mp4" height="1080" width="1920" audioCodec="aac" duration="48000" videoCodec="h264" bitrate="2500">
+      <Part duration="48000" key="/services/iva/assets/31350/video.mp4?bitrate=2500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="1080" width="1920" codec="h264" bitrate="2500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="720" width="1280" audioCodec="aac" duration="48000" videoCodec="h264" bitrate="1500">
+      <Part duration="48000" key="/services/iva/assets/31350/video.mp4?bitrate=1500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="720" width="1280" codec="h264" bitrate="1500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="480" width="640" audioCodec="aac" duration="48000" videoCodec="h264" bitrate="450">
+      <Part duration="48000" key="/services/iva/assets/31350/video.mp4?bitrate=450" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="480" width="640" codec="h264" bitrate="450" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+  </Video>
+  <Video url="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(339682)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=29&amp;adaptive=1&amp;dts=0" key="/system/services/url/lookup?url=iva%3A%2F%2Fapi.internetvideoarchive.com%2F2.0%2FDataService%2FVideoAssets%28339682%29%3Flang%3Den%26bitrates%3D80%2C212%2C450%2C750%2C1500%2C2500%2C5000%2C8000%26duration%3D29%26adaptive%3D1%26dts%3D0" type="clip" relationType="behindTheScenes" year="2018" title="Incredibles 2: John Walker On The Film" originallyAvailableAt="2018-06-06" thumb="https://iva-images.plex.tv/content/hdphotos/11837/011837/011837_1280x720_339682_007.jpg" ratingKey="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(339682)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=29&amp;adaptive=1&amp;dts=0">
+    <Media container="mp4" height="1080" width="1920" audioCodec="aac" duration="29000" videoCodec="h264" bitrate="2500">
+      <Part duration="29000" key="/services/iva/assets/339682/video.mp4?bitrate=2500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="1080" width="1920" codec="h264" bitrate="2500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="720" width="1280" audioCodec="aac" duration="29000" videoCodec="h264" bitrate="1500">
+      <Part duration="29000" key="/services/iva/assets/339682/video.mp4?bitrate=1500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="720" width="1280" codec="h264" bitrate="1500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="480" width="640" audioCodec="aac" duration="29000" videoCodec="h264" bitrate="450">
+      <Part duration="29000" key="/services/iva/assets/339682/video.mp4?bitrate=450" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="480" width="640" codec="h264" bitrate="450" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+  </Video>
+  <Video url="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(927832)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=51&amp;adaptive=1&amp;dts=0" key="/system/services/url/lookup?url=iva%3A%2F%2Fapi.internetvideoarchive.com%2F2.0%2FDataService%2FVideoAssets%28927832%29%3Flang%3Den%26bitrates%3D80%2C212%2C450%2C750%2C1500%2C2500%2C5000%2C8000%26duration%3D51%26adaptive%3D1%26dts%3D0" type="clip" relationType="behindTheScenes" year="2018" title="Incredibles 2: Craig T. Nelson On His Character" originallyAvailableAt="2018-06-06" thumb="https://iva-images.plex.tv/content/hdphotos/11837/011837/011837_1280x720_927832_072.jpg" ratingKey="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(927832)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=51&amp;adaptive=1&amp;dts=0">
+    <Media container="mp4" height="1080" width="1920" audioCodec="aac" duration="51000" videoCodec="h264" bitrate="2500">
+      <Part duration="51000" key="/services/iva/assets/927832/video.mp4?bitrate=2500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="1080" width="1920" codec="h264" bitrate="2500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="720" width="1280" audioCodec="aac" duration="51000" videoCodec="h264" bitrate="1500">
+      <Part duration="51000" key="/services/iva/assets/927832/video.mp4?bitrate=1500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="720" width="1280" codec="h264" bitrate="1500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="480" width="640" audioCodec="aac" duration="51000" videoCodec="h264" bitrate="450">
+      <Part duration="51000" key="/services/iva/assets/927832/video.mp4?bitrate=450" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="480" width="640" codec="h264" bitrate="450" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+  </Video>
+  <Video url="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(257829)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=32&amp;adaptive=1&amp;dts=0" key="/system/services/url/lookup?url=iva%3A%2F%2Fapi.internetvideoarchive.com%2F2.0%2FDataService%2FVideoAssets%28257829%29%3Flang%3Den%26bitrates%3D80%2C212%2C450%2C750%2C1500%2C2500%2C5000%2C8000%26duration%3D32%26adaptive%3D1%26dts%3D0" type="clip" relationType="behindTheScenes" year="2018" title="Incredibles 2: Catherine Keener On Her Character" originallyAvailableAt="2018-06-06" thumb="https://iva-images.plex.tv/content/hdphotos/11837/011837/011837_1280x720_257829_047.jpg" ratingKey="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(257829)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=32&amp;adaptive=1&amp;dts=0">
+    <Media container="mp4" height="1080" width="1920" audioCodec="aac" duration="32000" videoCodec="h264" bitrate="2500">
+      <Part duration="32000" key="/services/iva/assets/257829/video.mp4?bitrate=2500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="1080" width="1920" codec="h264" bitrate="2500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="720" width="1280" audioCodec="aac" duration="32000" videoCodec="h264" bitrate="1500">
+      <Part duration="32000" key="/services/iva/assets/257829/video.mp4?bitrate=1500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="720" width="1280" codec="h264" bitrate="1500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="480" width="640" audioCodec="aac" duration="32000" videoCodec="h264" bitrate="450">
+      <Part duration="32000" key="/services/iva/assets/257829/video.mp4?bitrate=450" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="480" width="640" codec="h264" bitrate="450" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+  </Video>
+  <Video url="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(562937)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=53&amp;adaptive=1&amp;dts=0" key="/system/services/url/lookup?url=iva%3A%2F%2Fapi.internetvideoarchive.com%2F2.0%2FDataService%2FVideoAssets%28562937%29%3Flang%3Den%26bitrates%3D80%2C212%2C450%2C750%2C1500%2C2500%2C5000%2C8000%26duration%3D53%26adaptive%3D1%26dts%3D0" type="clip" relationType="behindTheScenes" year="2018" title="Incredibles 2: Bob Odenkirk On His Character" originallyAvailableAt="2018-06-06" thumb="https://iva-images.plex.tv/content/hdphotos/11836/011836/011836_1280x720_562937_081.jpg" ratingKey="iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(562937)?lang=en&amp;bitrates=80,212,450,750,1500,2500,5000,8000&amp;duration=53&amp;adaptive=1&amp;dts=0">
+    <Media container="mp4" height="1080" width="1920" audioCodec="aac" duration="53000" videoCodec="h264" bitrate="2500">
+      <Part duration="53000" key="/services/iva/assets/562937/video.mp4?bitrate=2500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="1080" width="1920" codec="h264" bitrate="2500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="720" width="1280" audioCodec="aac" duration="53000" videoCodec="h264" bitrate="1500">
+      <Part duration="53000" key="/services/iva/assets/562937/video.mp4?bitrate=1500" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="720" width="1280" codec="h264" bitrate="1500" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+    <Media container="mp4" height="480" width="640" audioCodec="aac" duration="53000" videoCodec="h264" bitrate="450">
+      <Part duration="53000" key="/services/iva/assets/562937/video.mp4?bitrate=450" container="mp4" optimizedForStreaming="1" file="">
+        <Stream index="0" selected="1" streamType="1" height="480" width="640" codec="h264" bitrate="450" id="1"/>
+        <Stream index="1" selected="1" streamType="2" channels="2" codec="aac" languageCode="en" id="2"/>
+      </Part>
+    </Media>
+  </Video>
+</MediaContainer>

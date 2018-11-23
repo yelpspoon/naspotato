@@ -1,0 +1,1079 @@
+Nov 22, 2018 00:27:59.194 [0x7faf9e3fe700] INFO - Plex Media Server v1.13.9.5456-ecd600442 - ubuntu docker x86_64 - build: linux-ubuntu-x86_64 ubuntu - GMT 00:00
+Nov 22, 2018 00:27:59.195 [0x7faf9e3fe700] INFO - Linux version: 4.9.125-linuxkit (#1 SMP Fri Sep 7 08:20:28 UTC 2018), language: en-US
+Nov 22, 2018 00:27:59.196 [0x7faf9e3fe700] INFO - Processor Intel(R) Core(TM) i7-4770HQ CPU @ 2.20GHz
+Nov 22, 2018 00:27:59.196 [0x7faf9e3fe700] INFO - /usr/lib/plexmediaserver/Plex Media Server
+Nov 22, 2018 00:27:59.144 [0x7fafaa58e840] DEBUG - BPQ: [Idle] -> [Starting]
+Nov 22, 2018 00:27:59.166 [0x7fafaa58e840] DEBUG - FeatureManager: Using cached data for features list
+Nov 22, 2018 00:27:59.172 [0x7fafaa58e840] DEBUG - Opening 20 database sessions to library (com.plexapp.plugins.library), SQLite 3.13.0, threadsafe=1
+Nov 22, 2018 00:27:59.522 [0x7fafaa58e840] DEBUG - Running migrations. (EPG 0)
+Nov 22, 2018 00:27:59.528 [0x7fafaa58e840] DEBUG - ChangestampAllocator: initialized to 9
+Nov 22, 2018 00:27:59.528 [0x7fafaa58e840] DEBUG - Opening 2 database sessions to library (com.plexapp.plugins.library.blobs), SQLite 3.13.0, threadsafe=1
+Nov 22, 2018 00:27:59.570 [0x7fafaa58e840] DEBUG - Running migrations. (EPG 0)
+Nov 22, 2018 00:27:59.621 [0x7fafaa58e840] DEBUG - HttpServer: Listening on port 32400 with queue of 128 connections.
+Nov 22, 2018 00:27:59.621 [0x7fafaa58e840] DEBUG - HttpServer: Listening on port 32401 with queue of 128 connections.
+Nov 22, 2018 00:27:59.791 [0x7faf9abfd700] DEBUG - DVR:Grabber: Cleaning up orphaned grabs.
+Nov 22, 2018 00:27:59.794 [0x7fafaa58e840] DEBUG - Media Provider: Registering provider com.plexapp.plugins.library
+Nov 22, 2018 00:27:59.794 [0x7fafaa58e840] DEBUG - Auth: Refreshing tokens inside the token-based authentication filter.
+Nov 22, 2018 00:27:59.796 [0x7fafaa58e840] DEBUG - Relay: read 0 cached entries from hosts file
+Nov 22, 2018 00:27:59.803 [0x7faf983fc700] DEBUG - File "/usr/lib/plexmediaserver/Resources/Plug-ins-ecd600442" changed: -1 => 2018-11-16 23:19:17 (1542410357).
+Nov 22, 2018 00:27:59.816 [0x7faf983fc700] DEBUG - File "/config/Library/Application Support/Plex Media Server/Plug-ins" changed: -1 => 2018-11-21 03:53:45 (1542772425).
+Nov 22, 2018 00:27:59.816 [0x7faf983fc700] DEBUG - Scanning for plug-ins in "/usr/lib/plexmediaserver/Resources/Plug-ins-ecd600442"
+Nov 22, 2018 00:27:59.818 [0x7faf99bff700] DEBUG - HTTP requesting GET https://plex.tv/media/providers?X-Plex-Token=
+Nov 22, 2018 00:27:59.830 [0x7faf9abfd700] DEBUG - DVR:Grabber: Cleaned up 0 decrepit directories in 0.0 sec.
+Nov 22, 2018 00:27:59.830 [0x7faf993fe700] DEBUG - Auth: Refreshing tokens inside the token-based authentication filter.
+Nov 22, 2018 00:27:59.837 [0x7faf983fc700] DEBUG - Scanning for plug-ins in "/config/Library/Application Support/Plex Media Server/Plug-ins"
+Nov 22, 2018 00:27:59.851 [0x7faf983fc700] DEBUG - PluginRepository::setStartState: 1, startingSystem
+Nov 22, 2018 00:27:59.852 [0x7faf983fc700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-ecd600442/System.bundle.
+Nov 22, 2018 00:27:59.853 [0x7faf983fc700] DEBUG - [com.plexapp.system] Setting plug-in to always running (daemon mode).
+Nov 22, 2018 00:27:59.860 [0x7faf983fc700] DEBUG - Starting file watcher for com.plexapp.system
+Nov 22, 2018 00:27:59.867 [0x7faf983fc700] DEBUG - Plugin: not setting user token for plugin
+Nov 22, 2018 00:27:59.879 [0x7faf983fc700] DEBUG - Spawned plug-in com.plexapp.system with PID 297
+Nov 22, 2018 00:27:59.879 [0x7faf983fc700] DEBUG - [com.plexapp.system] Sending command: GET /:/prefixes
+Nov 22, 2018 00:28:00.480 [0x7faf99bff700] DEBUG - HTTP 401 response from GET https://plex.tv/media/providers?X-Plex-Token=
+Nov 22, 2018 00:28:01.145 [0x7faf9cbff700] DEBUG - Job running: '/usr/lib/plexmediaserver/CrashUploader' '--directory=/config/Library/Application Support/Plex Media Server/Crash Reports/1.13.9.5456-ecd600442' '--version=1.13.9.5456-ecd600442' '--platform=linux-ubuntu-x86_64 (4.9.125-linuxkit (#1 SMP Fri Sep 7 08:20:28 UTC 2018))' '--serverUuid=177b657a65db79667e3ca1a7f7924b88aa9b9433' '--userId=NOUSERID' '--url=https://crashreport.plexapp.com'
+Nov 22, 2018 00:28:01.147 [0x7faf9cbff700] DEBUG - Jobs: Starting child process with pid 298
+Nov 22, 2018 00:28:01.211 [0x7faf98bfd700] DEBUG - Jobs: '/usr/lib/plexmediaserver/CrashUploader' exit code for process 298 is 0 (success)
+Nov 22, 2018 00:28:04.830 [0x7faf983fc700] DEBUG - Reading 486 bytes in the body, code is 200
+Nov 22, 2018 00:28:04.830 [0x7faf983fc700] DEBUG - [com.plexapp.system] Plug-in running on port 33391.
+Nov 22, 2018 00:28:04.830 [0x7faf983fc700] DEBUG -  * Plug-in handles prefix: /system
+Nov 22, 2018 00:28:04.830 [0x7faf983fc700] DEBUG -  * Plug-in handles prefix: /player
+Nov 22, 2018 00:28:04.830 [0x7faf983fc700] DEBUG - Read configuration for [com.plexapp.system], had 2 prefixes
+Nov 22, 2018 00:28:04.856 [0x7faf983fc700] DEBUG - Done with 1 synchronous plug-in starts, starting the rest in parallel.
+Nov 22, 2018 00:28:04.858 [0x7faf983fc700] DEBUG - PluginRepository::setStartState: 2, startingPlugins
+Nov 22, 2018 00:28:04.863 [0x7fafaa58e840] DEBUG - Image transcode cache directory: "/config/Library/Application Support/Plex Media Server/Cache/PhotoTranscoder"
+Nov 22, 2018 00:28:04.860 [0x7faf983fc700] DEBUG - Updating the list of agents known by the system.
+Nov 22, 2018 00:28:04.865 [0x7faf983fc700] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /system/agents
+Nov 22, 2018 00:28:04.865 [0x7faf983fc700] DEBUG - HTTP requesting GET http://127.0.0.1:33391/system/agents
+Nov 22, 2018 00:28:04.868 [0x7fafaa58e840] DEBUG - Transcoder: Cleaning old transcode directories.
+Nov 22, 2018 00:28:04.915 [0x7fafaa58e840] ERROR - Transcoder: Error cleaning old transcode sessions: boost::filesystem::directory_iterator::construct: No such file or directory: "/config/Library/Application Support/Plex Media Server/Cache/Transcode/Sessions"
+Nov 22, 2018 00:28:04.916 [0x7fafaa58e840] DEBUG - NetworkInterface: Starting watch thread.
+Nov 22, 2018 00:28:04.916 [0x7fafaa58e840] DEBUG - Network change.
+Nov 22, 2018 00:28:04.916 [0x7fafaa58e840] DEBUG - NetworkInterface: Notified of network changed (force=0)
+Nov 22, 2018 00:28:04.916 [0x7fafaa58e840] DEBUG - Network interfaces:
+Nov 22, 2018 00:28:04.916 [0x7fafaa58e840] DEBUG -  * 1 lo (127.0.0.1) (loopback: 1)
+Nov 22, 2018 00:28:04.916 [0x7fafaa58e840] DEBUG -  * 69 eth0 (172.18.0.6) (loopback: 0)
+Nov 22, 2018 00:28:04.916 [0x7fafaa58e840] DEBUG - Creating NetworkServices singleton.
+Nov 22, 2018 00:28:04.916 [0x7fafaa58e840] DEBUG - NetworkServices: Initializing...
+Nov 22, 2018 00:28:04.916 [0x7fafaa58e840] DEBUG - NetworkService: Creating new service.
+Nov 22, 2018 00:28:04.916 [0x7fafaa58e840] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Nov 22, 2018 00:28:04.916 [0x7fafaa58e840] DEBUG - NetworkService: Quick dispatch of network change.
+Nov 22, 2018 00:28:04.916 [0x7fafaa58e840] DEBUG - NetworkService: Creating new service.
+Nov 22, 2018 00:28:04.917 [0x7fafaa58e840] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Nov 22, 2018 00:28:04.917 [0x7fafaa58e840] DEBUG - NetworkService: Quick dispatch of network change.
+Nov 22, 2018 00:28:04.917 [0x7fafaa58e840] DEBUG - NetworkService: Creating new service.
+Nov 22, 2018 00:28:04.917 [0x7fafaa58e840] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Nov 22, 2018 00:28:04.917 [0x7fafaa58e840] DEBUG - NetworkService: Quick dispatch of network change.
+Nov 22, 2018 00:28:04.917 [0x7fafaa58e840] DEBUG - NetworkService: Creating new service.
+Nov 22, 2018 00:28:04.917 [0x7fafaa58e840] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Nov 22, 2018 00:28:04.917 [0x7fafaa58e840] DEBUG - NetworkService: Quick dispatch of network change.
+Nov 22, 2018 00:28:04.917 [0x7fafaa58e840] DEBUG - NetworkService: Creating new service.
+Nov 22, 2018 00:28:04.917 [0x7fafaa58e840] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Nov 22, 2018 00:28:04.917 [0x7fafaa58e840] DEBUG - NetworkService: Quick dispatch of network change.
+Nov 22, 2018 00:28:04.917 [0x7fafaa58e840] DEBUG - NetworkService: Creating new service.
+Nov 22, 2018 00:28:04.917 [0x7fafaa58e840] DEBUG - NetworkService: Got notification of changed network (first change: 1)
+Nov 22, 2018 00:28:04.917 [0x7fafaa58e840] DEBUG - NetworkService: Quick dispatch of network change.
+Nov 22, 2018 00:28:04.922 [0x7faf943fc700] DEBUG - Network change for advertiser.
+Nov 22, 2018 00:28:04.922 [0x7faf943fc700] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32414 (outbound: 0)
+Nov 22, 2018 00:28:04.930 [0x7faf94bfd700] DEBUG - NetworkInterface: Watching for changes on the interfaces.
+Nov 22, 2018 00:28:04.931 [0x7faf943fc700] DEBUG - Network change for advertiser.
+Nov 22, 2018 00:28:04.931 [0x7faf943fc700] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32410 (outbound: 0)
+Nov 22, 2018 00:28:04.932 [0x7faf943fc700] DEBUG - Network change for advertiser.
+Nov 22, 2018 00:28:04.932 [0x7faf943fc700] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32412 (outbound: 0)
+Nov 22, 2018 00:28:04.933 [0x7faf943fc700] DEBUG - NetworkService: Network change for browser (polled=0), closing 0 browse sockets.
+Nov 22, 2018 00:28:04.933 [0x7faf943fc700] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:32413 (outbound: 0)
+Nov 22, 2018 00:28:04.933 [0x7faf943fc700] DEBUG - NetworkService: Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
+Nov 22, 2018 00:28:04.933 [0x7faf943fc700] DEBUG - NetworkService: Browsing on interface 172.18.0.6 on broadcast address 172.18.255.255 (index: 1)
+Nov 22, 2018 00:28:04.933 [0x7faf943fc700] DEBUG - NetworkService: Network change for browser (polled=1), closing 0 browse sockets.
+Nov 22, 2018 00:28:04.933 [0x7faf943fc700] DEBUG - NetworkService: Browsing on interface 127.0.0.1 on broadcast address 127.255.255.255 (index: 0)
+Nov 22, 2018 00:28:04.933 [0x7faf943fc700] DEBUG - NetworkService: Browsing on interface 172.18.0.6 on broadcast address 172.18.255.255 (index: 1)
+Nov 22, 2018 00:28:04.933 [0x7faf943fc700] DEBUG - NetworkService: Network change for browser (polled=0), closing 0 browse sockets.
+Nov 22, 2018 00:28:04.933 [0x7faf943fc700] DEBUG - NetworkService: Setting up multicast listener on 0.0.0.0:1901 (outbound: 0)
+Nov 22, 2018 00:28:04.934 [0x7faf943fc700] DEBUG - NetworkService: Browsing on interface 172.18.0.6 on broadcast address 239.255.255.250 (index: 0)
+Nov 22, 2018 00:28:05.129 [0x7fafaa58e840] DEBUG - Gracenote Version 3.07.7.3686 (build: 2015-07-05 11:45-0700)
+Nov 22, 2018 00:28:05.153 [0x7fafaa58e840] DEBUG - Gracenote: Using SQLite 3.13.0
+Nov 22, 2018 00:28:05.153 [0x7fafaa58e840] DEBUG - Starting HTTP server.
+Nov 22, 2018 00:28:05.154 [0x7fafaa58e840] DEBUG - Running server...
+Nov 22, 2018 00:28:05.154 [0x7fafaa58e840] DEBUG - Waiting for server condition to be signaled.
+Nov 22, 2018 00:28:05.155 [0x7faf933fa700] DEBUG - Plex Tuner Service starting.
+Nov 22, 2018 00:28:05.156 [0x7faf933fa700] DEBUG - Job running: '/usr/lib/plexmediaserver/Plex Tuner Service' '/usr/lib/plexmediaserver/Resources/Tuner/Private' '/usr/lib/plexmediaserver/Resources/Tuner/Shared' '1.13.9.5456-ecd600442' '32600' '/waitmutex'
+Nov 22, 2018 00:28:05.155 [0x7faf92bf9700] DEBUG - HttpServer: Set up a thread pool with 2 threads.
+Nov 22, 2018 00:28:05.157 [0x7faf9abfd700] DEBUG - DVR: Starting up.
+Nov 22, 2018 00:28:05.168 [0x7faf92bf9700] DEBUG - HTTP requesting GET https://plex.tv/api/v2/release_channels?X-Plex-Token=
+Nov 22, 2018 00:28:05.175 [0x7faf953fe700] DEBUG - Plex DLNA Server starting.
+Nov 22, 2018 00:28:05.181 [0x7faf933fa700] DEBUG - Jobs: Starting child process with pid 345
+Nov 22, 2018 00:28:05.198 [0x7faf953fe700] DEBUG - Job running: '/usr/lib/plexmediaserver/Plex DLNA Server'
+Nov 22, 2018 00:28:05.200 [0x7faf953fe700] DEBUG - Jobs: Starting child process with pid 349
+Nov 22, 2018 00:28:05.205 [0x7faf99bff700] DEBUG - HTTP requesting GET https://plex.tv/media/providers?X-Plex-Token=
+Nov 22, 2018 00:28:05.253 [0x7faf913f6700] DEBUG - Request: [127.0.0.1:36182 (Loopback)] GET / (7 live) GZIP
+Nov 22, 2018 00:28:05.264 [0x7faf91bf7700] DEBUG - Request: [127.0.0.1:36184 (Loopback)] GET /servers (7 live) GZIP
+Nov 22, 2018 00:28:05.262 [0x7faf903f4700] DEBUG - Request: [127.0.0.1:36176 (Loopback)] GET / (7 live) GZIP
+Nov 22, 2018 00:28:05.264 [0x7faf923f8700] DEBUG - Request: [172.18.0.1:35780 (Subnet)] GET / (7 live) GZIP
+Nov 22, 2018 00:28:05.264 [0x7faf913f6700] DEBUG - Translator: Found locale es
+Nov 22, 2018 00:28:05.264 [0x7faf913f6700] DEBUG - Translator: Found locale hr_HR
+Nov 22, 2018 00:28:05.264 [0x7faf913f6700] DEBUG - Translator: Found locale nl_BE
+Nov 22, 2018 00:28:05.264 [0x7faf913f6700] DEBUG - Translator: Found locale en
+Nov 22, 2018 00:28:05.264 [0x7faf913f6700] DEBUG - Translator: Found locale sv
+Nov 22, 2018 00:28:05.264 [0x7faf913f6700] DEBUG - Translator: Found locale fr
+Nov 22, 2018 00:28:05.265 [0x7faf913f6700] DEBUG - Translator: Found locale da
+Nov 22, 2018 00:28:05.265 [0x7faf913f6700] DEBUG - Translator: Found locale it
+Nov 22, 2018 00:28:05.265 [0x7faf913f6700] DEBUG - Translator: Found locale ar
+Nov 22, 2018 00:28:05.265 [0x7faf913f6700] DEBUG - Translator: Found locale zh_CN
+Nov 22, 2018 00:28:05.265 [0x7faf913f6700] DEBUG - Translator: Found locale pt_BR
+Nov 22, 2018 00:28:05.265 [0x7faf913f6700] DEBUG - Translator: Found locale et_EE
+Nov 22, 2018 00:28:05.265 [0x7faf913f6700] DEBUG - Translator: Found locale ko
+Nov 22, 2018 00:28:05.265 [0x7faf913f6700] DEBUG - Translator: Found locale ru
+Nov 22, 2018 00:28:05.265 [0x7faf913f6700] DEBUG - Translator: Found locale sr
+Nov 22, 2018 00:28:05.265 [0x7faf913f6700] DEBUG - Translator: Found locale ja_JP
+Nov 22, 2018 00:28:05.265 [0x7faf913f6700] DEBUG - Translator: Found locale lt
+Nov 22, 2018 00:28:05.265 [0x7faf913f6700] DEBUG - Translator: Found locale de
+Nov 22, 2018 00:28:05.265 [0x7faf913f6700] DEBUG - Translator: Found locale nl
+Nov 22, 2018 00:28:05.265 [0x7faf913f6700] DEBUG - Translator: Found locale hu_HU
+Nov 22, 2018 00:28:05.265 [0x7faf913f6700] DEBUG - Translator: Found locale ro
+Nov 22, 2018 00:28:05.265 [0x7faf913f6700] DEBUG - Translator: Found locale no
+Nov 22, 2018 00:28:05.265 [0x7faf913f6700] DEBUG - Translator: Found locale he
+Nov 22, 2018 00:28:05.265 [0x7faf913f6700] DEBUG - Translator: Found locale cs_CZ
+Nov 22, 2018 00:28:05.279 [0x7faf9abfd700] DEBUG - Activity: registered new activity 499ef7d1-77ad-4a07-8b47-73657cdd6a36 - Processing subscriptions
+Nov 22, 2018 00:28:05.279 [0x7faf90bf5700] DEBUG - Request: [127.0.0.1:36174 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (7 live) GZIP
+Nov 22, 2018 00:28:05.263 [0x7faf8fbf3700] DEBUG - Request: [172.18.0.1:35778 (Subnet)] GET / (7 live) GZIP
+Nov 22, 2018 00:28:05.330 [0x7faf90bf5700] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Nov 22, 2018 00:28:05.330 [0x7faf90bf5700] DEBUG - HTTP requesting GET http://127.0.0.1:33391/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Nov 22, 2018 00:28:05.354 [0x7faf9b3fe700] DEBUG - Completed: [172.18.0.1:35780] 200 GET / (7 live) GZIP 105ms 1588 bytes (pipelined: 1)
+Nov 22, 2018 00:28:05.366 [0x7faf9bbff700] DEBUG - Completed: [127.0.0.1:36182] 200 GET / (7 live) GZIP 128ms 1451 bytes
+Nov 22, 2018 00:28:05.366 [0x7faf9b3fe700] DEBUG - Completed: [127.0.0.1:36176] 200 GET / (7 live) GZIP 169ms 1451 bytes
+Nov 22, 2018 00:28:05.399 [0x7faf9b3fe700] DEBUG - Completed: [172.18.0.1:35778] 200 GET / (7 live) GZIP 201ms 1480 bytes (pipelined: 1)
+Nov 22, 2018 00:28:05.414 [0x7faf9b3fe700] DEBUG - Completed: [127.0.0.1:36184] 200 GET /servers (7 live) GZIP 174ms 488 bytes
+Nov 22, 2018 00:28:05.814 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:35798 (Subnet)] GET /:/websockets/notifications (6 live) GZIP
+Nov 22, 2018 00:28:05.814 [0x7faf903f4700] DEBUG - Request: [172.18.0.1:35780 (Subnet)] GET /updater/status (6 live) GZIP
+Nov 22, 2018 00:28:05.816 [0x7faf913f6700] DEBUG - WebSocket: Performing handshake from origin http://localhost:32400
+Nov 22, 2018 00:28:05.817 [0x7faf913f6700] DEBUG - Beginning read from WebSocket
+Nov 22, 2018 00:28:05.829 [0x7faf9b3fe700] DEBUG - Completed: [172.18.0.1:35780] 200 GET /updater/status (6 live) GZIP 15ms 541 bytes (pipelined: 2)
+Nov 22, 2018 00:28:05.959 [0x7faf923f8700] DEBUG - Request: [172.18.0.1:35800 (Subnet)] PUT /updater/check?download=0 (7 live) GZIP
+Nov 22, 2018 00:28:05.960 [0x7faf923f8700] DEBUG - AutoUpdate: requesting check endpoint: /updater/products/1/check.xml?build=linux-ubuntu-x86_64&channel=16&distribution=ubuntu&version=1.13.9.5456-ecd600442, download: NO
+Nov 22, 2018 00:28:05.960 [0x7faf923f8700] DEBUG - Downloading document https://plex.tv/updater/products/1/check.xml?build=linux-ubuntu-x86_64&channel=16&distribution=ubuntu&version=1.13.9.5456-ecd600442
+Nov 22, 2018 00:28:05.960 [0x7faf923f8700] DEBUG - HTTP requesting GET https://plex.tv/updater/products/1/check.xml?build=linux-ubuntu-x86_64&channel=16&distribution=ubuntu&version=1.13.9.5456-ecd600442
+Nov 22, 2018 00:28:05.966 [0x7faf8fbf3700] DEBUG - Request: [172.18.0.1:35778 (Subnet)] GET /activities (7 live) GZIP
+Nov 22, 2018 00:28:05.967 [0x7faf9b3fe700] DEBUG - Completed: [172.18.0.1:35778] 200 GET /activities (7 live) GZIP 1ms 490 bytes (pipelined: 2)
+Nov 22, 2018 00:28:06.055 [0x7faf92bf9700] DEBUG - HTTP 200 response from GET https://plex.tv/api/v2/release_channels?X-Plex-Token=
+Nov 22, 2018 00:28:06.123 [0x7faf91bf7700] DEBUG - Request: [127.0.0.1:36204 (Loopback)] GET / (7 live) GZIP
+Nov 22, 2018 00:28:06.142 [0x7faf9b3fe700] DEBUG - Completed: [127.0.0.1:36204] 200 GET / (7 live) GZIP 18ms 1451 bytes
+Nov 22, 2018 00:28:06.201 [0x7faf99bff700] DEBUG - HTTP 401 response from GET https://plex.tv/media/providers?X-Plex-Token=
+Nov 22, 2018 00:28:06.204 [0x7faf92bf9700] DEBUG - Running database fix-ups.
+Nov 22, 2018 00:28:06.205 [0x7faf92bf9700] DEBUG - Database Fixups: Destroyed 0 transient items.
+Nov 22, 2018 00:28:06.208 [0x7faf92bf9700] DEBUG - Collections: Found 0 collections tags in section 1.
+Nov 22, 2018 00:28:06.209 [0x7faf92bf9700] DEBUG - Collections: We had 0 collections in the library already.
+Nov 22, 2018 00:28:06.209 [0x7faf92bf9700] DEBUG - Collections: Synced tags in section 1 in 0ms.
+Nov 22, 2018 00:28:06.229 [0x7faf92bf9700] DEBUG - Collections: Refreshed attributes for 0 collections in section 1 in 20ms.
+Nov 22, 2018 00:28:06.274 [0x7faf92bf9700] DEBUG - Collection: Refreshed visibility in section 1 in 43ms.
+Nov 22, 2018 00:28:06.289 [0x7faf92bf9700] DEBUG - Collections: Found 0 collections tags in section 2.
+Nov 22, 2018 00:28:06.292 [0x7faf92bf9700] DEBUG - Collections: We had 0 collections in the library already.
+Nov 22, 2018 00:28:06.296 [0x7faf92bf9700] DEBUG - Collections: Synced tags in section 2 in 4ms.
+Nov 22, 2018 00:28:06.328 [0x7faf92bf9700] DEBUG - Collections: Refreshed attributes for 0 collections in section 2 in 30ms.
+Nov 22, 2018 00:28:06.362 [0x7faf913f6700] DEBUG - Request: [127.0.0.1:36206 (Loopback)] GET /library/sections (8 live) GZIP
+Nov 22, 2018 00:28:06.379 [0x7faf92bf9700] DEBUG - Collection: Refreshed visibility in section 2 in 49ms.
+Nov 22, 2018 00:28:06.382 [0x7faf92bf9700] DEBUG - Running database fix-ups completed in 0.0 seconds.
+Nov 22, 2018 00:28:06.386 [0x7faf92bf9700] DEBUG - HTTP requesting GET https://plex.tv/api/v2/user/privacy?X-Plex-Token=
+Nov 22, 2018 00:28:06.420 [0x7faf9b3fe700] DEBUG - Completed: [127.0.0.1:36206] 200 GET /library/sections (8 live) GZIP 58ms 812 bytes
+Nov 22, 2018 00:28:06.635 [0x7faf903f4700] DEBUG - Request: [127.0.0.1:36210 (Loopback)] GET / (9 live) GZIP
+Nov 22, 2018 00:28:06.637 [0x7faf9bbff700] DEBUG - Completed: [127.0.0.1:36210] 200 GET / (9 live) GZIP 4ms 1451 bytes
+Nov 22, 2018 00:28:06.804 [0x7faf8fbf3700] DEBUG - Request: [127.0.0.1:36212 (Loopback)] GET /channels/all (10 live) GZIP
+Nov 22, 2018 00:28:06.820 [0x7faf9bbff700] DEBUG - Completed: [127.0.0.1:36212] 200 GET /channels/all (10 live) GZIP 16ms 387 bytes
+Nov 22, 2018 00:28:06.858 [0x7faf923f8700] DEBUG - HTTP 200 response from GET https://plex.tv/updater/products/1/check.xml?build=linux-ubuntu-x86_64&channel=16&distribution=ubuntu&version=1.13.9.5456-ecd600442
+Nov 22, 2018 00:28:06.869 [0x7faf923f8700] INFO - AutoUpdate: no updates available
+Nov 22, 2018 00:28:06.899 [0x7faf9b3fe700] DEBUG - Completed: [172.18.0.1:35800] 200 PUT /updater/check?download=0 (10 live) GZIP 939ms 303 bytes (pipelined: 1)
+Nov 22, 2018 00:28:07.047 [0x7faf92bf9700] DEBUG - HTTP 200 response from GET https://plex.tv/api/v2/user/privacy?X-Plex-Token=
+Nov 22, 2018 00:28:07.126 [0x7faf92bf9700] DEBUG - HTTP requesting GET https://plex.tv/api/v2/features?X-Plex-Token=
+Nov 22, 2018 00:28:07.778 [0x7faf92bf9700] DEBUG - HTTP 200 response from GET https://plex.tv/api/v2/features?X-Plex-Token=
+Nov 22, 2018 00:28:07.796 [0x7faf91bf7700] DEBUG - Request: [172.18.0.1:35800 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (9 live) GZIP
+Nov 22, 2018 00:28:07.796 [0x7faf91bf7700] DEBUG - [CompanionProxy] registered new player: 1j0o6ptsxxojwmtpmepfp7uk (172.18.0.1)
+Nov 22, 2018 00:28:07.797 [0x7faf91bf7700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:28:08.517 [0x7faf90bf5700] DEBUG - HTTP 200 response from GET http://127.0.0.1:33391/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Nov 22, 2018 00:28:08.517 [0x7faf90bf5700] DEBUG - [com.plexapp.system] HTTP reply status 200, with 59954 bytes of content.
+Nov 22, 2018 00:28:08.540 [0x7faf9bbff700] DEBUG - Completed: [127.0.0.1:36174] 200 GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (9 live) GZIP 3352ms 19227 bytes
+Nov 22, 2018 00:28:08.593 [0x7faf983fc700] DEBUG - HTTP 200 response from GET http://127.0.0.1:33391/system/agents
+Nov 22, 2018 00:28:08.599 [0x7faf983fc700] DEBUG - [com.plexapp.system] HTTP reply status 200, with 9036 bytes of content.
+Nov 22, 2018 00:28:08.623 [0x7faf983fc700] DEBUG - The system knows about 13 agents.
+Nov 22, 2018 00:28:08.624 [0x7faf983fc700] DEBUG - Waiting for 18 plug-ins to finish starting.
+Nov 22, 2018 00:28:08.630 [0x7faf8e3ff700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-ecd600442/HTbackdrops.bundle.
+Nov 22, 2018 00:28:08.631 [0x7faf8dbfe700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-ecd600442/Framework.bundle.
+Nov 22, 2018 00:28:08.632 [0x7faf8d3fd700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-ecd600442/TheTVDB.bundle.
+Nov 22, 2018 00:28:08.638 [0x7faf8e3ff700] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.htbackdrops] yet.
+Nov 22, 2018 00:28:08.638 [0x7faf8e3ff700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-ecd600442/Fanart-TV.bundle.
+Nov 22, 2018 00:28:08.638 [0x7faf8dbfe700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-ecd600442/PlexThemeMusic.bundle.
+Nov 22, 2018 00:28:08.640 [0x7faf8d3fd700] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.thetvdb] yet.
+Nov 22, 2018 00:28:08.640 [0x7faf8d3fd700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-ecd600442/LocalMedia.bundle.
+Nov 22, 2018 00:28:08.646 [0x7faf8e3ff700] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.fanarttv] yet.
+Nov 22, 2018 00:28:08.647 [0x7faf8e3ff700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-ecd600442/Scanners.bundle.
+Nov 22, 2018 00:28:08.649 [0x7faf8d3fd700] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.localmedia] yet.
+Nov 22, 2018 00:28:08.649 [0x7faf8d3fd700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-ecd600442/PlexMusic.bundle.
+Nov 22, 2018 00:28:08.649 [0x7faf8dbfe700] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.plexthememusic] yet.
+Nov 22, 2018 00:28:08.649 [0x7faf8dbfe700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-ecd600442/OpenSubtitles.bundle.
+Nov 22, 2018 00:28:08.656 [0x7faf8e3ff700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-ecd600442/PlexMovie.bundle.
+Nov 22, 2018 00:28:08.659 [0x7faf8dbfe700] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.opensubtitles] yet.
+Nov 22, 2018 00:28:08.660 [0x7faf8dbfe700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-ecd600442/LastFM.bundle.
+Nov 22, 2018 00:28:08.664 [0x7faf8d3fd700] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.plexmusic] yet.
+Nov 22, 2018 00:28:08.665 [0x7faf8d3fd700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-ecd600442/LyricFind.bundle.
+Nov 22, 2018 00:28:08.666 [0x7faf8dbfe700] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.lastfm] yet.
+Nov 22, 2018 00:28:08.668 [0x7faf8dbfe700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-ecd600442/WebClient.bundle.
+Nov 22, 2018 00:28:08.667 [0x7faf8e3ff700] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.imdb] yet.
+Nov 22, 2018 00:28:08.668 [0x7faf8e3ff700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-ecd600442/MoviePosterDB.bundle.
+Nov 22, 2018 00:28:08.671 [0x7faf8d3fd700] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.lyricfind] yet.
+Nov 22, 2018 00:28:08.672 [0x7faf8d3fd700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-ecd600442/Media-Flags.bundle.
+Nov 22, 2018 00:28:08.674 [0x7faf8dbfe700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-ecd600442/TheMovieDB.bundle.
+Nov 22, 2018 00:28:08.674 [0x7faf8e3ff700] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.movieposterdb] yet.
+Nov 22, 2018 00:28:08.675 [0x7faf8e3ff700] DEBUG - Starting plug-in /usr/lib/plexmediaserver/Resources/Plug-ins-ecd600442/PersonalMedia.bundle.
+Nov 22, 2018 00:28:08.680 [0x7faf8d3fd700] DEBUG - Starting plug-in /config/Library/Application Support/Plex Media Server/Plug-ins/Services.bundle.
+Nov 22, 2018 00:28:08.682 [0x7faf8dbfe700] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.themoviedb] yet.
+Nov 22, 2018 00:28:08.681 [0x7faf8e3ff700] DEBUG - Perfect cache hit, we don't need to start [com.plexapp.agents.none] yet.
+Nov 22, 2018 00:28:08.690 [0x7faf983fc700] DEBUG - Starting scheduled updates, every 3600 seconds
+Nov 22, 2018 00:28:08.690 [0x7faf983fc700] INFO - LibraryUpdateManager path watching is disabled
+Nov 22, 2018 00:28:08.691 [0x7faf983fc700] DEBUG - Done waiting for all plug-ins to start.
+Nov 22, 2018 00:28:08.695 [0x7faf983fc700] DEBUG - PluginRepository::setStartState: 3, complete
+Nov 22, 2018 00:28:08.706 [0x7faf8cbfc700] DEBUG - Downloading document http://127.0.0.1:32400/:/plugins/com.plexapp.agents.imdb/prefs
+Nov 22, 2018 00:28:08.718 [0x7faf8cbfc700] DEBUG - Starting file watcher for com.plexapp.agents.imdb
+Nov 22, 2018 00:28:08.718 [0x7faf8cbfc700] DEBUG - Plugin: not setting user token for plugin
+Nov 22, 2018 00:28:08.769 [0x7faf8cbfc700] DEBUG - Spawned plug-in com.plexapp.agents.imdb with PID 388
+Nov 22, 2018 00:28:08.769 [0x7faf8cbfc700] DEBUG - [com.plexapp.agents.imdb] Sending command: GET /:/prefixes
+Nov 22, 2018 00:28:09.041 [0x7faf9cbff700] DEBUG - Gracenote: Loading 29 locales in 3.9 seconds.
+Nov 22, 2018 00:28:09.793 [0x7faf93bfb700] DEBUG - DVR:Device: Discovering and refreshing all devices.
+Nov 22, 2018 00:28:09.793 [0x7faf93bfb700] DEBUG - DVR:Grabber: HDHomerun discovered 0 compatible devices.
+Nov 22, 2018 00:28:09.793 [0x7faf93bfb700] DEBUG - HTTP requesting POST http://127.0.0.1:32600/devices/discover
+Nov 22, 2018 00:28:09.806 [0x7faf913f6700] DEBUG - Request: [127.0.0.1:36228 (Loopback)] GET /system/messaging/clear_events/com.plexapp.agents.imdb (9 live) GZIP
+Nov 22, 2018 00:28:09.807 [0x7faf913f6700] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /system/messaging/clear_events/com.plexapp.agents.imdb
+Nov 22, 2018 00:28:09.807 [0x7faf913f6700] DEBUG - HTTP requesting GET http://127.0.0.1:33391/system/messaging/clear_events/com.plexapp.agents.imdb
+Nov 22, 2018 00:28:09.948 [0x7faf943fc700] DEBUG - NetworkServiceBrowser: PLAYER arrived: 127.0.0.1
+Nov 22, 2018 00:28:09.949 [0x7faf943fc700] DEBUG - NetworkServiceBrowser: SERVER arrived: 127.0.0.1 (plex)
+Nov 22, 2018 00:28:09.949 [0x7faf943fc700] DEBUG - Notifying the system bundle an update to server /system/notify/serverUpdated?host=127.0.0.1
+Nov 22, 2018 00:28:09.949 [0x7faf943fc700] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /system/notify/serverUpdated?host=127.0.0.1
+Nov 22, 2018 00:28:09.949 [0x7faf943fc700] DEBUG - HTTP requesting GET http://127.0.0.1:33391/system/notify/serverUpdated?host=127.0.0.1
+Nov 22, 2018 00:28:09.963 [0x7faf903f4700] DEBUG - Request: [127.0.0.1:36234 (Loopback)] GET /:/plugins/com.plexapp.system/resourceHashes (9 live) GZIP
+Nov 22, 2018 00:28:09.963 [0x7faf903f4700] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/resourceHashes
+Nov 22, 2018 00:28:09.963 [0x7faf903f4700] DEBUG - HTTP requesting GET http://127.0.0.1:33391/:/plugins/com.plexapp.system/resourceHashes
+Nov 22, 2018 00:28:10.003 [0x7faf913f6700] DEBUG - HTTP 200 response from GET http://127.0.0.1:33391/system/messaging/clear_events/com.plexapp.agents.imdb
+Nov 22, 2018 00:28:10.004 [0x7faf913f6700] DEBUG - [com.plexapp.system] HTTP reply status 200, with 0 bytes of content.
+Nov 22, 2018 00:28:10.004 [0x7faf9bbff700] DEBUG - Completed: [127.0.0.1:36228] 200 GET /system/messaging/clear_events/com.plexapp.agents.imdb (9 live) GZIP 197ms 217 bytes
+Nov 22, 2018 00:28:10.018 [0x7faf8fbf3700] DEBUG - Request: [127.0.0.1:36238 (Loopback)] GET /servers (8 live) GZIP
+Nov 22, 2018 00:28:10.020 [0x7faf9bbff700] DEBUG - Completed: [127.0.0.1:36238] 200 GET /servers (8 live) GZIP 1ms 488 bytes
+Nov 22, 2018 00:28:10.051 [0x7faf923f8700] DEBUG - Request: [127.0.0.1:36242 (Loopback)] GET /library/sections (10 live) GZIP
+Nov 22, 2018 00:28:10.053 [0x7faf9b3fe700] DEBUG - Completed: [127.0.0.1:36242] 200 GET /library/sections (10 live) GZIP 2ms 812 bytes
+Nov 22, 2018 00:28:10.071 [0x7faf91bf7700] DEBUG - Request: [127.0.0.1:36244 (Loopback)] GET /channels/all (11 live) GZIP
+Nov 22, 2018 00:28:10.072 [0x7faf9b3fe700] DEBUG - Completed: [127.0.0.1:36244] 200 GET /channels/all (11 live) GZIP 0ms 387 bytes
+Nov 22, 2018 00:28:10.089 [0x7faf943fc700] DEBUG - HTTP 200 response from GET http://127.0.0.1:33391/system/notify/serverUpdated?host=127.0.0.1
+Nov 22, 2018 00:28:10.089 [0x7faf943fc700] DEBUG - [com.plexapp.system] HTTP reply status 200, with 0 bytes of content.
+Nov 22, 2018 00:28:10.151 [0x7faf903f4700] DEBUG - HTTP 200 response from GET http://127.0.0.1:33391/:/plugins/com.plexapp.system/resourceHashes
+Nov 22, 2018 00:28:10.152 [0x7faf903f4700] DEBUG - [com.plexapp.system] HTTP reply status 200, with 13276 bytes of content.
+Nov 22, 2018 00:28:10.153 [0x7faf9b3fe700] DEBUG - Completed: [127.0.0.1:36234] 200 GET /:/plugins/com.plexapp.system/resourceHashes (11 live) GZIP 190ms 3385 bytes
+Nov 22, 2018 00:28:10.233 [0x7faf90bf5700] DEBUG - Request: [127.0.0.1:36250 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (12 live) GZIP
+Nov 22, 2018 00:28:10.233 [0x7faf90bf5700] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Nov 22, 2018 00:28:10.233 [0x7faf90bf5700] DEBUG - HTTP requesting GET http://127.0.0.1:33391/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Nov 22, 2018 00:28:10.241 [0x7faf913f6700] DEBUG - Request: [127.0.0.1:36254 (Loopback)] GET / (12 live) GZIP
+Nov 22, 2018 00:28:10.242 [0x7faf9bbff700] DEBUG - Completed: [127.0.0.1:36254] 200 GET / (12 live) GZIP 1ms 1441 bytes
+Nov 22, 2018 00:28:10.281 [0x7faf90bf5700] DEBUG - HTTP 200 response from GET http://127.0.0.1:33391/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_
+Nov 22, 2018 00:28:10.281 [0x7faf90bf5700] DEBUG - [com.plexapp.system] HTTP reply status 200, with 59954 bytes of content.
+Nov 22, 2018 00:28:10.296 [0x7faf9bbff700] DEBUG - Completed: [127.0.0.1:36250] 200 GET /:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_ (12 live) GZIP 63ms 19227 bytes
+Nov 22, 2018 00:28:11.194 [0x7faf8fbf3700] DEBUG - Request: [127.0.0.1:36260 (Loopback)] GET /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczEwClBsZXggTW92aWVzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_ (12 live) GZIP
+Nov 22, 2018 00:28:11.194 [0x7faf8fbf3700] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczEwClBsZXggTW92aWVzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
+Nov 22, 2018 00:28:11.194 [0x7faf8fbf3700] DEBUG - HTTP requesting GET http://127.0.0.1:33391/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczEwClBsZXggTW92aWVzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
+Nov 22, 2018 00:28:11.204 [0x7faf8fbf3700] DEBUG - HTTP 200 response from GET http://127.0.0.1:33391/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczEwClBsZXggTW92aWVzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_
+Nov 22, 2018 00:28:11.205 [0x7faf8fbf3700] DEBUG - [com.plexapp.system] HTTP reply status 200, with 16 bytes of content.
+Nov 22, 2018 00:28:11.206 [0x7faf9bbff700] DEBUG - Completed: [127.0.0.1:36260] 200 GET /:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczEwClBsZXggTW92aWVzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_ (12 live) GZIP 12ms 352 bytes
+Nov 22, 2018 00:28:11.218 [0x7faf8cbfc700] DEBUG - Reading 148 bytes in the body, code is 200
+Nov 22, 2018 00:28:11.218 [0x7faf8cbfc700] DEBUG - [com.plexapp.agents.imdb] Plug-in running on port 45515.
+Nov 22, 2018 00:28:11.219 [0x7faf8cbfc700] DEBUG - Read configuration for [com.plexapp.agents.imdb], had 0 prefixes
+Nov 22, 2018 00:28:11.220 [0x7faf8cbfc700] DEBUG - [com.plexapp.agents.imdb] Sending command over HTTP (GET): /:/plugins/com.plexapp.agents.imdb/prefs
+Nov 22, 2018 00:28:11.220 [0x7faf8cbfc700] DEBUG - HTTP requesting GET http://127.0.0.1:45515/:/plugins/com.plexapp.agents.imdb/prefs
+Nov 22, 2018 00:28:11.267 [0x7faf8cbfc700] DEBUG - HTTP 200 response from GET http://127.0.0.1:45515/:/plugins/com.plexapp.agents.imdb/prefs
+Nov 22, 2018 00:28:11.267 [0x7faf8cbfc700] DEBUG - [com.plexapp.agents.imdb] HTTP reply status 200, with 2224 bytes of content.
+Nov 22, 2018 00:28:11.268 [0x7faf8cbfc700] DEBUG - Caching document http://127.0.0.1:32400/:/plugins/com.plexapp.agents.imdb/prefs as bf1bfc5622b4356c7f44ced8cdf69d934adf09c3
+Nov 22, 2018 00:28:11.268 [0x7faf8cbfc700] DEBUG - IVA: Downloading trailer lists.
+Nov 22, 2018 00:28:11.411 [0x7faf8cbfc700] DEBUG - IVA: Downloaded 17 trailers for source 1.
+Nov 22, 2018 00:28:11.504 [0x7faf8cbfc700] DEBUG - IVA: Downloaded 27 trailers for source 2.
+Nov 22, 2018 00:28:12.230 [0x7faf93bfb700] DEBUG - HTTP 200 response from POST http://127.0.0.1:32600/devices/discover
+Nov 22, 2018 00:28:14.923 [0x7faf943fc700] DEBUG - NetworkServiceBrowser: Parsing SSDP schema for http://172.18.0.6:32469/DeviceDescription.xml
+Nov 22, 2018 00:28:14.923 [0x7faf943fc700] DEBUG - HTTP requesting GET http://172.18.0.6:32469/DeviceDescription.xml
+Nov 22, 2018 00:28:14.927 [0x7faf943fc700] DEBUG - HTTP 200 response from GET http://172.18.0.6:32469/DeviceDescription.xml
+Nov 22, 2018 00:28:14.928 [0x7faf943fc700] DEBUG - NetworkServiceBrowser: found 1 SSDP devices via http://172.18.0.6:32469/DeviceDescription.xml
+Nov 22, 2018 00:28:14.928 [0x7faf943fc700] DEBUG - NetworkServiceBrowser: SSDP arrived: 172.18.0.6 (Plex Media Server: plex)
+Nov 22, 2018 00:28:15.281 [0x7faf93bfb700] DEBUG - Activity: Ended activity 499ef7d1-77ad-4a07-8b47-73657cdd6a36.
+Nov 22, 2018 00:28:15.282 [0x7faf93bfb700] DEBUG - DVR:Subscription: Refreshed all content in 0 ms.
+Nov 22, 2018 00:28:27.799 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:28:27.810 [0x7faf8fbf3700] DEBUG - Request: [172.18.0.1:35872 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:28:27.810 [0x7faf8fbf3700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:28:47.815 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:28:47.824 [0x7faf8fbf3700] DEBUG - Request: [172.18.0.1:35880 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:28:47.825 [0x7faf8fbf3700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:29:07.826 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:29:07.838 [0x7faf8fbf3700] DEBUG - Request: [172.18.0.1:35892 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:29:07.839 [0x7faf8fbf3700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:29:27.840 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:29:27.851 [0x7faf8fbf3700] DEBUG - Request: [172.18.0.1:35896 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:29:27.851 [0x7faf8fbf3700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:29:47.852 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:29:47.865 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:35906 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:29:47.865 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:29:59.147 [0x7faf90bf5700] DEBUG - BPQ: [Starting] -> [Processing]
+Nov 22, 2018 00:29:59.149 [0x7faf90bf5700] DEBUG - BPQ: generating queue items from 0 generator(s)
+Nov 22, 2018 00:29:59.149 [0x7faf90bf5700] DEBUG - BPQ: generated 0 item(s) for queue
+Nov 22, 2018 00:29:59.149 [0x7faf90bf5700] DEBUG - PlayQueue: 0 generated IDs compressed down to a 2 byte blob.
+Nov 22, 2018 00:29:59.149 [0x7faf90bf5700] DEBUG - PlayQueue: 0 generated IDs compressed down to a 2 byte blob.
+Nov 22, 2018 00:29:59.151 [0x7faf90bf5700] DEBUG - BPQ: [Processing] -> [Idle]
+Nov 22, 2018 00:30:04.700 [0x7faf8fbf3700] DEBUG - Request: [127.0.0.1:36322 (Loopback)] GET /servers (5 live) GZIP
+Nov 22, 2018 00:30:04.700 [0x7faf9b3fe700] DEBUG - Completed: [127.0.0.1:36322] 200 GET /servers (5 live) GZIP 1ms 488 bytes
+Nov 22, 2018 00:30:04.728 [0x7faf8fbf3700] DEBUG - Request: [127.0.0.1:36324 (Loopback)] GET /library/sections (5 live) GZIP
+Nov 22, 2018 00:30:04.730 [0x7faf9b3fe700] DEBUG - Completed: [127.0.0.1:36324] 200 GET /library/sections (5 live) GZIP 1ms 812 bytes
+Nov 22, 2018 00:30:04.751 [0x7faf8fbf3700] DEBUG - Request: [127.0.0.1:36326 (Loopback)] GET /channels/all (5 live) GZIP
+Nov 22, 2018 00:30:04.752 [0x7faf9b3fe700] DEBUG - Completed: [127.0.0.1:36326] 200 GET /channels/all (5 live) GZIP 0ms 387 bytes
+Nov 22, 2018 00:30:07.867 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:30:07.880 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:35944 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:30:07.882 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:30:27.882 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:30:27.903 [0x7faf8fbf3700] DEBUG - Request: [172.18.0.1:35970 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:30:27.904 [0x7faf8fbf3700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:30:47.905 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:30:47.916 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36004 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:30:47.917 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:31:07.918 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:31:07.927 [0x7faf8fbf3700] DEBUG - Request: [172.18.0.1:36006 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:31:07.927 [0x7faf8fbf3700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:31:27.930 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:31:27.941 [0x7faf8fbf3700] DEBUG - Request: [172.18.0.1:36036 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:31:27.942 [0x7faf8fbf3700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:31:47.942 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:31:47.952 [0x7faf8fbf3700] DEBUG - Request: [172.18.0.1:36040 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:31:47.952 [0x7faf8fbf3700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:32:07.954 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:32:07.965 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36042 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:32:07.966 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:32:27.966 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:32:27.977 [0x7faf8fbf3700] DEBUG - Request: [172.18.0.1:36044 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:32:27.978 [0x7faf8fbf3700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:32:47.979 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:32:47.995 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36070 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:32:47.996 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:33:07.999 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:33:08.014 [0x7faf8fbf3700] DEBUG - Request: [172.18.0.1:36156 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (5 live) GZIP
+Nov 22, 2018 00:33:08.017 [0x7faf8fbf3700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:33:28.018 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:33:28.211 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36202 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:33:28.212 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:33:48.213 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:33:48.223 [0x7faf8fbf3700] DEBUG - Request: [172.18.0.1:36212 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:33:48.223 [0x7faf8fbf3700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:34:08.224 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:34:08.235 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36238 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:34:08.235 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:34:28.238 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:34:28.250 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36248 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:34:28.250 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:34:48.254 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:34:48.264 [0x7faf8fbf3700] DEBUG - Request: [172.18.0.1:36252 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:34:48.265 [0x7faf8fbf3700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:35:08.267 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:35:08.280 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36254 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:35:08.282 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:35:28.283 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:35:28.293 [0x7faf8fbf3700] DEBUG - Request: [172.18.0.1:36256 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:35:28.293 [0x7faf8fbf3700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:35:48.294 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:35:48.305 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36262 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:35:48.306 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:36:08.308 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:36:08.319 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36264 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:36:08.319 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:36:28.321 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:36:28.334 [0x7faf8fbf3700] DEBUG - Request: [172.18.0.1:36266 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:36:28.335 [0x7faf8fbf3700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:36:48.337 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:36:48.347 [0x7faf8fbf3700] DEBUG - Request: [172.18.0.1:36268 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:36:48.348 [0x7faf8fbf3700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:37:08.350 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:37:08.361 [0x7faf8fbf3700] DEBUG - Request: [172.18.0.1:36274 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (5 live) GZIP
+Nov 22, 2018 00:37:08.361 [0x7faf8fbf3700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:37:28.363 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:37:28.375 [0x7faf8fbf3700] DEBUG - Request: [172.18.0.1:36276 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:37:28.375 [0x7faf8fbf3700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:37:48.376 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:37:48.389 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36278 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:37:48.389 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:38:08.390 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:38:08.400 [0x7faf8fbf3700] DEBUG - Request: [172.18.0.1:36280 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:38:08.400 [0x7faf8fbf3700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:38:28.402 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:38:28.413 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36282 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:38:28.414 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:38:48.414 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:38:48.425 [0x7faf8fbf3700] DEBUG - Request: [172.18.0.1:36288 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:38:48.426 [0x7faf8fbf3700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:39:08.432 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:39:08.440 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36290 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (5 live) GZIP
+Nov 22, 2018 00:39:08.441 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:39:28.441 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:39:28.453 [0x7faf8fbf3700] DEBUG - Request: [172.18.0.1:36292 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:39:28.454 [0x7faf8fbf3700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:39:48.454 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:39:48.466 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36294 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:39:48.466 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:40:08.467 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:40:08.479 [0x7faf8fbf3700] DEBUG - Request: [172.18.0.1:36300 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:40:08.480 [0x7faf8fbf3700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:40:28.480 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:40:28.504 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36302 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:40:28.508 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:40:48.507 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:40:48.517 [0x7faf8fbf3700] DEBUG - Request: [172.18.0.1:36304 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:40:48.519 [0x7faf8fbf3700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:41:08.518 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:41:08.528 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36306 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:41:08.529 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:41:28.530 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:41:28.539 [0x7faf8fbf3700] DEBUG - Request: [172.18.0.1:36308 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:41:28.540 [0x7faf8fbf3700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:41:48.541 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:41:48.552 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36314 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:41:48.553 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:42:08.555 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:42:08.565 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36316 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:42:08.566 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:42:28.568 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:42:28.579 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36318 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:42:28.580 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:42:48.583 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:42:48.599 [0x7faf8fbf3700] DEBUG - Request: [172.18.0.1:36320 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:42:48.600 [0x7faf8fbf3700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:43:08.603 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:43:08.616 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36326 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:43:08.616 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:43:28.618 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:43:28.634 [0x7faf8fbf3700] DEBUG - Request: [172.18.0.1:36328 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:43:28.635 [0x7faf8fbf3700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:43:48.635 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:43:48.646 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36330 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:43:48.647 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:44:08.650 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:44:08.659 [0x7faf8fbf3700] DEBUG - Request: [172.18.0.1:36332 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:44:08.661 [0x7faf8fbf3700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:44:28.661 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:44:28.671 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36334 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:44:28.673 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:44:48.673 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:44:48.683 [0x7faf8fbf3700] DEBUG - Request: [172.18.0.1:36340 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:44:48.684 [0x7faf8fbf3700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:45:08.685 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:45:08.696 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36342 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:45:08.698 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:45:28.699 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:45:28.708 [0x7faf8fbf3700] DEBUG - Request: [172.18.0.1:36344 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:45:28.709 [0x7faf8fbf3700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:45:48.710 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:45:48.720 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36346 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:45:48.721 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:46:08.724 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:46:08.736 [0x7faf8fbf3700] DEBUG - Request: [172.18.0.1:36352 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:46:08.737 [0x7faf8fbf3700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:46:28.737 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:46:28.749 [0x7faf8fbf3700] DEBUG - Request: [172.18.0.1:36354 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 00:46:28.750 [0x7faf8fbf3700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 00:46:48.750 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 00:46:55.038 [0x7faf9abfd700] DEBUG - [CompanionProxy] player 1j0o6ptsxxojwmtpmepfp7uk was last refreshed 10 seconds ago
+Nov 22, 2018 00:47:05.041 [0x7faf993fe700] DEBUG - [CompanionProxy] player 1j0o6ptsxxojwmtpmepfp7uk was last refreshed 20 seconds ago
+Nov 22, 2018 00:47:15.044 [0x7faf93bfb700] DEBUG - [CompanionProxy] player 1j0o6ptsxxojwmtpmepfp7uk was last refreshed 30 seconds ago
+Nov 22, 2018 00:47:25.046 [0x7faf99bff700] DEBUG - [CompanionProxy] player 1j0o6ptsxxojwmtpmepfp7uk was last refreshed 40 seconds ago
+Nov 22, 2018 00:47:25.046 [0x7faf99bff700] DEBUG - [CompanionProxy] player 1j0o6ptsxxojwmtpmepfp7uk was not refreshed for over 30 seconds, dropping it.
+Nov 22, 2018 00:50:22.292 [0x7faf993fe700] DEBUG - NetworkServiceBrowser: PLAYER departed after not being seen for 182.041877 seconds: 127.0.0.1
+Nov 22, 2018 00:57:59.142 [0x7faf9abfd700] DEBUG - Sync: uploadStatus
+Nov 22, 2018 00:58:18.522 [0x7faf8e3ff700] DEBUG - Putting plug-in com.plexapp.agents.imdb to sleep.
+Nov 22, 2018 00:58:18.523 [0x7faf8e3ff700] DEBUG - Stopping [com.plexapp.agents.imdb].
+Nov 22, 2018 00:58:18.523 [0x7faf8e3ff700] DEBUG - [com.plexapp.agents.imdb] Killing.
+Nov 22, 2018 00:58:28.529 [0x7faf8e3ff700] DEBUG - Stopping file watcher for com.plexapp.agents.imdb
+Nov 22, 2018 01:00:29.877 [0x7faf9cbff700] DEBUG - Statistics: Flushing 1 expired bandwidth entries, 0 expired media entries.
+Nov 22, 2018 01:04:36.364 [0x7faf8fbf3700] DEBUG - Request: [172.18.0.1:36380 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:04:36.365 [0x7faf8fbf3700] DEBUG - [CompanionProxy] registered new player: 1j0o6ptsxxojwmtpmepfp7uk (172.18.0.1)
+Nov 22, 2018 01:04:36.366 [0x7faf8fbf3700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:04:40.469 [0x7faf943fc700] DEBUG - NetworkServiceBrowser: PLAYER arrived: 127.0.0.1
+Nov 22, 2018 01:04:56.366 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:04:56.375 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36388 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:04:56.376 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:05:16.376 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:05:16.386 [0x7faf8fbf3700] DEBUG - Request: [172.18.0.1:36394 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:05:16.386 [0x7faf8fbf3700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:05:36.386 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:05:36.398 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36396 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:05:36.399 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:05:56.400 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:05:56.413 [0x7faf8fbf3700] DEBUG - Request: [172.18.0.1:36398 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:05:56.414 [0x7faf8fbf3700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:05:57.365 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36400 (Subnet)] GET /music/iTunes (7 live) GZIP
+Nov 22, 2018 01:05:57.372 [0x7faf8fbf3700] DEBUG - Request: [172.18.0.1:36404 (Subnet)] GET /media/providers (8 live) GZIP
+Nov 22, 2018 01:05:57.375 [0x7faf9bbff700] DEBUG - Completed: [172.18.0.1:36400] 404 GET /music/iTunes (8 live) GZIP 12ms 379 bytes (pipelined: 1)
+Nov 22, 2018 01:05:57.381 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36406 (Subnet)] GET /hubs?excludeFields=summary&count=16&includeEmpty=1&includeFeaturedTags=1&excludePlaylists=1&onlyTransient=1 (8 live) GZIP
+Nov 22, 2018 01:05:57.382 [0x7faf913f6700] DEBUG - HubCache: Adding '1/home.continue/1/hubs/en/count=16&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeFeaturedTags=1&onlyTransient=1' to the cache (1/home.continue/1/hubs/en/count=16&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeFeaturedTags=1&onlyTransient=1).
+Nov 22, 2018 01:05:57.382 [0x7faf913f6700] DEBUG - HubCache: Adding '1/home.ondeck/1/hubs/en/count=16&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeFeaturedTags=1&onlyTransient=1' to the cache (1/home.ondeck/1/hubs/en/count=16&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeFeaturedTags=1&onlyTransient=1).
+Nov 22, 2018 01:05:57.390 [0x7faf9bbff700] DEBUG - Completed: [172.18.0.1:36404] 200 GET /media/providers (8 live) GZIP 17ms 1641 bytes (pipelined: 1)
+Nov 22, 2018 01:05:57.398 [0x7faf8fbf3700] DEBUG - Request: [172.18.0.1:36402 (Subnet)] GET /library/sections (8 live) GZIP
+Nov 22, 2018 01:05:57.407 [0x7faf9b3fe700] DEBUG - Completed: [172.18.0.1:36402] 200 GET /library/sections (8 live) GZIP 10ms 819 bytes (pipelined: 1)
+Nov 22, 2018 01:05:57.427 [0x7faf913f6700] DEBUG - HubCache: Computed '1/home.ondeck/1/hubs/en/count=16&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeFeaturedTags=1&onlyTransient=1' in 44 ms.
+Nov 22, 2018 01:05:57.427 [0x7faf913f6700] DEBUG - HubCache: 2 hubs cached, 0.0% hit ratio.
+Nov 22, 2018 01:05:57.428 [0x7faf913f6700] DEBUG - HubCache: Computed '1/home.continue/1/hubs/en/count=16&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeFeaturedTags=1&onlyTransient=1' in 45 ms.
+Nov 22, 2018 01:05:57.434 [0x7faf913f6700] DEBUG - HubCache: Retrieving '1/home.ondeck/1/hubs/en/count=16&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeFeaturedTags=1&onlyTransient=1' from the cache.
+Nov 22, 2018 01:05:57.435 [0x7faf913f6700] DEBUG - HubCache: Adding '1/home.movies.recent/1/hubs/en/count=16&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeFeaturedTags=1&onlyTransient=1' to the cache (1/home.movies.recent/1/hubs/en/count=16&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeFeaturedTags=1&onlyTransient=1).
+Nov 22, 2018 01:05:57.447 [0x7faf913f6700] DEBUG - HubCache: Computed '1/home.movies.recent/1/hubs/en/count=16&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeFeaturedTags=1&onlyTransient=1' in 12 ms.
+Nov 22, 2018 01:05:57.448 [0x7faf913f6700] DEBUG - HubCache: Adding '1/home.television.recent/1/hubs/en/count=16&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeFeaturedTags=1&onlyTransient=1' to the cache (1/home.television.recent/1/hubs/en/count=16&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeFeaturedTags=1&onlyTransient=1).
+Nov 22, 2018 01:05:57.450 [0x7faf913f6700] ERROR - QueryParser: Invalid field 'onlyTransient' found, ignoring.
+Nov 22, 2018 01:05:57.454 [0x7faf913f6700] DEBUG - HubCache: Computed '1/home.television.recent/1/hubs/en/count=16&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeFeaturedTags=1&onlyTransient=1' in 6 ms.
+Nov 22, 2018 01:05:57.455 [0x7faf913f6700] DEBUG - HubCache: Adding '1/home.videos.recent/1/hubs/en/count=16&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeFeaturedTags=1&limit=200&onlyTransient=1&sort=addedAt%3Adesc&type=4%2C10' to the cache (1/home.videos.recent/1/hubs/en/count=16&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeFeaturedTags=1&limit=200&onlyTransient=1&sort=addedAt%3Adesc&type=4%2C10).
+Nov 22, 2018 01:05:57.456 [0x7faf913f6700] DEBUG - HubCache: Computed '1/home.videos.recent/1/hubs/en/count=16&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeFeaturedTags=1&limit=200&onlyTransient=1&sort=addedAt%3Adesc&type=4%2C10' in 0 ms.
+Nov 22, 2018 01:05:57.456 [0x7faf913f6700] DEBUG - HubCache: Adding '1/home.photos.recent/1/hubs/en/count=16&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeFeaturedTags=1&limit=200&onlyTransient=1&sort=addedAt%3Adesc&type=4%2C10' to the cache (1/home.photos.recent/1/hubs/en/count=16&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeFeaturedTags=1&limit=200&onlyTransient=1&sort=addedAt%3Adesc&type=4%2C10).
+Nov 22, 2018 01:05:57.465 [0x7faf913f6700] DEBUG - HubCache: Computed '1/home.photos.recent/1/hubs/en/count=16&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeFeaturedTags=1&limit=200&onlyTransient=1&sort=addedAt%3Adesc&type=4%2C10' in 4 ms.
+Nov 22, 2018 01:05:57.465 [0x7faf913f6700] DEBUG - HubCache: Adding '1/home.music.recent/1/hubs/en/count=16&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeFeaturedTags=1&limit=200&onlyTransient=1&sort=addedAt%3Adesc&type=4%2C10' to the cache (1/home.music.recent/1/hubs/en/count=16&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeFeaturedTags=1&limit=200&onlyTransient=1&sort=addedAt%3Adesc&type=4%2C10).
+Nov 22, 2018 01:05:57.466 [0x7faf913f6700] DEBUG - HubCache: Computed '1/home.music.recent/1/hubs/en/count=16&excludeFields=summary&excludePlaylists=1&includeEmpty=1&includeFeaturedTags=1&limit=200&onlyTransient=1&sort=addedAt%3Adesc&type=4%2C10' in 0 ms.
+Nov 22, 2018 01:05:57.474 [0x7faf9b3fe700] DEBUG - Completed: [172.18.0.1:36406] 200 GET /hubs?excludeFields=summary&count=16&includeEmpty=1&includeFeaturedTags=1&excludePlaylists=1&onlyTransient=1 (8 live) GZIP 93ms 1307 bytes (pipelined: 1)
+Nov 22, 2018 01:06:16.415 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:06:16.429 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:36406 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (7 live) GZIP
+Nov 22, 2018 01:06:16.430 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:06:36.430 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:06:36.448 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36412 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:06:36.449 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:06:56.449 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:06:56.460 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:36414 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:06:56.461 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:07:16.462 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:07:16.477 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36416 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:07:16.478 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:07:36.478 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:07:36.490 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:36418 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:07:36.491 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:07:56.491 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:07:56.503 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36420 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:07:56.503 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:08:16.504 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:08:16.514 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36426 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:08:16.515 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:08:36.516 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:08:36.529 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:36428 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:08:36.530 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:08:56.531 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:08:56.541 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36430 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:08:56.541 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:09:16.542 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:09:16.553 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:36432 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:09:16.554 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:09:36.554 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:09:36.566 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36438 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:09:36.567 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:09:56.569 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:09:56.579 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:36440 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:09:56.580 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:10:16.581 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:10:16.595 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:36442 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:10:16.595 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:10:36.597 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:10:36.608 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36444 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:10:36.609 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:10:56.609 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:10:56.620 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36446 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:10:56.621 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:11:16.622 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:11:16.640 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36452 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:11:16.640 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:11:36.641 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:11:36.651 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:36454 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:11:36.651 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:11:56.652 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:11:56.662 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36456 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:11:56.663 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:12:16.664 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:12:16.674 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:36458 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:12:16.675 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:12:36.677 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:12:36.686 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36464 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:12:36.687 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:12:56.687 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:12:56.699 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:36466 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:12:56.700 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:13:16.702 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:13:16.711 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:36468 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:13:16.712 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:13:36.712 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:13:36.724 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36472 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:13:36.726 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:13:56.727 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:13:56.736 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:36474 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:13:56.736 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:14:16.737 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:14:16.748 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36480 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:14:16.749 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:14:36.749 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:14:36.762 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:36482 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:14:36.763 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:14:56.764 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:14:56.777 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36484 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:14:56.777 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:15:16.778 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:15:16.788 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:36486 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:15:16.789 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:15:36.791 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:15:36.801 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:36492 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:15:36.802 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:15:56.802 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:15:56.812 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36494 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:15:56.813 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:16:16.815 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:16:16.830 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:36516 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (5 live) GZIP
+Nov 22, 2018 01:16:16.831 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:16:36.831 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:16:36.843 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:36520 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:16:36.844 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:16:56.845 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:16:56.857 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36522 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:16:56.857 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:17:16.858 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:17:16.868 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:36526 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:17:16.868 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:17:36.869 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:17:36.882 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36528 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:17:36.883 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:17:56.884 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:17:56.896 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:36530 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:17:56.897 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:18:16.899 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:18:16.909 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:36532 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:18:16.910 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:18:36.911 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:18:36.921 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:36538 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:18:36.922 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:18:56.925 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:18:56.937 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36540 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:18:56.938 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:19:16.939 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:19:16.951 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:36542 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:19:16.951 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:19:36.954 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:19:36.964 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36548 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:19:36.964 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:19:56.966 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:19:56.981 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36550 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:19:56.982 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:20:16.983 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:20:16.992 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:36554 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:20:16.993 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:20:36.994 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:20:37.007 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36556 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:20:37.007 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:20:57.009 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:20:57.021 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:36558 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:20:57.021 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:21:17.022 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:21:17.034 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36562 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:21:17.034 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:21:37.036 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:21:37.046 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:36568 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:21:37.047 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:21:57.048 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:21:57.059 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36570 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:21:57.059 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:22:17.060 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:22:17.070 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:36572 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:22:17.071 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:22:37.072 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:22:37.082 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:36574 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:22:37.082 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:22:57.085 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:22:57.099 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:36576 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:22:57.099 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:23:17.100 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:23:17.109 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:36582 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:23:17.110 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:23:37.111 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:23:37.122 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36586 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:23:37.123 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:23:57.124 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:23:57.135 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36588 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:23:57.135 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:24:17.136 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:24:17.148 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:36590 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:24:17.149 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:24:37.151 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:24:37.162 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36596 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:24:37.163 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:24:57.165 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:24:57.176 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36598 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:24:57.176 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:25:17.179 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:25:17.190 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36600 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:25:17.190 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:25:37.193 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:25:37.204 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36602 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:25:37.204 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:25:57.206 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:25:57.218 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:36604 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:25:57.218 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:26:17.219 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:26:17.230 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:36610 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:26:17.230 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:26:37.231 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:26:37.241 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36612 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:26:37.242 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:26:57.243 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:26:57.253 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:36614 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:26:57.253 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:27:17.255 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:27:17.266 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36616 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:27:17.266 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:27:37.267 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:27:37.279 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36622 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:27:37.280 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:27:57.282 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:27:57.297 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:36624 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:27:57.298 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:27:59.143 [0x7faf9abfd700] DEBUG - Sync: uploadStatus
+Nov 22, 2018 01:28:17.299 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:28:17.315 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36626 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:28:17.316 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:28:37.317 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:28:37.327 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36628 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:28:37.328 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:28:57.329 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:28:57.338 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:36630 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:28:57.339 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:29:17.341 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:29:17.351 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36640 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:29:17.352 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:29:37.355 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:29:37.366 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36642 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:29:37.367 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:29:57.368 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:29:57.378 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:36644 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:29:57.378 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:30:17.380 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:30:17.391 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36646 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:30:17.391 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:30:37.394 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:30:37.405 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36652 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:30:37.406 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:30:57.408 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:30:57.418 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:36654 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:30:57.418 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:31:17.421 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:31:17.432 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36656 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:31:17.432 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:31:37.434 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:31:37.444 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:36658 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:31:37.445 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:31:57.446 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:31:57.457 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:36660 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:31:57.458 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:32:17.460 [0x7faf9bbff700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:32:17.471 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36666 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:32:17.472 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:32:37.473 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:32:37.487 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36668 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:32:37.488 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:32:57.491 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:32:57.503 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:36670 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:32:57.503 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:33:17.508 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:33:25.307 [0x7faf993fe700] DEBUG - [CompanionProxy] player 1j0o6ptsxxojwmtpmepfp7uk was last refreshed 10 seconds ago
+Nov 22, 2018 01:33:35.308 [0x7faf9abfd700] DEBUG - [CompanionProxy] player 1j0o6ptsxxojwmtpmepfp7uk was last refreshed 20 seconds ago
+Nov 22, 2018 01:33:45.310 [0x7faf93bfb700] DEBUG - [CompanionProxy] player 1j0o6ptsxxojwmtpmepfp7uk was last refreshed 30 seconds ago
+Nov 22, 2018 01:33:55.313 [0x7faf9abfd700] DEBUG - [CompanionProxy] player 1j0o6ptsxxojwmtpmepfp7uk was last refreshed 40 seconds ago
+Nov 22, 2018 01:33:55.313 [0x7faf9abfd700] DEBUG - [CompanionProxy] player 1j0o6ptsxxojwmtpmepfp7uk was not refreshed for over 30 seconds, dropping it.
+Nov 22, 2018 01:36:52.906 [0x7faf99bff700] DEBUG - NetworkServiceBrowser: PLAYER departed after not being seen for 182.051823 seconds: 127.0.0.1
+Nov 22, 2018 01:43:54.259 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:36686 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:43:54.260 [0x7faf90bf5700] DEBUG - [CompanionProxy] registered new player: 1j0o6ptsxxojwmtpmepfp7uk (172.18.0.1)
+Nov 22, 2018 01:43:54.261 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:43:56.030 [0x7faf943fc700] DEBUG - NetworkServiceBrowser: PLAYER arrived: 127.0.0.1
+Nov 22, 2018 01:44:14.262 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:44:14.272 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36698 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:44:14.272 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:44:34.275 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:44:34.288 [0x7faf90bf5700] DEBUG - Request: [172.18.0.1:36700 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:44:34.288 [0x7faf90bf5700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:44:54.291 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:44:54.302 [0x7faf913f6700] DEBUG - Request: [172.18.0.1:36702 (Subnet)] GET /player/proxy/poll?deviceClass=pc&protocolVersion=1&protocolCapabilities=timeline%2Cplayback%2Cnavigation%2Cmirror%2Cplayqueues&timeout=1 (4 live) GZIP
+Nov 22, 2018 01:44:54.303 [0x7faf913f6700] DEBUG - Beginning read from two-way stream.
+Nov 22, 2018 01:45:04.312 [0x7faf9b3fe700] DEBUG - handleStreamRead code 2: End of file
+Nov 22, 2018 01:45:04.312 [0x7faf9b3fe700] WARN - LongPoll: Got error, closing.
+Nov 22, 2018 01:45:05.385 [0x7faf99bff700] DEBUG - [CompanionProxy] player 1j0o6ptsxxojwmtpmepfp7uk was last refreshed 10 seconds ago
+Nov 22, 2018 01:45:15.386 [0x7faf9cbff700] DEBUG - [CompanionProxy] player 1j0o6ptsxxojwmtpmepfp7uk was last refreshed 20 seconds ago
+Nov 22, 2018 01:45:26.814 [0x7faf93bfb700] DEBUG - [CompanionProxy] player 1j0o6ptsxxojwmtpmepfp7uk was last refreshed 31 seconds ago
+Nov 22, 2018 01:45:26.815 [0x7faf93bfb700] DEBUG - [CompanionProxy] player 1j0o6ptsxxojwmtpmepfp7uk was not refreshed for over 30 seconds, dropping it.
+Nov 22, 2018 02:20:43.988 [0x7faf99bff700] DEBUG - NetworkServiceBrowser: PLAYER departed after not being seen for 2122.929808 seconds: 127.0.0.1
+Nov 22, 2018 02:20:43.989 [0x7faf93bfb700] DEBUG - NetworkServiceBrowser: SERVER departed after not being seen for 2097.165816 seconds: 127.0.0.1 (plex)
+Nov 22, 2018 02:20:43.990 [0x7faf943fc700] DEBUG - NetworkServiceBrowser: SERVER arrived: 127.0.0.1 (plex)
+Nov 22, 2018 02:20:43.990 [0x7faf91bf7700] DEBUG - Statistics: Flushing 1 expired bandwidth entries, 0 expired media entries.
+Nov 22, 2018 02:20:43.990 [0x7faf8d3fd700] DEBUG - Butler: we're in the window, starting.
+Nov 22, 2018 02:20:43.990 [0x7faf8d3fd700] DEBUG - Butler: Waking up!
+Nov 22, 2018 02:20:43.991 [0x7faf923f8700] DEBUG - Sync: uploadStatus
+Nov 22, 2018 02:20:43.996 [0x7faf943fc700] DEBUG - Notifying the system bundle an update to server /system/notify/serverUpdated?host=127.0.0.1
+Nov 22, 2018 02:20:43.996 [0x7faf93bfb700] DEBUG - Notifying the system bundle an update to server /system/notify/serverUpdated?host=127.0.0.1
+Nov 22, 2018 02:20:43.998 [0x7faf943fc700] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /system/notify/serverUpdated?host=127.0.0.1
+Nov 22, 2018 02:20:43.999 [0x7faf93bfb700] DEBUG - [com.plexapp.system] Sending command over HTTP (GET): /system/notify/serverUpdated?host=127.0.0.1
+Nov 22, 2018 02:20:44.005 [0x7faf8d3fd700] DEBUG - Butler: Scheduling randomized task 'RefreshEpgGuides' in 149 minutes.
+Nov 22, 2018 02:20:44.006 [0x7faf8d3fd700] DEBUG - Butler: Scheduling randomized task 'RefreshPeriodicMetadata' in 119 minutes.
+Nov 22, 2018 02:20:44.007 [0x7faf943fc700] DEBUG - HTTP requesting GET http://127.0.0.1:33391/system/notify/serverUpdated?host=127.0.0.1
+Nov 22, 2018 02:20:44.008 [0x7faf8d3fd700] DEBUG - Butler: Scheduling randomized task 'ReverseGeocode' in 34 minutes.
+Nov 22, 2018 02:20:44.008 [0x7faf93bfb700] DEBUG - HTTP requesting GET http://127.0.0.1:33391/system/notify/serverUpdated?host=127.0.0.1
+Nov 22, 2018 02:20:44.015 [0x7faf8affe700] DEBUG - Activity: registered new activity ec36af00-f711-4136-a384-c07dd1b94a63 - Optimizing database
+Nov 22, 2018 02:20:44.019 [0x7faf8affe700] DEBUG - Database optimization: Optimizing database. Starting by capturing all sessions.
+Nov 22, 2018 02:20:44.019 [0x7faf8affe700] DEBUG - Activity: updated activity ec36af00-f711-4136-a384-c07dd1b94a63 - completed 0% - Optimizing database
+Nov 22, 2018 02:20:44.020 [0x7faf8affe700] DEBUG - Activity: updated activity ec36af00-f711-4136-a384-c07dd1b94a63 - completed 10% - Optimizing database
+Nov 22, 2018 02:20:44.021 [0x7faf8affe700] DEBUG - Running database fix-ups.
+Nov 22, 2018 02:20:44.042 [0x7faf90bf5700] DEBUG - Request: [127.0.0.1:37114 (Loopback)] GET /servers (5 live) GZIP
+Nov 22, 2018 02:20:44.042 [0x7faf89ffc700] DEBUG - Request: [127.0.0.1:37116 (Loopback)] GET /servers (5 live) GZIP
+Nov 22, 2018 02:20:44.054 [0x7faf9b3fe700] DEBUG - Completed: [127.0.0.1:37114] 200 GET /servers (5 live) GZIP 12ms 488 bytes
+Nov 22, 2018 02:20:44.054 [0x7faf9b3fe700] DEBUG - Completed: [127.0.0.1:37116] 200 GET /servers (5 live) GZIP 12ms 488 bytes
+Nov 22, 2018 02:20:44.064 [0x7faf8affe700] DEBUG - Running database fix-ups completed in 0.0 seconds.
+Nov 22, 2018 02:20:44.064 [0x7faf8affe700] DEBUG - Captured session 0.
+Nov 22, 2018 02:20:44.064 [0x7faf8affe700] DEBUG - Captured session 1.
+Nov 22, 2018 02:20:44.064 [0x7faf8affe700] DEBUG - Captured session 2.
+Nov 22, 2018 02:20:44.064 [0x7faf8affe700] DEBUG - Captured session 3.
+Nov 22, 2018 02:20:44.064 [0x7faf8affe700] DEBUG - Captured session 4.
+Nov 22, 2018 02:20:44.065 [0x7faf8affe700] DEBUG - Captured session 5.
+Nov 22, 2018 02:20:44.065 [0x7faf8affe700] DEBUG - Captured session 6.
+Nov 22, 2018 02:20:44.065 [0x7faf8affe700] DEBUG - Captured session 7.
+Nov 22, 2018 02:20:44.065 [0x7faf8affe700] DEBUG - Captured session 8.
+Nov 22, 2018 02:20:44.065 [0x7faf8affe700] DEBUG - Captured session 9.
+Nov 22, 2018 02:20:44.065 [0x7faf8affe700] DEBUG - Captured session 10.
+Nov 22, 2018 02:20:44.065 [0x7faf8affe700] DEBUG - Captured session 11.
+Nov 22, 2018 02:20:44.066 [0x7faf8affe700] DEBUG - Captured session 12.
+Nov 22, 2018 02:20:44.066 [0x7faf8affe700] DEBUG - Captured session 13.
+Nov 22, 2018 02:20:44.066 [0x7faf8affe700] DEBUG - Captured session 14.
+Nov 22, 2018 02:20:44.067 [0x7faf8affe700] DEBUG - Captured session 15.
+Nov 22, 2018 02:20:44.067 [0x7faf8affe700] DEBUG - Captured session 16.
+Nov 22, 2018 02:20:44.067 [0x7faf8affe700] DEBUG - Captured session 17.
+Nov 22, 2018 02:20:44.067 [0x7faf8affe700] DEBUG - Captured session 18.
+Nov 22, 2018 02:20:44.067 [0x7faf8affe700] DEBUG - Captured session 19.
+Nov 22, 2018 02:20:44.067 [0x7faf8affe700] DEBUG - Database optimization: Rebuilding full text search tables.
+Nov 22, 2018 02:20:44.067 [0x7faf8affe700] DEBUG - Activity: updated activity ec36af00-f711-4136-a384-c07dd1b94a63 - completed 40% - Optimizing database
+Nov 22, 2018 02:20:44.133 [0x7faf8affe700] DEBUG - Database optimization: starting.
+Nov 22, 2018 02:20:44.133 [0x7faf8affe700] DEBUG - Activity: updated activity ec36af00-f711-4136-a384-c07dd1b94a63 - completed 60% - Optimizing database
+Nov 22, 2018 02:20:44.370 [0x7faf8affe700] DEBUG - Database optimization: complete.
+Nov 22, 2018 02:20:44.378 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:44.402 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:44.416 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:44.436 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:44.453 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:44.480 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:44.498 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:44.515 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:44.536 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:44.553 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:44.572 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:44.594 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:44.616 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:44.643 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:44.668 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:44.695 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:44.723 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:44.746 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:44.761 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:44.766 [0x7faf8affe700] DEBUG - Activity: Ended activity ec36af00-f711-4136-a384-c07dd1b94a63.
+Nov 22, 2018 02:20:44.766 [0x7faf8a7fd700] DEBUG - Request: [127.0.0.1:37118 (Loopback)] GET /library/sections (7 live) GZIP
+Nov 22, 2018 02:20:44.767 [0x7faf89ffc700] DEBUG - Request: [127.0.0.1:37120 (Loopback)] GET /library/sections (6 live) GZIP
+Nov 22, 2018 02:20:44.768 [0x7faf9bbff700] DEBUG - Completed: [127.0.0.1:37118] 200 GET /library/sections (5 live) GZIP 2ms 812 bytes
+Nov 22, 2018 02:20:44.768 [0x7faf9bbff700] DEBUG - Completed: [127.0.0.1:37120] 200 GET /library/sections (5 live) GZIP 1ms 812 bytes
+Nov 22, 2018 02:20:44.769 [0x7faf8affe700] DEBUG - Running migrations. (EPG 0)
+Nov 22, 2018 02:20:44.772 [0x7faf8affe700] DEBUG - Running forward migration 20161017000000.
+Nov 22, 2018 02:20:44.773 [0x7faf8affe700] DEBUG - Captured session 0.
+Nov 22, 2018 02:20:44.773 [0x7faf8affe700] DEBUG - Captured session 1.
+Nov 22, 2018 02:20:44.773 [0x7faf8affe700] DEBUG - Captured session 2.
+Nov 22, 2018 02:20:44.773 [0x7faf8affe700] DEBUG - Captured session 3.
+Nov 22, 2018 02:20:44.773 [0x7faf8affe700] DEBUG - Captured session 4.
+Nov 22, 2018 02:20:44.773 [0x7faf8affe700] DEBUG - Captured session 5.
+Nov 22, 2018 02:20:44.773 [0x7faf8affe700] DEBUG - Captured session 6.
+Nov 22, 2018 02:20:44.773 [0x7faf8affe700] DEBUG - Captured session 7.
+Nov 22, 2018 02:20:44.773 [0x7faf8affe700] DEBUG - Captured session 8.
+Nov 22, 2018 02:20:44.773 [0x7faf8affe700] DEBUG - Captured session 9.
+Nov 22, 2018 02:20:44.773 [0x7faf8affe700] DEBUG - Captured session 10.
+Nov 22, 2018 02:20:44.773 [0x7faf8affe700] DEBUG - Captured session 11.
+Nov 22, 2018 02:20:44.773 [0x7faf8affe700] DEBUG - Captured session 12.
+Nov 22, 2018 02:20:44.773 [0x7faf8affe700] DEBUG - Captured session 13.
+Nov 22, 2018 02:20:44.773 [0x7faf8affe700] DEBUG - Captured session 14.
+Nov 22, 2018 02:20:44.773 [0x7faf8affe700] DEBUG - Captured session 15.
+Nov 22, 2018 02:20:44.773 [0x7faf8affe700] DEBUG - Captured session 16.
+Nov 22, 2018 02:20:44.773 [0x7faf8affe700] DEBUG - Captured session 17.
+Nov 22, 2018 02:20:44.773 [0x7faf8affe700] DEBUG - Captured session 18.
+Nov 22, 2018 02:20:44.773 [0x7faf8affe700] DEBUG - Captured session 19.
+Nov 22, 2018 02:20:44.777 [0x7faf8affe700] DEBUG - Analyzing database.
+Nov 22, 2018 02:20:44.785 [0x7faf8affe700] DEBUG - Vacuuming database.
+Nov 22, 2018 02:20:45.013 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.071 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.074 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.077 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.081 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.084 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.086 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.090 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.093 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.096 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.099 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.104 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.108 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.112 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.115 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.118 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.121 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.124 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.128 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.131 [0x7faf90bf5700] DEBUG - Request: [127.0.0.1:37122 (Loopback)] GET /channels/all (7 live) GZIP
+Nov 22, 2018 02:20:45.131 [0x7faf89ffc700] DEBUG - Request: [127.0.0.1:37124 (Loopback)] GET /channels/all (6 live) GZIP
+Nov 22, 2018 02:20:45.132 [0x7faf9b3fe700] DEBUG - Completed: [127.0.0.1:37122] 200 GET /channels/all (5 live) GZIP 0ms 387 bytes
+Nov 22, 2018 02:20:45.132 [0x7faf9b3fe700] DEBUG - Completed: [127.0.0.1:37124] 200 GET /channels/all (5 live) GZIP 0ms 387 bytes
+Nov 22, 2018 02:20:45.132 [0x7faf8affe700] DEBUG - Completed forward migration 20161017000000.
+Nov 22, 2018 02:20:45.132 [0x7faf8affe700] DEBUG - Running forward migration 20170213173900.
+Nov 22, 2018 02:20:45.132 [0x7faf8affe700] DEBUG - Captured session 0.
+Nov 22, 2018 02:20:45.132 [0x7faf8affe700] DEBUG - Captured session 1.
+Nov 22, 2018 02:20:45.132 [0x7faf8affe700] DEBUG - Captured session 2.
+Nov 22, 2018 02:20:45.132 [0x7faf8affe700] DEBUG - Captured session 3.
+Nov 22, 2018 02:20:45.132 [0x7faf8affe700] DEBUG - Captured session 4.
+Nov 22, 2018 02:20:45.132 [0x7faf8affe700] DEBUG - Captured session 5.
+Nov 22, 2018 02:20:45.132 [0x7faf8affe700] DEBUG - Captured session 6.
+Nov 22, 2018 02:20:45.132 [0x7faf8affe700] DEBUG - Captured session 7.
+Nov 22, 2018 02:20:45.132 [0x7faf8affe700] DEBUG - Captured session 8.
+Nov 22, 2018 02:20:45.132 [0x7faf8affe700] DEBUG - Captured session 9.
+Nov 22, 2018 02:20:45.132 [0x7faf8affe700] DEBUG - Captured session 10.
+Nov 22, 2018 02:20:45.132 [0x7faf8affe700] DEBUG - Captured session 11.
+Nov 22, 2018 02:20:45.132 [0x7faf8affe700] DEBUG - Captured session 12.
+Nov 22, 2018 02:20:45.132 [0x7faf8affe700] DEBUG - Captured session 13.
+Nov 22, 2018 02:20:45.132 [0x7faf8affe700] DEBUG - Captured session 14.
+Nov 22, 2018 02:20:45.132 [0x7faf8affe700] DEBUG - Captured session 15.
+Nov 22, 2018 02:20:45.132 [0x7faf8affe700] DEBUG - Captured session 16.
+Nov 22, 2018 02:20:45.132 [0x7faf8affe700] DEBUG - Captured session 17.
+Nov 22, 2018 02:20:45.132 [0x7faf8affe700] DEBUG - Captured session 18.
+Nov 22, 2018 02:20:45.132 [0x7faf8affe700] DEBUG - Captured session 19.
+Nov 22, 2018 02:20:45.142 [0x7faf8affe700] DEBUG - Analyzing database.
+Nov 22, 2018 02:20:45.150 [0x7faf8affe700] DEBUG - Vacuuming database.
+Nov 22, 2018 02:20:45.183 [0x7faf943fc700] DEBUG - HTTP 200 response from GET http://127.0.0.1:33391/system/notify/serverUpdated?host=127.0.0.1
+Nov 22, 2018 02:20:45.184 [0x7faf93bfb700] DEBUG - HTTP 200 response from GET http://127.0.0.1:33391/system/notify/serverUpdated?host=127.0.0.1
+Nov 22, 2018 02:20:45.185 [0x7faf93bfb700] DEBUG - [com.plexapp.system] HTTP reply status 200, with 0 bytes of content.
+Nov 22, 2018 02:20:45.185 [0x7faf943fc700] DEBUG - [com.plexapp.system] HTTP reply status 200, with 0 bytes of content.
+Nov 22, 2018 02:20:45.473 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.477 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.480 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.482 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.485 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.488 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.491 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.495 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.498 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.501 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.504 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.507 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.510 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.513 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.516 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.519 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.522 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.525 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.528 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.531 [0x7faf8affe700] DEBUG - Completed forward migration 20170213173900.
+Nov 22, 2018 02:20:45.531 [0x7faf8affe700] DEBUG - Running forward migration 20170403201322.
+Nov 22, 2018 02:20:45.531 [0x7faf8affe700] DEBUG - Captured session 0.
+Nov 22, 2018 02:20:45.531 [0x7faf8affe700] DEBUG - Captured session 1.
+Nov 22, 2018 02:20:45.531 [0x7faf8affe700] DEBUG - Captured session 2.
+Nov 22, 2018 02:20:45.531 [0x7faf8affe700] DEBUG - Captured session 3.
+Nov 22, 2018 02:20:45.531 [0x7faf8affe700] DEBUG - Captured session 4.
+Nov 22, 2018 02:20:45.531 [0x7faf8affe700] DEBUG - Captured session 5.
+Nov 22, 2018 02:20:45.531 [0x7faf8affe700] DEBUG - Captured session 6.
+Nov 22, 2018 02:20:45.531 [0x7faf8affe700] DEBUG - Captured session 7.
+Nov 22, 2018 02:20:45.532 [0x7faf8affe700] DEBUG - Captured session 8.
+Nov 22, 2018 02:20:45.532 [0x7faf8affe700] DEBUG - Captured session 9.
+Nov 22, 2018 02:20:45.532 [0x7faf8affe700] DEBUG - Captured session 10.
+Nov 22, 2018 02:20:45.532 [0x7faf8affe700] DEBUG - Captured session 11.
+Nov 22, 2018 02:20:45.532 [0x7faf8affe700] DEBUG - Captured session 12.
+Nov 22, 2018 02:20:45.532 [0x7faf8affe700] DEBUG - Captured session 13.
+Nov 22, 2018 02:20:45.532 [0x7faf8affe700] DEBUG - Captured session 14.
+Nov 22, 2018 02:20:45.532 [0x7faf8affe700] DEBUG - Captured session 15.
+Nov 22, 2018 02:20:45.532 [0x7faf8affe700] DEBUG - Captured session 16.
+Nov 22, 2018 02:20:45.532 [0x7faf8affe700] DEBUG - Captured session 17.
+Nov 22, 2018 02:20:45.532 [0x7faf8affe700] DEBUG - Captured session 18.
+Nov 22, 2018 02:20:45.532 [0x7faf8affe700] DEBUG - Captured session 19.
+Nov 22, 2018 02:20:45.544 [0x7faf8affe700] DEBUG - Completed forward migration 20170403201322.
+Nov 22, 2018 02:20:45.544 [0x7faf8affe700] DEBUG - Running forward migration 20170615000000.
+Nov 22, 2018 02:20:45.544 [0x7faf8affe700] DEBUG - Captured session 0.
+Nov 22, 2018 02:20:45.544 [0x7faf8affe700] DEBUG - Captured session 1.
+Nov 22, 2018 02:20:45.544 [0x7faf8affe700] DEBUG - Captured session 2.
+Nov 22, 2018 02:20:45.544 [0x7faf8affe700] DEBUG - Captured session 3.
+Nov 22, 2018 02:20:45.544 [0x7faf8affe700] DEBUG - Captured session 4.
+Nov 22, 2018 02:20:45.544 [0x7faf8affe700] DEBUG - Captured session 5.
+Nov 22, 2018 02:20:45.544 [0x7faf8affe700] DEBUG - Captured session 6.
+Nov 22, 2018 02:20:45.544 [0x7faf8affe700] DEBUG - Captured session 7.
+Nov 22, 2018 02:20:45.544 [0x7faf8affe700] DEBUG - Captured session 8.
+Nov 22, 2018 02:20:45.544 [0x7faf8affe700] DEBUG - Captured session 9.
+Nov 22, 2018 02:20:45.544 [0x7faf8affe700] DEBUG - Captured session 10.
+Nov 22, 2018 02:20:45.544 [0x7faf8affe700] DEBUG - Captured session 11.
+Nov 22, 2018 02:20:45.545 [0x7faf8affe700] DEBUG - Captured session 12.
+Nov 22, 2018 02:20:45.545 [0x7faf8affe700] DEBUG - Captured session 13.
+Nov 22, 2018 02:20:45.545 [0x7faf8affe700] DEBUG - Captured session 14.
+Nov 22, 2018 02:20:45.545 [0x7faf8affe700] DEBUG - Captured session 15.
+Nov 22, 2018 02:20:45.545 [0x7faf8affe700] DEBUG - Captured session 16.
+Nov 22, 2018 02:20:45.545 [0x7faf8affe700] DEBUG - Captured session 17.
+Nov 22, 2018 02:20:45.545 [0x7faf8affe700] DEBUG - Captured session 18.
+Nov 22, 2018 02:20:45.545 [0x7faf8affe700] DEBUG - Captured session 19.
+Nov 22, 2018 02:20:45.547 [0x7faf8affe700] DEBUG - Analyzing database.
+Nov 22, 2018 02:20:45.555 [0x7faf8affe700] DEBUG - Vacuuming database.
+Nov 22, 2018 02:20:45.765 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.774 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.777 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.781 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.784 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.787 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.790 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.793 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.796 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.800 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.803 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.806 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.809 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.813 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.816 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.819 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.822 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.825 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.828 [0x7faf8affe700] INFO - SQLITE3:0x10, 17, statement aborts at 57: [select * from metadata_items limit 1] database schema has changed
+Nov 22, 2018 02:20:45.831 [0x7faf8affe700] DEBUG - Completed forward migration 20170615000000.
+Nov 22, 2018 02:20:45.835 [0x7faf8affe700] DEBUG - Butler: optimized your database
+Nov 22, 2018 02:20:45.838 [0x7faf8affe700] DEBUG - Activity: registered new activity b3ce4771-6e3d-45e4-a3d3-b6d0e2286a92 - Cleaning Bundles
+Nov 22, 2018 02:20:45.840 [0x7faf8affe700] DEBUG - Activity: updated activity b3ce4771-6e3d-45e4-a3d3-b6d0e2286a92 - completed -1% - Cleaning Bundles
+Nov 22, 2018 02:20:45.848 [0x7faf8affe700] DEBUG - Activity: updated activity b3ce4771-6e3d-45e4-a3d3-b6d0e2286a92 - completed 75% - Cleaning Bundles
+Nov 22, 2018 02:20:45.849 [0x7faf8affe700] DEBUG - Activity: updated activity b3ce4771-6e3d-45e4-a3d3-b6d0e2286a92 - completed 100% - Cleaning Bundles
+Nov 22, 2018 02:20:45.850 [0x7faf8affe700] DEBUG - Deleted 0 media bundles.
+Nov 22, 2018 02:20:45.851 [0x7faf8affe700] DEBUG - The butler cleaned 0 media bundles.
+Nov 22, 2018 02:20:45.851 [0x7faf8affe700] DEBUG - Activity: updated activity b3ce4771-6e3d-45e4-a3d3-b6d0e2286a92 - completed 100% - Cleaning Bundles
+Nov 22, 2018 02:20:45.858 [0x7faf8affe700] DEBUG - Activity: updated activity b3ce4771-6e3d-45e4-a3d3-b6d0e2286a92 - completed 25% - Cleaning Bundles
+Nov 22, 2018 02:20:45.858 [0x7faf8affe700] DEBUG - Activity: updated activity b3ce4771-6e3d-45e4-a3d3-b6d0e2286a92 - completed 50% - Cleaning Bundles
+Nov 22, 2018 02:20:45.858 [0x7faf8affe700] DEBUG - Deleted 0 metadata bundles.
+Nov 22, 2018 02:20:45.859 [0x7faf8affe700] DEBUG - The butler cleaned 0 metadata bundles.
+Nov 22, 2018 02:20:45.859 [0x7faf8affe700] DEBUG - Activity: Ended activity b3ce4771-6e3d-45e4-a3d3-b6d0e2286a92.
+Nov 22, 2018 02:20:45.889 [0x7faf8affe700] DEBUG - The butler looked at 5 cache files and deleted 0 of them.
+Nov 22, 2018 02:20:45.889 [0x7faf8affe700] DEBUG - The butler looked at 0 diagnostic files and deleted 0 of them.
+Nov 22, 2018 02:20:45.902 [0x7faf8affe700] DEBUG - The butler performed loudness analysis on 0 albums.
+Nov 22, 2018 02:20:45.903 [0x7faf8affe700] DEBUG - The butler processed 0 files for autotag generation
+Nov 22, 2018 02:20:45.903 [0x7faf8affe700] DEBUG - Butler: Scheduling deep analysis for: Phone Booth
+Nov 22, 2018 02:20:45.911 [0x7faf8affe700] DEBUG - Job running: '/usr/lib/plexmediaserver/Plex Media Scanner' '--analyze-deeply' '--item' '1' '--log-file-suffix' ' Deep Analysis'
+Nov 22, 2018 02:20:45.914 [0x7faf8affe700] DEBUG - Jobs: Starting child process with pid 1683
+Nov 22, 2018 02:20:53.611 [0x7faf98bfd700] DEBUG - Jobs: '/usr/lib/plexmediaserver/Plex Media Scanner' exit code for process 1683 is 0 (success)
+Nov 22, 2018 02:20:53.612 [0x7faf8affe700] DEBUG - The butler performed deep analysis on 1 files
+Nov 22, 2018 02:20:53.615 [0x7faf8affe700] DEBUG - The butler generated chapter thumbnails for 0 files
+Nov 22, 2018 02:20:53.647 [0x7faf8affe700] DEBUG - The butler analyzed 0 items.
+Nov 22, 2018 04:21:19.633 [0x7faf993fe700] DEBUG - Sync: uploadStatus
+Nov 22, 2018 04:21:19.633 [0x7faf93bfb700] DEBUG - Butler: Starting delayed task ReverseGeocode.
+Nov 22, 2018 04:21:19.633 [0x7faf913f6700] DEBUG - Butler: Starting delayed task RefreshPeriodicMetadata.
+Nov 22, 2018 04:42:19.670 [0x7faf8affe700] DEBUG - The butler processed 0 files for reverse geocoding
+Nov 22, 2018 04:42:19.680 [0x7faf8affe700] DEBUG - Butler: refreshed 0 artists
+Nov 22, 2018 04:42:22.397 [0x7faf99bff700] DEBUG - NetworkServiceBrowser: SSDP departed after not being seen for 1210.491011 seconds: 172.18.0.6 (Plex Media Server: plex)
+Nov 22, 2018 04:42:24.401 [0x7faf943fc700] DEBUG - NetworkServiceBrowser: Parsing SSDP schema for http://172.18.0.6:32469/DeviceDescription.xml
+Nov 22, 2018 04:42:24.402 [0x7faf943fc700] DEBUG - HTTP requesting GET http://172.18.0.6:32469/DeviceDescription.xml
+Nov 22, 2018 04:42:24.471 [0x7faf943fc700] DEBUG - HTTP 200 response from GET http://172.18.0.6:32469/DeviceDescription.xml
+Nov 22, 2018 04:42:24.498 [0x7faf943fc700] DEBUG - NetworkServiceBrowser: found 1 SSDP devices via http://172.18.0.6:32469/DeviceDescription.xml
+Nov 22, 2018 04:42:24.499 [0x7faf943fc700] DEBUG - NetworkServiceBrowser: SSDP arrived: 172.18.0.6 (Plex Media Server: plex)
+Nov 22, 2018 06:43:25.757 [0x7faf99bff700] DEBUG - Butler: we're outside the window, stopping.
+Nov 22, 2018 06:43:25.758 [0x7faf9cbff700] DEBUG - Butler: Starting delayed task RefreshEpgGuides.
+Nov 22, 2018 06:43:25.760 [0x7faf8fbf3700] DEBUG - Sync: uploadStatus
+Nov 22, 2018 07:03:54.751 [0x7faf8affe700] DEBUG - Butler: Done doing work.
+Nov 22, 2018 07:03:57.542 [0x7faf99bff700] DEBUG - NetworkServiceBrowser: SSDP departed after not being seen for 1208.528240 seconds: 172.18.0.6 (Plex Media Server: plex)
+Nov 22, 2018 07:03:57.596 [0x7faf943fc700] DEBUG - NetworkServiceBrowser: Parsing SSDP schema for http://172.18.0.6:32469/DeviceDescription.xml
+Nov 22, 2018 07:03:57.596 [0x7faf943fc700] DEBUG - HTTP requesting GET http://172.18.0.6:32469/DeviceDescription.xml
+Nov 22, 2018 07:03:57.599 [0x7faf943fc700] DEBUG - HTTP 200 response from GET http://172.18.0.6:32469/DeviceDescription.xml
+Nov 22, 2018 07:03:57.600 [0x7faf943fc700] DEBUG - NetworkServiceBrowser: found 1 SSDP devices via http://172.18.0.6:32469/DeviceDescription.xml
+Nov 22, 2018 07:03:57.600 [0x7faf943fc700] DEBUG - NetworkServiceBrowser: SSDP arrived: 172.18.0.6 (Plex Media Server: plex)
+Nov 22, 2018 07:27:58.997 [0x7faf903f4700] DEBUG - Sync: uploadStatus
