@@ -154,22 +154,22 @@ volumes:
       driver_opts:
         type: none
         o: bind
-        device: "${DOCKER_ROOT}/downloads"
+        device: "${DOCKER_ROOT}/data-directories/downloads"
     movies:
       driver: local
       driver_opts:
         type: none
         o: bind
-        device: "${DOCKER_ROOT}/movies"
+        device: "${DOCKER_ROOT}/data-directories/movies"
     tvshows:
       driver: local
       driver_opts:
         type: none
         o: bind
-        device: "${DOCKER_ROOT}/tvshows"
+        device: "${DOCKER_ROOT}/data-directories/tvshows"
     transcode:
       driver: local
       driver_opts:
         type: none
         o: bind
-        device: "${DOCKER_ROOT}/transcode"
+        device: "${DOCKER_ROOT}/data-directories/transcode"
