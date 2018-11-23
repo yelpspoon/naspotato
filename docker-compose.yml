@@ -11,7 +11,6 @@ services:
      - PUID='667388921'
      - GUID='71667744'
     volumes:
-    #- /Users/xdxc077/DockerApps/radarr/config:/config
      - ${DOCKER_ROOT}/radarr/config:/config
      - downloads:/downloads
      - movies:/movies
@@ -31,7 +30,6 @@ services:
      - PUID='667388921'
      - GUID='71667744'
     volumes:
-    #- /Users/xdxc077/DockerApps/jackett/config:/config
      - ${DOCKER_ROOT}/jackett/config:/config
     depends_on:
      - transmission
@@ -77,7 +75,6 @@ services:
         max-size: "10000k"
         max-file: "3"
     volumes:
-    #- /Users/xdxc077/DockerApps/transmission/config:/config
      - ${DOCKER_ROOT}/transmission/config:/config
      - downloads:/downloads
     restart: unless-stopped
@@ -100,7 +97,6 @@ services:
      - PUID='667388921'
      - GUID='71667744'
     volumes:
-    #- /Users/xdxc077/DockerApps/plex/config:/config
      - ${DOCKER_ROOT}/plex/config:/config
      - tvshows:/data/tvshows
      - movies:/data/movies
@@ -121,7 +117,6 @@ services:
      - PUID='667388921'
      - GUID='71667744'
     volumes:
-    #- /Users/xdxc077/DockerApps/muximux/config:/config
      - ${DOCKER_ROOT}/muximux/config:/config
     depends_on:
      - radarr
@@ -138,26 +133,22 @@ volumes:
       driver_opts:
         type: none
         o: bind
-       #device: "/Users/xdxc077/DockerApps/downloads"
         device: "${DOCKER_ROOT}/downloads"
     movies:
       driver: local
       driver_opts:
         type: none
         o: bind
-       #device: "/Users/xdxc077/DockerApps/movies"
         device: "${DOCKER_ROOT}/movies"
     tvshows:
       driver: local
       driver_opts:
         type: none
         o: bind
-       #device: "/Users/xdxc077/DockerApps/tvshows"
         device: "${DOCKER_ROOT}/tvshows"
     transcode:
       driver: local
       driver_opts:
         type: none
         o: bind
-       #device: "/Users/xdxc077/DockerApps/transcode"
         device: "${DOCKER_ROOT}/transcode"
