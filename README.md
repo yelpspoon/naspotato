@@ -39,12 +39,14 @@ Docker Compose must (initially) be called with Shell env vars (or .env file) set
  - NORDPASS=\<nordVPN password>
  - DOCKER_ROOT=\<path to some app root>
 
-`export DOCKER_ROOT='/naspotato'; export NORDUSER='someuser'; export NORDPASS='somepass'; docker-compose up`
+`export DOCKER_ROOT='/naspotato'; export NORDUSER='someuser'; export NORDPASS='somepass'; docker-compose up [-d]`
 
 ### runApp.sh
 Or you can use runApp.sh which will prompt for NORDPASS.
 Edit for username and/or app root directory (which if pulled from git, will be `naspotato`).
 Script will prompt for DOCKER_ROOT or use default.
+
+Running compose in background is default unless run as: `./runApp.sh DEBUG`
 
 #### Post first-run steps
 It may be necessary to clean up the Radarr and Plex movie database as both `downloads` and `movies` in git will not have any movies.

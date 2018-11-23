@@ -1,6 +1,12 @@
 .DS_Store
 t.sh
 t
-*.log
-*.pid
+**/*.log
+**/*.pid
+**/*log.txt
+**/*access.log
+**/*error.log
+**/*imdb.log*
+**/*system.log*
+**/*Server.*.log*
 pw
