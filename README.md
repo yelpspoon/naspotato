@@ -50,7 +50,7 @@ Script will prompt for DOCKER_ROOT or use default.
 It may be necessary to clean up the Radarr and Plex movie database as both `downloads` and `movies` in git will not have any movies.
 
 ### MacOS concerns
-I have had trouble bind-mounting /etc/localtime; this is fairly well-known issue with the lastest 2-3 version of Docker.
+I have had trouble bind-mounting /etc/localtime; this is fairly well-known issue with the last 2-3 versions of Docker.
 I simply remove that mount when running on MacOS and live with the time being UTC in my containers.  MacOS is usually just POC.
 The helper script `runApp.sh` will determine OS (Mac or Linux) at run-time and execute accordingly
 
