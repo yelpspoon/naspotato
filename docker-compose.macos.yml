@@ -11,7 +11,6 @@ services:
      - PUID='667388921'
      - GUID='71667744'
     volumes:
-     - /etc/localtime:/etc/localtime:ro
      - ${DOCKER_ROOT}/radarr/config:/config
      - downloads:/downloads
      - movies:/movies
@@ -32,7 +31,6 @@ services:
      - PUID='667388921'
      - GUID='71667744'
     volumes:
-     - /etc/localtime:/etc/localtime:ro
      - ${DOCKER_ROOT}/bazarr/config:/config
      - movies:/movies
     depends_on:
@@ -51,7 +49,6 @@ services:
      - PUID='667388921'
      - GUID='71667744'
     volumes:
-     - /etc/localtime:/etc/localtime:ro
      - ${DOCKER_ROOT}/jackett/config:/config
     depends_on:
      - transmission
@@ -98,7 +95,6 @@ services:
         max-size: "10000k"
         max-file: "3"
     volumes:
-     - /etc/localtime:/etc/localtime:ro
      - ${DOCKER_ROOT}/transmission/config:/config
      - downloads:/downloads
     restart: unless-stopped
@@ -121,7 +117,6 @@ services:
      - PUID='667388921'
      - GUID='71667744'
     volumes:
-     - /etc/localtime:/etc/localtime:ro
      - ${DOCKER_ROOT}/plex/config:/config
      - tvshows:/data/tvshows
      - movies:/data/movies
@@ -143,7 +138,6 @@ services:
      - PUID='667388921'
      - GUID='71667744'
     volumes:
-     - /etc/localtime:/etc/localtime:ro
      - ${DOCKER_ROOT}/muximux/config:/config
     depends_on:
      - radarr
