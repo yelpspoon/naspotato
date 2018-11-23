@@ -2,3 +2,5 @@
 t.sh
 t
 *.log
+*.pid
+pw

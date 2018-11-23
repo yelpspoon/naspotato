@@ -78,3 +78,18 @@
 [23-Nov-2018 03:17:00] NOTICE: exiting, bye-bye!
 [23-Nov-2018 03:17:24] NOTICE: fpm is running, pid 258
 [23-Nov-2018 03:17:24] NOTICE: ready to handle connections
+[23-Nov-2018 03:53:06] NOTICE: Terminating ...
+[23-Nov-2018 03:53:06] NOTICE: exiting, bye-bye!
+[23-Nov-2018 04:05:17] NOTICE: fpm is running, pid 258
+[23-Nov-2018 04:05:17] NOTICE: ready to handle connections
+[23-Nov-2018 04:08:23] NOTICE: Terminating ...
+[23-Nov-2018 04:09:04] NOTICE: fpm is running, pid 262
+[23-Nov-2018 04:09:04] NOTICE: ready to handle connections
+[23-Nov-2018 04:56:57] NOTICE: Terminating ...
+[23-Nov-2018 04:56:57] NOTICE: exiting, bye-bye!
+[23-Nov-2018 05:02:48] NOTICE: fpm is running, pid 263
+[23-Nov-2018 05:02:48] NOTICE: ready to handle connections
+[23-Nov-2018 05:05:23] NOTICE: Terminating ...
+[23-Nov-2018 05:05:23] NOTICE: exiting, bye-bye!
+[23-Nov-2018 05:06:13] NOTICE: fpm is running, pid 257
+[23-Nov-2018 05:06:13] NOTICE: ready to handle connections
