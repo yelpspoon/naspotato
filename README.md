@@ -37,6 +37,6 @@ Docker Compose must (initially) be called with Shell env vars (or .env file) set
  - NORDUSER=<nordVPN username>
  - NORDPASS=<nordVPN password>
 
-`NORDUSER='someuser'; NORDPASS='somepass'; docker-compose up`
+`export DOCKER_ROOT='/naspotato'; export NORDUSER='someuser'; export NORDPASS='somepass'; docker-compose up`
 
 
