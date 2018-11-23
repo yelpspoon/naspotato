@@ -36,7 +36,12 @@ but user/password for NordVPN has been removed.
 Docker Compose must (initially) be called with Shell env vars (or .env file) set for:
  - NORDUSER=<nordVPN username>
  - NORDPASS=<nordVPN password>
+ - DOCKER_ROOT=<path to some app root>
 
 `export DOCKER_ROOT='/naspotato'; export NORDUSER='someuser'; export NORDPASS='somepass'; docker-compose up`
+
+### runApp.sh
+Or you can use runApp.sh which will prompt for NORDPASS.
+Edit for username and/or app root directory (which if pulled from git, will be `naspotato`).
 
 
