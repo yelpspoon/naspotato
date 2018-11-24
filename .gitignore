@@ -1,15 +1,18 @@
+# will this make it work
 .DS_Store
 t.sh
 t
 pw
 
-**/*.log
+**/**.log
 **/*.pid
-**/*log*.txt
-**/*log.txt
+**/*log*
+**/**/log.txt
+**log.txt
 **/*access.log
 **/*error.log
 **/*imdb.log*
 **/*system.log*
 **/*Service.*.log*
 **Service.*.log
+**/Logs/**

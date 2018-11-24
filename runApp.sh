@@ -9,7 +9,7 @@
 set -a # all vars will be exported to env
 
 # DEBUG == run in foreground mode
-if [ "$1" != "DEBUG" ]; then BACKGROUND=' -d '; fi
+if [ "$1" != "DEBUG" ]; then BACKGROUND='--detach'; else BACKGROUND='';fi
 
 # default app suit root directory
 DOCKER_ROOT='/naspotato'
@@ -29,8 +29,8 @@ fi
 
 # Set OSTYPE for bind-mount in compose file; run docker compose
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
-    docker-compose "${BACKGROUND}" up
+    docker-compose up ${BACKGROUND}
 else [[ "$OSTYPE" == "darwin"* ]]
     echo "Using docker-compose.macos.yml"
-    docker-compose "${BACKGROUND}" -f docker-compose.macos.yml up
+    docker-compose -f docker-compose.macos.yml up ${BACKGROUND}
 fi
