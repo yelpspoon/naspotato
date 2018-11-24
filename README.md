@@ -43,8 +43,10 @@ Docker Compose must (initially) be called with Shell env vars (or .env file) set
 
 OR better, create a `.env` file which will be consumed by docker-compose (use must still define DOCKER_ROOT):
 
-`NORDUSER=username`
-`NORDPASS=password`
+```
+NORDUSER=username
+NORDPASS=password
+```
 
 ### runApp.sh Helper Script
 Or you can start the App suite using `runApp.sh`
