@@ -30,7 +30,7 @@ another location is used -- see below).
  - `git pull https://github.com/yelpspoon/naspotato.git`
  - use one of the two methods below to bring up the app suite
 
-### docker-compose.yml
+### MANUAL docker-compose docker-compose.yml up
 Heavy editing has been done to the containers (config) and to the compose file
 but user/password for NordVPN has been removed.
 
@@ -41,10 +41,16 @@ Docker Compose must (initially) be called with Shell env vars (or .env file) set
 
 `export DOCKER_ROOT='/naspotato'; export NORDUSER='someuser'; export NORDPASS='somepass'; docker-compose up [-d]`
 
-### runApp.sh
-Or you can use runApp.sh which will prompt for NORDPASS.
-Edit for username and/or app root directory (which if pulled from git, will be `naspotato`).
-Script will prompt for DOCKER_ROOT or use default.
+OR better, create a `.env` file which will be consumed by docker-compose (use must still define DOCKER_ROOT):
+`
+NORDUSER=username
+NORDPASS=password
+`
+
+### runApp.sh Helper Script
+Or you can start the App suite using `runApp.sh`
+The script will prompt for DOCKER_ROOT or use default `/naspotato`
+Cloning from git will mean you are running from `/path/to/naspotato` which should assigned to DOCKER_ROOT
 
 Running compose in background is default unless run as: `./runApp.sh DEBUG`
 

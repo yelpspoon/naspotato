@@ -4,6 +4,7 @@
 # Wrapper script to set some user/pw variables for the OpenVPN client.
 # Application installation root will also be set from prompts as well
 # as running the Docker suit in foreground or background mode.
+# NORDUSER & NORDPASS are read in by docker-compose from .env file
 # --- 
 
 set -a # all vars will be exported to env
@@ -13,10 +14,6 @@ if [ "$1" != "DEBUG" ]; then BACKGROUND='--detach'; else BACKGROUND='';fi
 
 # default app suit root directory
 DOCKER_ROOT='/naspotato'
-
-# read in VPN username and password
-read -p 'Enter NordVPN username: ' NORDUSER
-read -sp 'Enter NordVPN password: ' NORDPASS
 
 # Read in App base root directory; can use current $(pwd) directory (for testing) or default
 echo ""

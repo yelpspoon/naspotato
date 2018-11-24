@@ -3,6 +3,7 @@
 t.sh
 t
 pw
+.env
 
 **/**.log
 **/*.pid
