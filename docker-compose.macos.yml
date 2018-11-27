@@ -11,7 +11,7 @@ services:
      - PUID='667388921'
      - GUID='71667744'
     volumes:
-     - ${DOCKER_ROOT}/radarr/config:/config
+     - ${APP_ROOT}/radarr/config:/config
      - downloads:/downloads
      - movies:/movies
     depends_on:
@@ -31,7 +31,7 @@ services:
      - PUID='667388921'
      - GUID='71667744'
     volumes:
-     - ${DOCKER_ROOT}/bazarr/config:/config
+     - ${APP_ROOT}/bazarr/config:/config
      - movies:/movies
     depends_on:
      - radarr
@@ -49,7 +49,7 @@ services:
      - PUID='667388921'
      - GUID='71667744'
     volumes:
-     - ${DOCKER_ROOT}/jackett/config:/config
+     - ${APP_ROOT}/jackett/config:/config
     depends_on:
      - transmission
     restart: unless-stopped
@@ -95,7 +95,7 @@ services:
         max-size: "10000k"
         max-file: "3"
     volumes:
-     - ${DOCKER_ROOT}/transmission/config:/config
+     - ${APP_ROOT}/transmission/config:/config
      - downloads:/downloads
     restart: unless-stopped
     networks:
@@ -117,7 +117,7 @@ services:
      - PUID='667388921'
      - GUID='71667744'
     volumes:
-     - ${DOCKER_ROOT}/plex/config:/config
+     - ${APP_ROOT}/plex/config:/config
      - tvshows:/data/tvshows
      - movies:/data/movies
      - transcode:/transcode
@@ -138,7 +138,7 @@ services:
      - PUID='667388921'
      - GUID='71667744'
     volumes:
-     - ${DOCKER_ROOT}/muximux/config:/config
+     - ${APP_ROOT}/muximux/config:/config
     depends_on:
      - radarr
     restart: unless-stopped
@@ -154,22 +154,22 @@ volumes:
       driver_opts:
         type: none
         o: bind
-        device: "${DOCKER_ROOT}/data-directories/downloads"
+        device: "${APP_ROOT}/data-directories/downloads"
     movies:
       driver: local
       driver_opts:
         type: none
         o: bind
-        device: "${DOCKER_ROOT}/data-directories/movies"
+        device: "${APP_ROOT}/data-directories/movies"
     tvshows:
       driver: local
       driver_opts:
         type: none
         o: bind
-        device: "${DOCKER_ROOT}/data-directories/tvshows"
+        device: "${APP_ROOT}/data-directories/tvshows"
     transcode:
       driver: local
       driver_opts:
         type: none
         o: bind
-        device: "${DOCKER_ROOT}/data-directories/transcode"
+        device: "${APP_ROOT}/data-directories/transcode"

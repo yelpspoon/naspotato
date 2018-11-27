@@ -3,18 +3,18 @@
     "id": "sitelink",
     "type": "inputstring",
     "name": "Site Link",
-    "value": "http://www.magnetdl.com/"
+    "value": "https://www.magnetdl.com/"
   },
   {
     "id": "cookieheader",
     "type": "hiddendata",
     "name": "CookieHeader",
-    "value": "__cfduid=d1db0ef913d83b71501d8f10cee7636e21542846586"
+    "value": "__cfduid=d3fc5491500b2328cbe829449809e77101540773505"
   },
   {
     "id": "lasterror",
     "type": "hiddendata",
     "name": "LastError",
-    "value": ""
+    "value": null
   }
 ]

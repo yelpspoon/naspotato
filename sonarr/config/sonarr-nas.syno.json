@@ -1,0 +1,112 @@
+{
+   "cap_add" : null,
+   "cap_drop" : null,
+   "cmd" : "",
+   "cpu_priority" : 50,
+   "devices" : null,
+   "enable_publish_all_ports" : false,
+   "enable_restart_policy" : true,
+   "enabled" : false,
+   "entrypoint_default" : "/init",
+   "env_variables" : [
+      {
+         "key" : "PATH",
+         "value" : "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+      },
+      {
+         "key" : "HOME",
+         "value" : "/root"
+      },
+      {
+         "key" : "LANGUAGE",
+         "value" : "en_US.UTF-8"
+      },
+      {
+         "key" : "LANG",
+         "value" : "en_US.UTF-8"
+      },
+      {
+         "key" : "TERM",
+         "value" : "xterm"
+      },
+      {
+         "key" : "XDG_CONFIG_HOME",
+         "value" : "/config/xdg"
+      },
+      {
+         "key" : "PGID",
+         "value" : "101"
+      },
+      {
+         "key" : "PUID",
+         "value" : "1026"
+      },
+      {
+         "key" : "TZ",
+         "value" : "America/Chicago"
+      }
+   ],
+   "exporting" : false,
+   "id" : "b7c50efc841e8d2d52249a6af10f2628f05436e82e29276e8db190641549d246",
+   "image" : "linuxserver/sonarr:latest",
+   "is_ddsm" : false,
+   "is_package" : false,
+   "links" : [],
+   "memory_limit" : 0,
+   "name" : "sonarr-nas",
+   "network" : [
+      {
+         "driver" : "bridge",
+         "name" : "bridge"
+      }
+   ],
+   "network_mode" : "bridge",
+   "port_bindings" : [
+      {
+         "container_port" : 8989,
+         "host_port" : 8989,
+         "type" : "tcp"
+      }
+   ],
+   "privileged" : false,
+   "shortcut" : {
+      "enable_shortcut" : true,
+      "enable_status_page" : true,
+      "enable_web_page" : false
+   },
+   "ulimits" : null,
+   "use_host_network" : false,
+   "volume_bindings" : [
+      {
+         "host_volume_file" : "/etc/localtime",
+         "mount_point" : "/etc/localtime",
+         "type" : "ro"
+      },
+      {
+         "host_volume_file" : "/downloads/Transmission/completed",
+         "mount_point" : "/downloads/completed",
+         "type" : "rw"
+      },
+      {
+         "host_volume_file" : "/NasMedia/TV",
+         "mount_point" : "/home/dlux/VideoNAS",
+         "type" : "rw"
+      },
+      {
+         "host_volume_file" : "/docker/sonarr/hosts",
+         "mount_point" : "/etc/hosts",
+         "type" : "rw"
+      },
+      {
+         "host_volume_file" : "/NasMedia/TV",
+         "mount_point" : "/tv",
+         "type" : "rw"
+      },
+      {
+         "host_volume_file" : "/docker/sonarr",
+         "mount_point" : "/config",
+         "type" : "rw"
+      }
+   ],
+   "volumes_from" : null
+}

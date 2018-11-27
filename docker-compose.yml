@@ -1,5 +1,29 @@
 version: '3'
 services:
+  sonarr:
+    image: "linuxserver/sonarr"
+    container_name: sonarr
+    hostname: sonarr
+    ports:
+     - "8989:8989"
+    environment:
+     - TZ='America/Chicago'
+     - PUID=${UID}
+     - GUID=${GID}
+    volumes:
+    #- /volume2/docker/localtime:/etc/localtime:ro
+     - /etc/localtime:/etc/localtime:ro
+     - ${APP_ROOT}/sonarr/config:/config
+     - downloads:/downloads
+     - tvshows:/tv
+    depends_on:
+     - jackett
+    restart: unless-stopped
+    logging:
+      driver: 'json-file'
+    networks:
+      - front-end
+
   radarr:
     image: "linuxserver/radarr"
     container_name: radarr
@@ -8,16 +32,18 @@ services:
      - "7878:7878"
     environment:
      - TZ='America/Chicago'
-     - PUID='667388921'
-     - GUID='71667744'
+     - PUID=${UID}
+     - GUID=${GID}
     volumes:
      - /etc/localtime:/etc/localtime:ro
-     - ${DOCKER_ROOT}/radarr/config:/config
+     - ${APP_ROOT}/radarr/config:/config
      - downloads:/downloads
      - movies:/movies
     depends_on:
      - jackett
     restart: unless-stopped
+    logging:
+      driver: 'json-file'
     networks:
       - front-end
 
@@ -29,14 +55,16 @@ services:
      - "6767:6767"
     environment:
      - TZ='America/Chicago'
-     - PUID='667388921'
-     - GUID='71667744'
+     - PUID=${UID}
+     - GUID=${GID}
     volumes:
      - /etc/localtime:/etc/localtime:ro
-     - ${DOCKER_ROOT}/bazarr/config:/config
+     - ${APP_ROOT}/bazarr/config:/config
      - movies:/movies
     depends_on:
      - radarr
+    logging:
+      driver: 'json-file'
     networks:
       - front-end
 
@@ -48,14 +76,16 @@ services:
      - "9117:9117"
     environment:
      - TZ='America/Chicago'
-     - PUID='667388921'
-     - GUID='71667744'
+     - PUID=${UID}
+     - GUID=${GID}
     volumes:
      - /etc/localtime:/etc/localtime:ro
-     - ${DOCKER_ROOT}/jackett/config:/config
+     - ${APP_ROOT}/jackett/config:/config
     depends_on:
      - transmission
     restart: unless-stopped
+    logging:
+      driver: 'json-file'
     networks:
       - front-end
 
@@ -71,8 +101,8 @@ services:
      - "51413:51413/udp"
     environment:
      - TZ='America/Chicago'
-     - PUID='667388921'
-     - GUID='71667744'
+     - PUID=${UID}
+     - GUID=${GID}
      - OPENVPN_PROVIDER=NORDVPN 
      - OPENVPN_USERNAME=${NORDUSER}
      - OPENVPN_PASSWORD=${NORDPASS}
@@ -99,9 +129,30 @@ services:
         max-file: "3"
     volumes:
      - /etc/localtime:/etc/localtime:ro
-     - ${DOCKER_ROOT}/transmission/config:/config
+     - ${APP_ROOT}/transmission/config:/config
      - downloads:/downloads
     restart: unless-stopped
+    logging:
+      driver: 'json-file'
+    networks:
+      - front-end
+
+  trans-cleaner:
+    build: 
+      context: ./trans-cleaner
+      dockerfile: Dockerfile
+    container_name: trans-cleaner
+    hostname: trans-cleaner
+    ports:
+     - "8888:8888"
+    volumes:
+     - /etc/localtime:/etc/localtime:ro
+     - /etc/hosts:/etc/hosts
+    restart: unless-stopped
+    logging:
+      driver: 'json-file'
+    depends_on:
+     - transmission
     networks:
       - front-end
 
@@ -114,21 +165,23 @@ services:
      - "32400:32400/udp"
      - "32469:32469"
      - "32469:32469/udp"
-     - "5353:5353/udp"
+    #- "5353:5353/udp"
      - "1900:1900/udp"
     environment:
      - TZ='America/Chicago'
-     - PUID='667388921'
-     - GUID='71667744'
+     - PUID=${UID}
+     - GUID=${GID}
     volumes:
      - /etc/localtime:/etc/localtime:ro
-     - ${DOCKER_ROOT}/plex/config:/config
+     - ${APP_ROOT}/plex/config:/config
      - tvshows:/data/tvshows
      - movies:/data/movies
      - transcode:/transcode
     depends_on:
      - radarr
     restart: unless-stopped
+    logging:
+      driver: 'json-file'
     networks:
       - front-end
 
@@ -140,14 +193,16 @@ services:
      - "8080:80"
     environment:
      - TZ='America/Chicago'
-     - PUID='667388921'
-     - GUID='71667744'
+     - PUID=${UID}
+     - GUID=${GID}
     volumes:
      - /etc/localtime:/etc/localtime:ro
-     - ${DOCKER_ROOT}/muximux/config:/config
+     - ${APP_ROOT}/muximux/config:/config
     depends_on:
      - radarr
     restart: unless-stopped
+    logging:
+      driver: 'json-file'
     networks:
       - front-end
 
@@ -160,22 +215,38 @@ volumes:
       driver_opts:
         type: none
         o: bind
-        device: "${DOCKER_ROOT}/data-directories/downloads"
+        device: "${VOLUME_ROOT}/downloads"
+        #device: "${VOLUME_ROOT}/data-directories/downloads"
     movies:
       driver: local
       driver_opts:
         type: none
         o: bind
-        device: "${DOCKER_ROOT}/data-directories/movies"
+        device: "${VOLUME_ROOT}/Movies"
+        #device: "${VOLUME_ROOT}/data-directories/movies"
     tvshows:
       driver: local
       driver_opts:
         type: none
         o: bind
-        device: "${DOCKER_ROOT}/data-directories/tvshows"
+        device: "${VOLUME_ROOT}/TV"
+        #device: "${VOLUME_ROOT}/data-directories/tvshows"
+    videos:
+      driver: local
+      driver_opts:
+        type: none
+        o: bind
+        device: "${VOLUME_ROOT}/Videos"
     transcode:
       driver: local
       driver_opts:
         type: none
         o: bind
-        device: "${DOCKER_ROOT}/data-directories/transcode"
+        device: "${VOLUME_ROOT}/downloads/transcode"
+        #device: "${VOLUME_ROOT}/data-directories/transcode"
+
+# /volume1/NasMedia/downloads
+# /volume1/NasMedia/Movies
+# /volume1/NasMedia/TV
+# /volume1/NasMedia/Videos
+# /volume1/NasMedia/Music

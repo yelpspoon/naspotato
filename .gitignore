@@ -5,6 +5,13 @@ t
 pw
 .env
 
+**/Cache**
+**/Media**
+**/Metadata**
+**/MediaCover**
+**/**.zip
+**/**.jpg
+**/**.jpeg
 **/**.log
 **/*.pid
 **/*log*
