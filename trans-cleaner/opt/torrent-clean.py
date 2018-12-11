@@ -18,6 +18,12 @@ log_file_name                 = 'index.html'
 log_backup_cnt                = 12
 HTTP_PORT                     = 8888
 
+''' edit Transmission Server parameters here '''
+trans_server_hostip           = 'nas.local'
+trans_server_port             = 9091
+''' How long before we delete finished torrents '''
+torrent_hours_lived           = 2  
+
 ''' Setup logging module '''
 log = logging.getLogger(__name__)
 log.setLevel(logging.INFO)
@@ -64,11 +70,17 @@ def job():
         been seeing for > 2 hours.
     '''
     now = int( round( time.time()) )
-    tc = transmissionrpc.Client('nas.local', port=9091)
+    tc = transmissionrpc.Client( trans_server_hostip, port=trans_server_port )
 
     # get torrents
     log.info('Checking Transmission...<br>')
     for torrent in tc.get_torrents():
+        
+        if torrent.downloadDir == '/downloads/completed/sonar': 
+            log.info( 'Skipping {0}<br>'.format(torrent.name) )
+            log.info('------------------------<br>')
+            continue
+        
         runTime = (now - torrent.startDate)/60
         runWord = 'minutes'
         if runTime > 90:
@@ -78,7 +90,7 @@ def job():
         log.info( '{0} {1} for {2} {3}<br>'.format(torrent.name, torrent.status, runTime, runWord) )
 
         # if FINISHED or SEEDING for more than TWO HOURS, DELETE
-        if torrent.isFinished or (torrent.status == 'seeding' and (runWord == 'hours' and runTime > 2)):
+        if torrent.isFinished or (torrent.status == 'seeding' and (runWord == 'hours' and runTime > torrent_hours_lived )):
             log.info( 'Removing torrent: {0}<br>'.format(torrent.name) )
             tc.remove_torrent(torrent.hashString, delete_data=True)
             log.info('------------------------<br>')
@@ -93,3 +105,4 @@ schedule.every(schedule_chk_interval_seconds).seconds.do(job)
 while True:
     schedule.run_pending()
     time.sleep(timer_sleep)
+
