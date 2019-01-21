@@ -216,21 +216,18 @@ volumes:
         type: none
         o: bind
         device: "${VOLUME_ROOT}/downloads"
-        #device: "${VOLUME_ROOT}/data-directories/downloads"
     movies:
       driver: local
       driver_opts:
         type: none
         o: bind
         device: "${VOLUME_ROOT}/Movies"
-        #device: "${VOLUME_ROOT}/data-directories/movies"
     tvshows:
       driver: local
       driver_opts:
         type: none
         o: bind
         device: "${VOLUME_ROOT}/TV"
-        #device: "${VOLUME_ROOT}/data-directories/tvshows"
     videos:
       driver: local
       driver_opts:
@@ -243,7 +240,6 @@ volumes:
         type: none
         o: bind
         device: "${VOLUME_ROOT}/downloads/transcode"
-        #device: "${VOLUME_ROOT}/data-directories/transcode"
 
 # /volume1/NasMedia/downloads
 # /volume1/NasMedia/Movies

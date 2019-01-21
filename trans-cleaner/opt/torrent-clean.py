@@ -76,9 +76,10 @@ def job():
     log.info('Checking Transmission...<br>')
     for torrent in tc.get_torrents():
         
-        #if torrent.downloadDir == '/downloads/completed/sonar': 
+        #if torrent.downloadDir != '/downloads/completed/sonar': 
         if torrent.downloadDir == '/downloads/completed':
             log.info( 'Skipping {0}<br>'.format(torrent.name) )
+            log.info( 'DownloadDir: {0}<br>'.format(torrent.downloadDir) )
             log.info('------------------------<br>')
             continue
         
