@@ -99,3 +99,4 @@ The helper script `runApp.sh` will determine OS (Mac or Linux) at run-time and e
  - .gitignore _should_ eliminate pushing Plex metadata to git; this can be GB in size; caveat emtor.
  - Additional testing will be done on a light-weight Synology NAS device in the near future.
  - Test Plex client on the network to see if it can "discover" the naspotato suite.
+ - Added `scripts-dsm/mkTUN.sh` to the repo for use with DSM's `on-boot` Tasks
