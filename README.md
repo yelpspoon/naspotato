@@ -60,8 +60,7 @@ Docker Compose must be called with Shell env vars (or .env file) set for:
 
 `export APP_ROOT='/naspotato'; export NORDUSER='someuser'; export... ; docker-compose up [-d]`
 
-Better, create a `.env` file which will be consumed by `docker-compose up`
-
+Better, create `naspotato/.env` which will be consumed by `docker-compose up` containing:
 ```
 NORDUSER=username
 NORDPASS=password
@@ -69,6 +68,7 @@ UID=101
 GID=101
 APP_ROOT=/volume2/docker/naspotato
 VOLUME_ROOT=/volume1/NasMedia
+# Change values as needed.
 ```
 
 ### runApp.sh Helper Script
