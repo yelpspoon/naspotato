@@ -12,15 +12,15 @@ The images are from LinuxServer.io except Transmission (haugene/transmission-ope
  - bazarr (subtitle downloader)
  - jackett (torrent proxy)
  - plex server (media server)
- - muximux (Web Panel for web apps)
- - transmission-openvpn (torrent download client with NordVPN)
- - tran-cleaner (Custome Py script and image to remove old torrents)
+ - muximux (Web Panel for these web containers/apps)
+ - transmission-openvpn (torrent download client with mucho VPN support)
+ - trans-cleaner (Custome Py script and image to remove old torrents [vs. internal-to-container Transmission script])
 
 Containers have been run to populate the `/config` directories of each of the Apps
 that _need_ manual front-end configuration (sonarr, radarr, jackett).  The `/config` directories
 contain persistent data that will survive reruns and git pulls ( along with the actual Media Volumes referred to by the bind-mounts).
 
-The goal is to clone the repo, make minimal mods (see below), issue `docker-compose up` and be running.
+__The goal is to clone the repo, make minimal mods (see below), issue `docker-compose up` and be running.__
 
 #### Mods Overview
  - Docker bind volume mount directories (docker-compose.yml)
@@ -72,10 +72,10 @@ VOLUME_ROOT=/volume1/NasMedia
 ```
 
 ### runApp.sh Helper Script
-This script is helpful determining various ENV Var settings and provides usage for Mac POCs.
+This script is helpful determining various ENV Var settings and provides usage for (Mac?) POCs.
 
 `runApp.sh [DEBUG]` 
- - DEBUG will not run detached to show logs in stdout
+ - DEBUG will not run detached in order to show logs in stdout
 
 The script will prompt for APP_ROOT or use default `/naspotato`
 Cloning from git will mean you are running from `/path/to/naspotato` which should assigned to APP_ROOT
@@ -83,7 +83,7 @@ You can pass in `$(pwd)` to the script which will construct an 'absolute' path f
 VOLUME_ROOT, if different than `/naspotato/data-directories` must be set in script or `.env`.
 
 #### Post first-run steps
-It may be necessary to clean up the Radarr and Plex movie database as both `downloads` and `movies`. 
+It may be necessary to clean up the Radarr and Plex movie database in both `downloads/` and `movies/`. 
 There may be residual data in the app metadata databases which may not match (any) media in the media directories of a new installation.
 
 ### MacOS concerns
@@ -96,10 +96,10 @@ The helper script `runApp.sh` will determine OS (Mac or Linux) at run-time and e
  - Plex had issues with ports 1900 (media server or UPnP ports) and 5353 (Bonjour) on DSM Synology.
    - Disable 1900 via Control Panel -> File Services -> Advanced -> SSDP (uncheck)
    - Plex 5353 was not published (dunno the side effects, if any).
- - .gitignore _should_ eliminate pushing Plex metadata to git; this can be GB in size; caveat emtor.
+ - .gitignore _should_ eliminate pushing Plex metadata to git (IAMNO git rocket surgeon); this can be GB in size so caveat emtor.
  - Additional testing will be done on a light-weight Synology NAS device in the near future.
  - Test Plex client on the network to see if it can "discover" the naspotato suite.
-   - <add steps to open up Plex Server>
+   - [add steps to open up Plex Server]
  - Added `scripts-dsm/mkTUN.sh` to the repo for use with DSM's `on-boot` Tasks
  - NAS Shares: (homes), docker, NasApps, NasMedia
    - docker: has `naspotato`
