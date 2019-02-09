@@ -100,7 +100,13 @@ The helper script `runApp.sh` will determine OS (Mac or Linux) at run-time and e
  - Additional testing will be done on a light-weight Synology NAS device in the near future.
  - Test Plex client on the network to see if it can "discover" the naspotato suite.
    - [add steps to open up Plex Server]
- - Added `scripts-dsm/mkTUN.sh` to the repo for use with DSM's `on-boot` Tasks
  - NAS Shares: (homes), docker, NasApps, NasMedia
    - docker: has `naspotato`
    - NasMedia: has downloads/completed,incomplete,transcode,watch; Music; TV; Movies; Video
+ - Transmission Connection Errors
+   - Timeouts are likely do to the "Default" location retrieved via API is not in /etc/openvpn/nordvpn/xx.ovpn file.
+     - Define (compose OPENVPN_CONFIG=) a known NordVPN location
+
+ - Autostart
+   - mkTUN.sh script run first as root
+   - Script to run as root; cd to compose directory; depend on mkTUN; put in scripts dir.

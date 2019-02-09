@@ -19,7 +19,8 @@ log_backup_cnt                = 12
 HTTP_PORT                     = 8888
 
 ''' edit Transmission Server parameters here '''
-trans_server_hostip           = 'nas.local'
+#trans_server_hostip           = 'nas.local'
+trans_server_hostip           = 'transmission' # relies on Docker hostname: declaration
 trans_server_port             = 9091
 ''' How long before we delete finished torrents '''
 torrent_hours_lived           = 2  
