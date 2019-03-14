@@ -96,6 +96,12 @@ The helper script `runApp.sh` will determine OS (Mac or Linux) at run-time and e
  - Plex had issues with ports 1900 (media server or UPnP ports) and 5353 (Bonjour) on DSM Synology.
    - Disable 1900 via Control Panel -> File Services -> Advanced -> SSDP (uncheck)
    - Plex 5353 was not published (dunno the side effects, if any).
+   - OR
+     - sudo synoservice --disable avahi
+     - sudo synoservice --stop avahi
+     - sudo synoservice --disable ssdp
+     - sudo synoservice --stop ssdp
+
  - .gitignore _should_ eliminate pushing Plex metadata to git (IAMNO git rocket surgeon); this can be GB in size so caveat emtor.
  - Additional testing will be done on a light-weight Synology NAS device in the near future.
  - Test Plex client on the network to see if it can "discover" the naspotato suite.
