@@ -86,6 +86,11 @@ VOLUME_ROOT, if different than `/naspotato/data-directories` must be set in scri
 It may be necessary to clean up the Radarr and Plex movie database in both `downloads/` and `movies/`. 
 There may be residual data in the app metadata databases which may not match (any) media in the media directories of a new installation.
 
+#### Update/Upgrade
+ - docker-compose pull <each service name to upgrade>
+ - docker-compose up --force-recreate --build
+ - docker image prune -f
+
 ### MacOS concerns
 I have had trouble bind-mounting /etc/localtime; this is fairly well-known issue with the last 2-3 versions of Docker.
 I simply remove that mount when running on MacOS and live with the time being UTC in my containers.  MacOS is usually just POC.

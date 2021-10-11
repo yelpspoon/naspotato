@@ -20,23 +20,23 @@ services:
     networks:
       - front-end
 
-  bazarr:
-    image: "linuxserver/bazarr"
-    container_name: bazarr
-    hostname: bazarr
-    ports:
-     - "6767:6767"
-    environment:
-     - TZ='America/Chicago'
-     - PUID='667388921'
-     - GUID='71667744'
-    volumes:
-     - ${APP_ROOT}/bazarr/config:/config
-     - movies:/movies
-    depends_on:
-     - radarr
-    networks:
-      - front-end
+# bazarr:
+#   image: "linuxserver/bazarr"
+#   container_name: bazarr
+#   hostname: bazarr
+#   ports:
+#    - "6767:6767"
+#   environment:
+#    - TZ='America/Chicago'
+#    - PUID='667388921'
+#    - GUID='71667744'
+#   volumes:
+#    - ${APP_ROOT}/bazarr/config:/config
+#    - movies:/movies
+#   depends_on:
+#    - radarr
+#   networks:
+#     - front-end
 
   jackett:
     image: "linuxserver/jackett"

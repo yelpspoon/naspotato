@@ -24,28 +24,28 @@ services:
     networks:
       - front-end
 
-  radarr:
-    image: "linuxserver/radarr"
-    container_name: radarr
-    hostname: radarr
-    ports:
-     - "7878:7878"
-    environment:
-     - TZ='America/Chicago'
-     - PUID=${UID}
-     - GUID=${GID}
-    volumes:
-     - /etc/localtime:/etc/localtime:ro
-     - ${APP_ROOT}/radarr/config:/config
-     - downloads:/downloads
-     - movies:/movies
-    depends_on:
-     - jackett
-    restart: unless-stopped
-    logging:
-      driver: 'json-file'
-    networks:
-      - front-end
+# radarr:
+#   image: "linuxserver/radarr"
+#   container_name: radarr
+#   hostname: radarr
+#   ports:
+#    - "7878:7878"
+#   environment:
+#    - TZ='America/Chicago'
+#    - PUID=${UID}
+#    - GUID=${GID}
+#   volumes:
+#    - /etc/localtime:/etc/localtime:ro
+#    - ${APP_ROOT}/radarr/config:/config
+#    - downloads:/downloads
+#    - movies:/movies
+#   depends_on:
+#    - jackett
+#   restart: unless-stopped
+#   logging:
+#     driver: 'json-file'
+#   networks:
+#     - front-end
 
   bazarr:
     image: "linuxserver/bazarr"
@@ -62,7 +62,8 @@ services:
      - ${APP_ROOT}/bazarr/config:/config
      - movies:/movies
     depends_on:
-     - radarr
+#    - radarr
+     - jackett
     logging:
       driver: 'json-file'
     networks:
@@ -93,7 +94,10 @@ services:
     image: "haugene/transmission-openvpn"
     container_name: transmission
     hostname: transmission
-    privileged: true
+  # privileged: true  ## removed for DSM v.7 and added cap_add section
+  # https://github.com/haugene/docker-transmission-openvpn/issues/1839
+    cap_add:
+      - NET_ADMIN
     dns: 8.8.8.8
     ports:
      - "9091:9091"
@@ -106,6 +110,8 @@ services:
      - OPENVPN_PROVIDER=NORDVPN 
      - OPENVPN_USERNAME=${NORDUSER}
      - OPENVPN_PASSWORD=${NORDPASS}
+     - NORDVPN_PROTOCAL=udp
+     - NORDVPN_COUNTRY=US
      - WEBPROXY_ENABLED=false 
      - TRANSMISSION_HOME=/data/transmission-home 
      - TRANSMISSION_DOWNLOAD_DIR=/downloads/completed
@@ -137,6 +143,8 @@ services:
     networks:
       - front-end
 
+   # - OPENVPN_CONFIG=us6422.nordvpn.com.udp,ca214.nordvpn.com.udp
+
   trans-cleaner:
     build: 
       context: ./trans-cleaner
@@ -160,30 +168,33 @@ services:
     image: "linuxserver/plex"
     container_name: plex
     hostname: plex
+  # network_mode: host
     ports:
      - "32400:32400"
      - "32400:32400/udp"
      - "32469:32469"
      - "32469:32469/udp"
-    #- "5353:5353/udp"
+     - "5353:5353/udp"
      - "1900:1900/udp"
     environment:
      - TZ='America/Chicago'
      - PUID=${UID}
      - GUID=${GID}
+     - VERSION=docker
     volumes:
      - /etc/localtime:/etc/localtime:ro
      - ${APP_ROOT}/plex/config:/config
      - tvshows:/data/tvshows
      - movies:/data/movies
+     - music:/data/music
+     - videos:/data/videos
      - transcode:/transcode
     depends_on:
-     - radarr
+#    - radarr
+     - sonarr
     restart: unless-stopped
     logging:
       driver: 'json-file'
-    networks:
-      - front-end
 
   muximux:
     image: "linuxserver/muximux"
@@ -199,7 +210,8 @@ services:
      - /etc/localtime:/etc/localtime:ro
      - ${APP_ROOT}/muximux/config:/config
     depends_on:
-     - radarr
+#    - radarr
+     - sonarr
     restart: unless-stopped
     logging:
       driver: 'json-file'
@@ -222,6 +234,12 @@ volumes:
         type: none
         o: bind
         device: "${VOLUME_ROOT}/Movies"
+    music:
+      driver: local
+      driver_opts:
+        type: none
+        o: bind
+        device: "${VOLUME_ROOT}/Music/MAIN"
     tvshows:
       driver: local
       driver_opts:
